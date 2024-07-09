@@ -1,0 +1,280 @@
+.LoginHistory {
+    display: flex;
+    gap: 25px;
+    margin: 30px 0 50px 0;
+    width: 1200px;
+}
+
+.LoginHistory .div {
+    position: relative;
+    line-height: 148%;
+    height: 23px;
+}
+.LoginHistory .div:hover {
+    color: #fff;
+}
+.LoginHistory .cash-filter-btn {
+    border-radius: 5px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 23.7px 6px 25.3px;
+}
+.LoginHistory .cash-filter-btn-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7px;
+}
+.LoginHistory .div3 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0px;
+    z-index: 0;
+}
+.LoginHistory .vector-icon {
+    width: 9.9px;
+    position: relative;
+    height: 10.7px;
+}
+.LoginHistory .carboncalendar {
+    margin: 0 !important;
+    position: absolute;
+    top: 11.4px;
+    left: 120.5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.3px;
+    z-index: 1;
+}
+.LoginHistory .select {
+    width: 140px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 9px;
+    position: relative;
+    font-size: 18px;
+    color: #333;
+}
+.LoginHistory .divtd-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+}
+.LoginHistory .b {
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    line-height: 154%;
+    font-family: 'Noto Sans KR';
+    color: #f8f8f8;
+}
+.LoginHistory .div5 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0px;
+}
+.LoginHistory .select1 {
+    width: 140px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 9px;
+    z-index: 0;
+}
+
+.LoginHistory .cash-filter-btn3 {
+    border-radius: 5px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 23.7px 6px 25.3px;
+    text-align: center;
+    color: #fff;
+}
+.LoginHistory .frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+    color: #787878;
+}
+.LoginHistory .frame-parent {
+    width: 792px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.LoginHistory .connection {
+    flex: 1;
+    position: relative;
+    line-height: 148%;
+}
+.LoginHistory .a {
+    align-self: stretch;
+    flex: 1;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+.LoginHistory .li {
+    align-self: stretch;
+    flex: 1;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LoginHistory .tab {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 1200px;
+    font-size: 16px;
+}
+.LoginHistory .south-korea {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+}
+.LoginHistory .li3 {
+    align-self: stretch;
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LoginHistory .tab1 {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 1200px;
+}
+.LoginHistory .tab-parent {
+    width: 790px;
+    border-top: 5px solid #2a3eef;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 320px;
+    max-width: 1200px;
+}
+.LoginHistory .icon-arrows {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.LoginHistory .object {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.LoginHistory .object ul li {
+    float: left;
+}
+.LoginHistory .div8 {
+    position: relative;
+    line-height: 140%;
+}
+.LoginHistory .num {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.LoginHistory .icon-arrows1 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    object-fit: contain;
+    transform: rotate(180deg);
+}
+.LoginHistory .object1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-180deg);
+}
+.LoginHistory .paging {
+    width: 342px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    color: #ddd;
+}
+.LoginHistory .frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 14px;
+    color: #787878;
+}
+.LoginHistory .instance-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: Manrope;
+    padding: 0;
+}

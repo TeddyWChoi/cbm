@@ -1,0 +1,475 @@
+.main-desktop {
+    background-color: #141414;
+    padding-top: 80px;
+}
+.main-desktop .link-margin {
+    display: inline-flex;
+    flex-direction: column;
+    height: 56px;
+    align-items: flex-start;
+    padding: 0px 0px 0px 40px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .link {
+    height: 56px;
+    align-items: center;
+    padding: 22px 10px;
+    display: inline-flex;
+    position: relative;
+}
+
+.main-desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -7px;
+    margin-bottom: -5px;
+    font-family: var(--PC-paragraph1-font-family);
+    font-weight: var(--PC-paragraph1-font-weight);
+    color: #dddddd;
+    font-size: var(--PC-paragraph1-font-size);
+    letter-spacing: var(--PC-paragraph1-letter-spacing);
+    line-height: var(--PC-paragraph1-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-paragraph1-font-style);
+}
+
+.main-desktop .SVG-margin {
+    position: relative;
+    width: 21px;
+    height: 10px;
+}
+
+.main-desktop .container {
+    width: 321px;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+}
+
+.main-desktop .margin {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 0px 30px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+}
+
+.main-desktop .link-margin-2 {
+    padding: 0px 0px 0px 30px;
+    display: inline-flex;
+    height: 34px;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .div-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    height: 11px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -5.5px;
+    margin-bottom: -3.5px;
+    font-family: var(--PC-paragraph1-font-family);
+    font-weight: var(--PC-paragraph1-font-weight);
+    color: #dddddd;
+    font-size: var(--PC-paragraph1-font-size);
+    letter-spacing: var(--PC-paragraph1-letter-spacing);
+    line-height: var(--PC-paragraph1-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-paragraph1-font-style);
+}
+
+.main-desktop .platform {
+    position: relative;
+    flex: 0 0 auto;
+    opacity: 0.4;
+    margin-bottom: 5px;
+}
+
+.main-desktop .games {
+    position: relative;
+    width: 100%;
+    background-image: url(../../assets/images/games.png);
+    background-size: auto;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.main-desktop .back-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+/* .main-desktop .img-main-top {
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    height: 660px;
+    background-image: url(../public/img);
+    background-size: cover;
+    background-position: 50% 50%;
+} */
+
+.main-desktop .bar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.main-desktop .rectangle {
+    background-color: #293def;
+    position: relative;
+    width: 70px;
+    height: 5px;
+}
+
+.main-desktop .rectangle-2 {
+    background-color: #787878;
+    position: relative;
+    width: 70px;
+    height: 5px;
+}
+
+.main-desktop .category {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 120px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .filters {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop ul.filters li.active {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 0px 4px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #293def;
+    opacity: 1;
+}
+.main-desktop ul.filters li {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 0px 4px;
+    position: relative;
+    flex: 0 0 auto;
+    opacity: 0.5;
+}
+.main-desktop ul.filters li a {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--PC-subtitle2-font-family);
+    font-weight: var(--PC-subtitle2-font-weight);
+    color: #ffffff;
+    font-size: var(--PC-subtitle2-font-size);
+    text-align: right;
+    letter-spacing: var(--PC-subtitle2-letter-spacing);
+    line-height: var(--PC-subtitle2-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-subtitle2-font-style);
+    opacity: 0.5;
+}
+.main-desktop ul.filters li:hover {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 0px 4px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #293def;
+    opacity: 1;
+}
+
+.main-desktop .main-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    overflow-x: scroll;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.main-desktop .card1 {
+    background-image: url(../../assets/images/card1.png);
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 30px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main-desktop .txt-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0px 0px 30px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .logo-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9.4px;
+    padding: 9.4px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .logo-3 {
+    position: relative;
+    width: 223.8px;
+    height: auto;
+    object-fit: cover;
+}
+
+.main-desktop .container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 192.77px;
+    align-items: flex-start;
+    gap: 5.64px;
+    padding: 0px 0px 0px 18.81px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .card_game_title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -0.94px;
+    font-family: var(--PC-h4-font-family);
+    font-weight: var(--PC-h4-font-weight);
+    color: #fff;
+    font-size: var(--PC-h4-font-size);
+    letter-spacing: var(--PC-h4-letter-spacing);
+    line-height: var(--PC-h4-line-height);
+    font-style: var(--PC-h4-font-style);
+    text-align: left;
+}
+
+.main-desktop .container-3 {
+    width: 173.96px;
+    align-items: center;
+    gap: 4.7px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.main-desktop .genre {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 4.7px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.main-desktop .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.94px;
+    font-family: var(--PC-paragraph2-font-family);
+    font-weight: var(--PC-paragraph2-font-weight);
+    color: #787878;
+    font-size: var(--PC-paragraph2-font-size);
+    letter-spacing: var(--PC-paragraph2-letter-spacing);
+    line-height: var(--PC-paragraph2-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-paragraph2-font-style);
+}
+
+.main-desktop .card2 {
+    background-image: url(../../assets/images/card2.png);
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 30px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main-desktop .card3 {
+    background-image: url(../../assets/images/card3.png);
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 30px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main-desktop .main-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    background-color: var(--black-06);
+}
+
+.main-desktop .bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    /* background-image: url(.../../assets/images/bottom_bg.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-desktop .bottom_bg {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.main-desktop .bottom_left {
+    position: absolute;
+    width: 436px;
+    height: 459px;
+    bottom: 0;
+    left: 24px;
+}
+
+.main-desktop .overlap-group-wrapper {
+    position: absolute;
+    width: 464px;
+    height: 369px;
+    top: -67px;
+    left: 1426px;
+}
+
+.main-desktop .overlap-group {
+    position: relative;
+    height: 369px;
+}
+
+.main-desktop .bottom_right {
+    position: absolute;
+    width: 450px;
+    height: 369px;
+    bottom: 0;
+    right: 14px;
+}
+
+.main-desktop .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.main-desktop .heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--PC-h1-font-family);
+    font-weight: var(--PC-h1-font-weight);
+    color: var(--absolutewhite);
+    font-size: var(--PC-h1-font-size);
+    text-align: center;
+    letter-spacing: var(--PC-h1-letter-spacing);
+    line-height: var(--PC-h1-line-height);
+    font-style: var(--PC-h1-font-style);
+}
+
+.main-desktop .paragraph {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--PC-paragraph0-font-family);
+    font-weight: var(--PC-paragraph0-font-weight);
+    color: var(--grey-60);
+    font-size: var(--PC-paragraph0-font-size);
+    text-align: center;
+    letter-spacing: var(--PC-paragraph0-letter-spacing);
+    line-height: var(--PC-paragraph0-line-height);
+    font-style: var(--PC-paragraph0-font-style);
+}

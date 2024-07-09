@@ -1,0 +1,296 @@
+.sub-desktop .container-9 {
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
+    max-width: 1200px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 0px 70px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.sub-desktop .frame-3 {
+    display: flex;
+    width: 108px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    position: relative;
+    align-self: stretch;
+}
+
+.sub-desktop .div-2 {
+    display: flex;
+    align-items: flex-start;
+    padding: 1px 20px 1px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.sub-desktop .dropdown {
+    position: relative;
+    width: 11px;
+    height: 6px;
+    margin-right: -0.5px;
+}
+
+.sub-desktop .div-3 {
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 27px 27px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .news {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    max-width: 382px;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+.sub-desktop .news:hover {
+    margin-top: -15px;
+    transition: all 0.2s;
+}
+
+.sub-desktop .grand-launch-events-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .grand-launch-events {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.sub-desktop .div-4 {
+    flex-direction: column;
+    height: 120px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 20px 20px 20px;
+    background-color: #1a1a1a;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .div-5 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.99px;
+    font-family: var(--PC-h4-font-family);
+    font-weight: var(--PC-h4-font-weight);
+    color: #f5a623;
+    font-size: var(--PC-h4-font-size);
+    letter-spacing: var(--PC-h4-letter-spacing);
+    line-height: var(--PC-h4-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-h4-font-style);
+}
+
+.sub-desktop .facebook-login-reply-wrapper {
+    height: 56px;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .facebook-login-reply {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -0.99px;
+    font-family: var(--PC-subtitle2-font-family);
+    font-weight: var(--PC-subtitle2-font-weight);
+    color: #dddddd;
+    font-size: var(--PC-subtitle2-font-size);
+    letter-spacing: var(--PC-subtitle2-letter-spacing);
+    line-height: var(--PC-subtitle2-line-height);
+    font-style: var(--PC-subtitle2-font-style);
+}
+
+.sub-desktop .div-6 {
+    align-items: center;
+    padding: 2px 246.21px 0px 0px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .i {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 0px 4.97px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sub-desktop .edit {
+    position: relative;
+    width: 9.73px;
+    height: 9.95px;
+    /* background-image: url(.../../assets/images/shape-5.svg); */
+    background-size: 100% 100%;
+}
+
+.sub-desktop .overlap-group {
+    position: relative;
+    width: 3px;
+    height: 5px;
+    top: 2px;
+    left: 5px;
+}
+
+.sub-desktop .rectangle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 1px;
+    left: 0;
+}
+
+.sub-desktop .rectangle-2 {
+    height: 5px;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    left: 0;
+}
+
+.sub-desktop .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.99px;
+    margin-right: -57.92px;
+    font-family: var(--PC-paragraph3-font-family);
+    font-weight: var(--PC-paragraph3-font-weight);
+    color: #787878;
+    font-size: var(--PC-paragraph3-font-size);
+    letter-spacing: var(--PC-paragraph3-letter-spacing);
+    line-height: var(--PC-paragraph3-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-paragraph3-font-style);
+    padding-left: 15px;
+    background-image: url(../../assets/images/time.svg);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+}
+
+.sub-desktop .overlap-group-wrapper {
+    /* background-image: url(../../assets/images/shape-8.svg); */
+    position: relative;
+    width: 9.73px;
+    height: 9.95px;
+    background-size: 100% 100%;
+}
+
+.sub-desktop .rectangle-3 {
+    height: 4px;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    left: 0;
+}
+
+.sub-desktop .frame-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+/*filter*/
+
+.sub-desktop .filter-wrapper {
+    z-index: 1;
+    position: absolute;
+    top: -53px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 0px 5px 0;
+    flex: 0 0 auto;
+    background-color: #333333;
+    border: 1px solid;
+    border-color: #787878;
+    height: 33px;
+}
+.sub-desktop .filter-wrapper:hover .filter_box {
+    display: block;
+}
+
+.filter_box {
+    display: none;
+    background-color: #787878;
+    width: 100%;
+    padding: 15px 20px 5px 20px;
+    font-family: var(--PC-paragraph3-font-family);
+    font-weight: var(--PC-paragraph3-font-weight);
+
+    font-size: var(--PC-paragraph3-font-size);
+    text-align: center;
+    letter-spacing: var(--PC-paragraph3-letter-spacing);
+    line-height: var(--PC-paragraph3-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-paragraph3-font-style);
+}
+.filter_box li {
+    height: 30px;
+    text-align: left;
+}
+
+.filter_box li a {
+    color: #eee;
+}

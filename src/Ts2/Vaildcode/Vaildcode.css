@@ -1,0 +1,286 @@
+.Vaildcode .logo-ts2-icon {
+    width: 259px;
+    position: relative;
+    height: 84px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.Vaildcode .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 20px;
+    height: 100px;
+}
+.Vaildcode .form_title {
+    position: absolute;
+    line-height: 140%;
+    font-weight: 300;
+    text-align: left;
+    width: 100%;
+    top: 8px;
+    left: 17px;
+}
+.form_input {
+    position: relative;
+}
+
+.Vaildcode .frame1 {
+    align-self: stretch;
+    height: 48Signup 0.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Vaildcode .input {
+    width: 361px;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    height: 66px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px 16px 7px 16px;
+    font-size: 16px;
+}
+.Vaildcode .only-lowercase-letters-are-all {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 19px;
+}
+.Vaildcode .only-lowercase-letters-are-all li {
+    list-style-type: disc;
+}
+
+.Vaildcode .johndoeexamplecom1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+}
+.Vaildcode .johndoeexamplecom2 {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    color: #ff3300;
+}
+.Vaildcode .johndoeexamplecom-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: #333;
+}
+.Vaildcode .frame3 {
+    height: 47Signup 0.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.Vaildcode .frame2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Vaildcode .inputname-copy-4 {
+    width: 361px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 66px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 9px 17px;
+}
+.Vaildcode .johndoeexamplecom3 {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333;
+}
+.Vaildcode .include-8-16-capital {
+    margin-bottom: 0px;
+}
+.Vaildcode .johndoeexamplecom5 {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ff3300;
+}
+.Vaildcode .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+}
+.Vaildcode .inputallcheck {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 2Signup 0.5px;
+    background-color: #fff;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+}
+.Vaildcode .check-box {
+    width: 13px;
+    position: relative;
+    height: 13px;
+}
+.Vaildcode .i-agree-to {
+    position: relative;
+    line-height: 140%;
+}
+.Vaildcode .raphaelnewwindow-icon {
+    width: 18px;
+    position: relative;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.Vaildcode .pregister2-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.Vaildcode .pregister2-check1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+.Vaildcode .pregister2-check-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.Vaildcode .frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+}
+.Vaildcode .image-30-icon {
+    width: 303px;
+    position: relative;
+    height: 77px;
+    object-fit: cover;
+}
+.Vaildcode .proceed {
+    position: relative;
+    line-height: 130%;
+}
+
+.Vaildcode .frame-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 360px;
+}
+.Vaildcode .logo-parent {
+    width: 587px;
+    box-shadow: 0px 82px 40px -14px rgba(100, 100, 100, 0Signup 0.08);
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 0px;
+}
+.Vaildcode .instance-parent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #787878;
+    font-family: Manrope;
+}
+
+.Vaildcode .terms {
+    position: relative;
+    line-height: 140%;
+    font-weight: 300;
+}
+.Vaildcode .terms-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: #616161;
+    font-family: Manrope;
+    margin-top: 20px;
+}
+.Vaildcode .terms a:hover {
+    color: #333;
+}
+
+.Vaildcode .johndoeexamplecom {
+    align-self: center;
+    position: relative;
+    line-height: 148%;
+}
+.Vaildcode .johndoeexamplecom-parent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-family: Manrope;
+    margin-bottom: 10px;
+}

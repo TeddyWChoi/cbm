@@ -1,0 +1,240 @@
+.Kopazar .kp-logo-dark-icon {
+    width: 430px;
+    position: relative;
+    height: 120px;
+    object-fit: cover;
+}
+.Kopazar .epin-satn-almak {
+    position: relative;
+    line-height: 130%;
+}
+.Kopazar .wwwkopazarcomkarahan-online {
+    width: 331px;
+    position: relative;
+    line-height: 130%;
+    display: inline-block;
+    color: #2a3eef;
+    font-size: 16px;
+}
+.Kopazar .kp-logo-dark-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Kopazar .epin-ykleme {
+    position: relative;
+    line-height: 148%;
+}
+.Kopazar .yetkili-satclarmzdan-ald {
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+}
+.Kopazar .epin-ykleme-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+    font-size: 30px;
+}
+.Kopazar .frame-group {
+    align-self: stretch;
+    width: 600px;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 40px;
+}
+.Kopazar .email-address {
+    position: relative;
+    line-height: 140%;
+    font-weight: 300;
+}
+.Kopazar .johndoeexamplecom {
+    width: 330Kopazar 0.2px;
+    flex: 1;
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+}
+.Kopazar .frame1 {
+    align-self: stretch;
+    height: 48Kopazar 0.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Kopazar .input {
+    width: 361px;
+    background-color: #fff;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    height: 66px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 7px 16px;
+}
+.Kopazar .e-pin-16-karakter-uzunluunda {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 19px;
+}
+.Kopazar .johndoeexamplecom1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ff3300;
+}
+.Kopazar .frame3 {
+    height: 47Kopazar 0.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.Kopazar .frame2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Kopazar .inputname-copy-4 {
+    width: 361px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 66px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 9px 17px;
+}
+.Kopazar .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.Kopazar .image-30-icon {
+    width: 303px;
+    position: relative;
+    height: 77px;
+    object-fit: cover;
+}
+
+.Kopazar .frame-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.Kopazar .destek {
+    text-decoration: underline;
+    color: #2a3eef;
+    font-size: 16px;
+}
+.Kopazar .blmnden-bize-bilet {
+    color: #333;
+}
+.Kopazar .epin-ykleme-ve-container {
+    width: 472px;
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+    text-align: center;
+    display: inline-block;
+    color: #333;
+}
+.Kopazar .frame-container {
+    align-self: stretch;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+    font-size: 12px;
+    color: #787878;
+}
+.Kopazar .frame-parent {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 82px 40px -14px rgba(100, 100, 100, 0Kopazar 0.08);
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    height: 561px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    font-family: Manrope;
+}
+
+.Kopazar .form_title {
+    position: absolute;
+    line-height: 140%;
+    font-weight: 300;
+    text-align: left;
+    width: 100%;
+    top: 8px;
+    left: 17px;
+}
+.form_input {
+    position: relative;
+}
+
+.Kopazar .frame1 {
+    align-self: stretch;
+    height: 48Signup 0.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Kopazar .input {
+    width: 361px;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    height: 66px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px 16px 7px 16px;
+    font-size: 16px;
+}

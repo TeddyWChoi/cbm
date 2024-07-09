@@ -1,0 +1,157 @@
+.AccountDetail {
+    display: flex;
+    gap: 25px;
+    margin: 30px 0 50px 0;
+    width: 1200px;
+}
+.AccountDetail .myboard-form-parent {
+    width: 100%;
+}
+.AccountDetail .email {
+    flex: 1;
+    position: relative;
+    line-height: 148%;
+}
+.AccountDetail .th {
+    align-self: stretch;
+    flex: 1;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 25px;
+    min-width: 100px;
+    max-width: 240px;
+}
+.AccountDetail .jasonjmhangmailcom {
+    position: relative;
+    line-height: 148%;
+}
+.AccountDetail .divtd-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 15px;
+}
+.AccountDetail .phcheck-bold-icon {
+    width: 9px;
+    position: relative;
+    height: 9px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.AccountDetail .divtd-cont1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    gap: 5px;
+}
+.AccountDetail .td {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 0px;
+    min-width: 220px;
+    color: #333;
+}
+.AccountDetail .th-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.AccountDetail .divtd-cont2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.AccountDetail .divtd-cont-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.AccountDetail .divtd-cont3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.AccountDetail .td1 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 17px;
+    min-width: 220px;
+    color: #333;
+}
+.AccountDetail .latest-change-may-19-2024-11-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.AccountDetail .frame-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.AccountDetail .divtd-cont4 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 17px;
+    min-width: 220px;
+    color: #333;
+}
+.AccountDetail .th-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.AccountDetail .myboard-form {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-top: 5px solid #2a3eef;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1px 0px;
+    min-width: 320px;
+    max-width: 1200px;
+    text-align: left;
+    font-size: 16px;
+    color: #787878;
+    font-family: Manrope;
+}
