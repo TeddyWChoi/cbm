@@ -34,6 +34,7 @@ import IngamePurchaseHistory from './Ts2/IngamePurchaseHistory/IngamePurchaseHis
 import CoinPurchaseHistory from './Ts2/CoinPurchaseHistory/CoinPurchaseHistory.js';
 import Block from './components/Block/Block.js';
 import Error from './components/Error/Error.js';
+import Redirect from './components/Redirect/Redirect.js';
 
 function App() {
     return (
@@ -64,16 +65,10 @@ function App() {
                 }
             />
             <Route
-                path="/ts2/"
+                path="/ts2"
                 element={
                     <div className="App">
-                        <div class="sub-desktop">
-                            <SubNavi />
-                            <SubTS2 />
-                            <SubMenu menu={'news'} />
-                            <News />
-                            <SubFooter />
-                        </div>
+                        <Redirect url={'/ts2/news'} />
                     </div>
                 }
             />

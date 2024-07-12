@@ -8,5 +8,5 @@ export default function Redirect(props) {
     //     navigate('/dashboard');
     // }
     navigate(props.url);
-    return <div>{/* ... */}</div>;
+    return;
 }
