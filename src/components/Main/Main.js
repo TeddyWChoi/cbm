@@ -7,16 +7,24 @@ export default function Main() {
                 <div class="category">
                     <ul class="filters">
                         <li class="active">
-                            <a class="view-all">All Games</a>
+                            <a href="{()=>false}" class="view-all">
+                                All Games
+                            </a>
                         </li>
                         <li>
-                            <a class="view-all">Windows</a>
+                            <a href="{()=>false}" class="view-all">
+                                Windows
+                            </a>
                         </li>
                         <li>
-                            <a class="view-all">iOS</a>
+                            <a href="{()=>false}" class="view-all">
+                                iOS
+                            </a>
                         </li>
                         <li>
-                            <a class="view-all">Android</a>
+                            <a href="{()=>false}" class="view-all">
+                                Android
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +69,7 @@ export default function Main() {
                             </div>
                         </div>
                     </a>
-                    <a href="" class="card3">
+                    <a href="{()=>false}" class="card3">
                         <div class="txt-2">
                             <div class="logo-2"></div>
                             <div class="container-2">
