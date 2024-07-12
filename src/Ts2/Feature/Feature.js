@@ -164,19 +164,19 @@ export default function Feature() {
                                             </div>
                                             <div class="data11">
                                                 <div class="container2">
-                                                    <a href="#" class="download-link">
+                                                    <a href="{() => false}" class="download-link">
                                                         AMD Download Link
                                                     </a>
-                                                    <a href="#" class="download-link">
+                                                    <a href="{() => false}" class="download-link">
                                                         intel Download Link
                                                     </a>
-                                                    <a href="#" class="download-link">
+                                                    <a href="{() => false}" class="download-link">
                                                         NVIDIA Download Link
                                                     </a>
-                                                    <a href="#" class="download-link">
+                                                    <a href="{() => false}" class="download-link">
                                                         Microsoft DirectX Download Link
                                                     </a>
-                                                    <a href="#" class="download-link">
+                                                    <a href="{() => false}" class="download-link">
                                                         Microsoft Visual C++ Download Link
                                                     </a>
                                                 </div>

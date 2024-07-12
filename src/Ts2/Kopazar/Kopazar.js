@@ -9,7 +9,7 @@ export default function Kopazar(props) {
                         <div class="kp-logo-dark-parent">
                             <img alt="" class="kp-logo-dark-icon" src={require('../../assets/images/logo_kp.png')} />
                             <b class="epin-satn-almak">Epin satın almak için Kopazar'ı ziyaret edin</b>
-                            <a href="#" class="wwwkopazarcomkarahan-online">
+                            <a href="{() => false}" class="wwwkopazarcomkarahan-online">
                                 www.kopazar.com/karahan-online
                             </a>
                         </div>
@@ -62,7 +62,7 @@ export default function Kopazar(props) {
                         <div class="epin-ykleme-ve-container">
                             <span>
                                 <span>Epin yükleme ve satın alma ile ilgili herhangi bir sorununuz varsa, lütfen </span>
-                                <a href="#" class="destek">
+                                <a href="{() => false}" class="destek">
                                     destek
                                 </a>
                                 <span class="blmnden-bize-bilet"> bölümünden bize bilet gönderin.</span>

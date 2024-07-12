@@ -18,7 +18,7 @@ export default function Navi() {
                             <nav id="primary_nav_wrap">
                                 <ul>
                                     <li class="">
-                                        <a class="nav_arrow" href="#">
+                                        <a class="nav_arrow" href="{() => false}">
                                             {t('games')}
                                         </a>
                                         <ul>
@@ -54,7 +54,7 @@ export default function Navi() {
                             <ul class="language">
                                 <li>
                                     <img alt="" class="global" src={require('../../assets/images/ico_global.png')} />
-                                    <a href="#">{t('language')}</a>
+                                    <a href="{() => false}">{t('language')}</a>
                                     <img alt="" class="" src={require('../../assets/images/arrow2.svg').default} />
 
                                     <LanguageSwitcher />

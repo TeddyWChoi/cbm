@@ -17,19 +17,19 @@ export default function SubFooter() {
                     <div class="list-2">
                         <div class="item-2">
                             <div class="link-2">
-                                <a href="#">Privacy Policy</a>
+                                <a href="{() => false}">Privacy Policy</a>
                             </div>
                         </div>
                         <div class="item-2">
                             <div class="text-wrapper-8">|</div>
                             <div class="link-2">
-                                <a href="#">UGC</a>
+                                <a href="{() => false}">UGC</a>
                             </div>
                         </div>
                         <div class="item-2">
                             <div class="text-wrapper-8">|</div>
                             <div class="link-2">
-                                <a href="#">TOS &amp; EULA</a>
+                                <a href="{() => false}">TOS &amp; EULA</a>
                             </div>
                         </div>
                     </div>

@@ -97,7 +97,7 @@ export default function Main() {
                         <p class="paragraph">Your gateway to the world&#39;s most exciting and captivating games.</p>
                     </div>
                     <button class="button-2">
-                        <a href="#" class="text">
+                        <a href="{() => false}" class="text">
                             LEARN MORE
                         </a>
                     </button>

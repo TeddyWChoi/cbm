@@ -18,24 +18,24 @@ export default function SubNavi() {
                             <nav id="primary_nav_wrap">
                                 <ul class="nav">
                                     <li class="">
-                                        <a class="nav_arrow" href="#">
+                                        <a class="nav_arrow" href="{() => false}">
                                             SUPPORT
                                         </a>
 
                                         <ul>
                                             <li>
-                                                <a href="#">FAQ</a>
+                                                <a href="{() => false}">FAQ</a>
                                             </li>
                                             <li>
-                                                <a href="#">Guides</a>
+                                                <a href="{() => false}">Guides</a>
                                             </li>
                                             <li>
-                                                <a href="#">Contact us</a>
+                                                <a href="{() => false}">Contact us</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="">
-                                        <a href="#">GAME POLICY</a>
+                                        <a href="{() => false}">GAME POLICY</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -59,7 +59,7 @@ export default function SubNavi() {
                                 </li>
                                 <li>
                                     <img alt="" class="global" src={require('../../assets/images/ico_global.png')} />
-                                    <a href="#">{t('language')}</a>
+                                    <a href="{() => false}">{t('language')}</a>
                                     <img alt="" class="" src={require('../../assets/images/arrow2.svg').default} />
                                     <LanguageSwitcher />
                                 </li>

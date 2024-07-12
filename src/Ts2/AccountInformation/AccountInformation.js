@@ -19,7 +19,7 @@ export default function AccountInformation(props) {
                                 <b class="account">Account</b>
                             </div>
                             <div class="edit-wrapper">
-                                <a href="#">
+                                <a href="{() => false}">
                                     <img
                                         alt=""
                                         class="edit-icon"
@@ -34,7 +34,7 @@ export default function AccountInformation(props) {
                                 <div class="password-changed-on-may">Password changed on May 19 2024 11:46PM</div>
                                 <div class="password-changed-on-may">Member Since, Oct 16 2023 5:01AM</div>
                             </div>
-                            <a href="#" class="button-3">
+                            <a href="{() => false}" class="button-3">
                                 <b class="text">Change Password</b>
                             </a>
                         </div>
@@ -50,7 +50,7 @@ export default function AccountInformation(props) {
                                 <b class="account">Login History</b>
                             </div>
                             <div class="edit-wrapper">
-                                <a href="#">
+                                <a href="{() => false}">
                                     <img
                                         alt=""
                                         class="edit-icon"
@@ -93,7 +93,7 @@ export default function AccountInformation(props) {
                                 <b class="account">In-game Purchase History</b>
                             </div>
                             <div class="edit-wrapper">
-                                <a href="#">
+                                <a href="{() => false}">
                                     <img
                                         alt=""
                                         class="edit-icon"
@@ -107,7 +107,7 @@ export default function AccountInformation(props) {
                                 <div class="account-information">Current Balance</div>
                                 <b class="b">3,000</b>
                             </div>
-                            <a href="#" class="button-3">
+                            <a href="{() => false}" class="button-3">
                                 <b class="text">Buy Coin</b>
                             </a>
                         </div>
