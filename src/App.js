@@ -380,7 +380,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi />
                             <SubTop heading={'Block'} subtitle={''} />
-                            <Block url={'#'} />
+                            <Block url={'https://goe.freshdesk.com/en/support/home'} />
                             <SubFooter />
                         </div>
                     </div>
@@ -393,7 +393,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi />
                             <SubTop heading={'Error'} subtitle={''} />
-                            <Error url={'./'} />
+                            <Error url={'/ts2'} />
                             <SubFooter />
                         </div>
                     </div>

@@ -2,8 +2,9 @@ import './SubNavi.css';
 import LanguageSwitcher from '../../components/Translation/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 
-export default function SubNavi() {
+export default function SubNavi(props) {
     const { t } = useTranslation();
+
     return (
         <div className="SubNavi">
             <div class="navbar-home">

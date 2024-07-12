@@ -17,6 +17,10 @@ button:focus-visible {
 }
 a {
     text-decoration: none;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
 }
 a:hover {
     color: #ffffff;

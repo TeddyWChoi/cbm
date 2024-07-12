@@ -11,7 +11,7 @@ export default function Block(props) {
                         <div class="reason-payment1">Reason : Payment Fraud</div>
                     </div>
                 </div>
-                <a href={props.url} class="button-2">
+                <a href={props.url} class="button-2" target="_blank">
                     <b class="reason-payment">Contact us</b>
                 </a>
             </div>

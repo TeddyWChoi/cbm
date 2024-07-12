@@ -190,6 +190,9 @@
 #primary_nav_wrap ul.nav li {
     margin-right: 30px;
 }
+#primary_nav_wrap ul.nav li:last-child {
+    margin-right: 0px;
+}
 #primary_nav_wrap ul ul {
     margin-left: -30px;
 }
