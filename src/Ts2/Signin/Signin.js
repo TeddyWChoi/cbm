@@ -6,7 +6,7 @@ export default function Signin(props) {
             <div class="instance-parent">
                 <div class="logo-parent">
                     <div class="logo">
-                        <img alt="" class="logo-ts2-icon" alt="" src={require('../../assets/images/logo_ts2.png')} />
+                        <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
                     </div>
                     <div class="frame-parent">
                         <div class="frame">
@@ -20,7 +20,7 @@ export default function Signin(props) {
                             </div>
                         </div>
 
-                        <img alt="" class="image-30-icon" alt="" src={require('../../assets/images/img_sample.png')} />
+                        <img alt="" class="image-30-icon" src={require('../../assets/images/img_sample.png')} />
                         <a href={props.linkUrl} class="btn-black">
                             <b class="proceed">{props.linkTxt}</b>
                         </a>

@@ -6,7 +6,7 @@ export default function Purchase(props) {
             <div class="instance-parent">
                 <div class="logo-parent">
                     <div class="">
-                        <img alt="" class="logo-ts2-icon" alt="" src={require('../../assets/images/logo_ts2.png')} />
+                        <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
                     </div>
                     <div class="frame-parent">
                         <div class="frame">
