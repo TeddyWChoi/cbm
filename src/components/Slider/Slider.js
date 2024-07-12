@@ -29,7 +29,7 @@ export default function SimpleSlider() {
             <Slider {...settings}>
                 <div>
                     <figure>
-                        <img src={require('../../assets/images/slider002.jpg')} alt="image" />
+                        <img src={require('../../assets/images/slider002.jpg')} alt="banner" />
                         <div class="game_title">
                             <div class="image-wrapper">
                                 <img class="image" src={require('../../assets/images/logo_ts2.png')} alt="logo" />
@@ -50,7 +50,7 @@ export default function SimpleSlider() {
                 </div>
                 <div>
                     <figure>
-                        <img src={require('../../assets/images/slider001.jpg')} alt="image" />
+                        <img src={require('../../assets/images/slider001.jpg')} alt="banner" />
                         <div class="game_title">
                             <div class="image-wrapper">
                                 <img class="image" src={require('../../assets/images/logo_aika.png')} alt="logo" />
