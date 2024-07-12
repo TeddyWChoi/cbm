@@ -24,13 +24,20 @@ export default function SubNavi() {
 
                                         <ul>
                                             <li>
-                                                <a href="{() => false}">FAQ</a>
+                                                <a
+                                                    href="https://goe.freshdesk.com/en/support/solutions"
+                                                    tagret="_blank"
+                                                >
+                                                    FAQ
+                                                </a>
                                             </li>
                                             <li>
                                                 <a href="{() => false}">Guides</a>
                                             </li>
                                             <li>
-                                                <a href="{() => false}">Contact us</a>
+                                                <a href="https://goe.freshdesk.com/en/support/home" tagret="_blank">
+                                                    Contact us
+                                                </a>
                                             </li>
                                         </ul>
                                     </li>
