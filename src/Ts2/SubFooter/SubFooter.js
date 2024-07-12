@@ -36,16 +36,20 @@ export default function SubFooter() {
                     <div class="container-5">
                         <div>
                             <a href="../">
-                                <img class="image-5" src={require('../../assets/images/logo_cbm.svg').default} />
+                                <img alt="" class="image-5" src={require('../../assets/images/logo_cbm.svg').default} />
                             </a>
                         </div>
                         <div>
                             <a href="../">
-                                <img class="image-6" src={require('../../assets/images/logo_cbm2.svg').default} />
+                                <img
+                                    alt=""
+                                    class="image-6"
+                                    src={require('../../assets/images/logo_cbm2.svg').default}
+                                />
                             </a>
                         </div>
                         <div>
-                            <img class="image-3" src={require('../../assets/images/bega.png')} />
+                            <img alt="" class="image-3" src={require('../../assets/images/bega.png')} />
                         </div>
                     </div>
                 </div>

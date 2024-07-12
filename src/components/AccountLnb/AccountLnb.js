@@ -11,16 +11,16 @@ export default function AccountLnb(props) {
                                 <a href="./accountinformation">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="ic-dashboard-icon"
                                             alt=""
+                                            class="ic-dashboard-icon"
                                             src={require('../../assets/images/ico_account1.svg').default}
                                         />
                                         <div class="account-information">Account Information</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -30,6 +30,7 @@ export default function AccountLnb(props) {
                                 <a href="./accountdetail">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account2.svg').default}
                                         />
@@ -37,8 +38,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -48,6 +49,7 @@ export default function AccountLnb(props) {
                                 <a href="./loginhistory">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="icbaseline-history-icon"
                                             src={require('../../assets/images/ico_account3.svg').default}
                                         />
@@ -55,8 +57,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -66,16 +68,16 @@ export default function AccountLnb(props) {
                                 <a href="./ingamepurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="carbonpurchase-icon"
                                             alt=""
+                                            class="carbonpurchase-icon"
                                             src={require('../../assets/images/ico_account4.svg').default}
                                         />
                                         <div class="account-information">In-game Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -85,16 +87,16 @@ export default function AccountLnb(props) {
                                 <a href="./coinpurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="hugeiconsuser-account"
                                             alt=""
+                                            class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account5.svg').default}
                                         />
                                         <div class="account-information">Coin Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -116,16 +118,16 @@ export default function AccountLnb(props) {
                                 <a href="./accountinformation">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="ic-dashboard-icon"
                                             alt=""
+                                            class="ic-dashboard-icon"
                                             src={require('../../assets/images/ico_account1.svg').default}
                                         />
                                         <div class="account-information">Account Information</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -135,6 +137,7 @@ export default function AccountLnb(props) {
                                 <a href="./accountdetail">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account2.svg').default}
                                         />
@@ -142,8 +145,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -153,6 +156,7 @@ export default function AccountLnb(props) {
                                 <a href="./loginhistory">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="icbaseline-history-icon"
                                             src={require('../../assets/images/ico_account3.svg').default}
                                         />
@@ -160,8 +164,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -171,16 +175,16 @@ export default function AccountLnb(props) {
                                 <a href="./ingamepurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="carbonpurchase-icon"
                                             alt=""
+                                            class="carbonpurchase-icon"
                                             src={require('../../assets/images/ico_account4.svg').default}
                                         />
                                         <div class="account-information">In-game Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -190,16 +194,16 @@ export default function AccountLnb(props) {
                                 <a href="./coinpurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="hugeiconsuser-account"
                                             alt=""
+                                            class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account5.svg').default}
                                         />
                                         <div class="account-information">Coin Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -221,16 +225,16 @@ export default function AccountLnb(props) {
                                 <a href="./accountinformation">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="ic-dashboard-icon"
                                             alt=""
+                                            class="ic-dashboard-icon"
                                             src={require('../../assets/images/ico_account1.svg').default}
                                         />
                                         <div class="account-information">Account Information</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -240,6 +244,7 @@ export default function AccountLnb(props) {
                                 <a href="./accountdetail">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account2.svg').default}
                                         />
@@ -247,8 +252,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -258,6 +263,7 @@ export default function AccountLnb(props) {
                                 <a href="./loginhistory">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="icbaseline-history-icon"
                                             src={require('../../assets/images/ico_account3.svg').default}
                                         />
@@ -265,8 +271,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -276,16 +282,16 @@ export default function AccountLnb(props) {
                                 <a href="./ingamepurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="carbonpurchase-icon"
                                             alt=""
+                                            class="carbonpurchase-icon"
                                             src={require('../../assets/images/ico_account4.svg').default}
                                         />
                                         <div class="account-information">In-game Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -295,16 +301,16 @@ export default function AccountLnb(props) {
                                 <a href="./coinpurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="hugeiconsuser-account"
                                             alt=""
+                                            class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account5.svg').default}
                                         />
                                         <div class="account-information">Coin Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -326,16 +332,16 @@ export default function AccountLnb(props) {
                                 <a href="./accountinformation">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="ic-dashboard-icon"
                                             alt=""
+                                            class="ic-dashboard-icon"
                                             src={require('../../assets/images/ico_account1.svg').default}
                                         />
                                         <div class="account-information">Account Information</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -345,6 +351,7 @@ export default function AccountLnb(props) {
                                 <a href="./accountdetail">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account2.svg').default}
                                         />
@@ -352,8 +359,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -363,6 +370,7 @@ export default function AccountLnb(props) {
                                 <a href="./loginhistory">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="icbaseline-history-icon"
                                             src={require('../../assets/images/ico_account3.svg').default}
                                         />
@@ -370,8 +378,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -381,16 +389,16 @@ export default function AccountLnb(props) {
                                 <a href="./ingamepurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="carbonpurchase-icon"
                                             alt=""
+                                            class="carbonpurchase-icon"
                                             src={require('../../assets/images/ico_account4.svg').default}
                                         />
                                         <div class="account-information">In-game Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -400,16 +408,16 @@ export default function AccountLnb(props) {
                                 <a href="./coinpurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="hugeiconsuser-account"
                                             alt=""
+                                            class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account5.svg').default}
                                         />
                                         <div class="account-information">Coin Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -431,16 +439,16 @@ export default function AccountLnb(props) {
                                 <a href="./accountinformation">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="ic-dashboard-icon"
                                             alt=""
+                                            class="ic-dashboard-icon"
                                             src={require('../../assets/images/ico_account1.svg').default}
                                         />
                                         <div class="account-information">Account Information</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -450,6 +458,7 @@ export default function AccountLnb(props) {
                                 <a href="./accountdetail">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account2.svg').default}
                                         />
@@ -457,8 +466,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -468,6 +477,7 @@ export default function AccountLnb(props) {
                                 <a href="./loginhistory">
                                     <div class="ic-dashboard-parent">
                                         <img
+                                            alt=""
                                             class="icbaseline-history-icon"
                                             src={require('../../assets/images/ico_account3.svg').default}
                                         />
@@ -475,8 +485,8 @@ export default function AccountLnb(props) {
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -486,16 +496,16 @@ export default function AccountLnb(props) {
                                 <a href="./ingamepurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="carbonpurchase-icon"
                                             alt=""
+                                            class="carbonpurchase-icon"
                                             src={require('../../assets/images/ico_account4.svg').default}
                                         />
                                         <div class="account-information">In-game Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>
@@ -505,16 +515,16 @@ export default function AccountLnb(props) {
                                 <a href="./coinpurchasehistory">
                                     <div class="ic-dashboard-parent">
                                         <img
-                                            class="hugeiconsuser-account"
                                             alt=""
+                                            class="hugeiconsuser-account"
                                             src={require('../../assets/images/ico_account5.svg').default}
                                         />
                                         <div class="account-information">Coin Purchase History</div>
                                     </div>
                                     <div class="chevron-right-24px">
                                         <img
-                                            class="chevron-right-icon"
                                             alt=""
+                                            class="chevron-right-icon"
                                             src={require('../../assets/images/ico_arrow_right.svg').default}
                                         />
                                     </div>

@@ -6,7 +6,7 @@ export default function Vaildcode(props) {
             <div class="instance-parent">
                 <div class="logo-parent">
                     <div class="logo">
-                        <img class="logo-ts2-icon" alt="" src={require('../../assets/images/logo_ts2.png')} />
+                        <img alt="" class="logo-ts2-icon" alt="" src={require('../../assets/images/logo_ts2.png')} />
                     </div>
                     <div class="johndoeexamplecom-parent">
                         <b class="johndoeexamplecom">Input Verification Code</b>

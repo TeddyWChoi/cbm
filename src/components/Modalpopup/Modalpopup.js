@@ -17,7 +17,7 @@ const ModalPopup = (props) => {
     return (
         <div>
             <button class="modalopen" onClick={openModal}>
-                <img class="raphaelnewwindow-icon" alt="" src={require('../../assets/images/newwindow.svg').default} />
+                <img alt="" class="raphaelnewwindow-icon" src={require('../../assets/images/newwindow.svg').default} />
             </button>
 
             <Modal

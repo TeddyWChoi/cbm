@@ -24,7 +24,7 @@ export default function Main() {
                     <a href="/ts2" class="card1">
                         <div class="txt-2">
                             <div class="logo-2">
-                                <img class="logo-3" src={require('../../assets/images/logo_ts2.png').default} />
+                                <img alt="" class="logo-3" src={require('../../assets/images/logo_ts2.png').default} />
                             </div>
                             <div class="container-2">
                                 <div class="card_game_title">Twelve Sky 2</div>
@@ -32,7 +32,11 @@ export default function Main() {
                                     <div class="genre">
                                         <div class="text-wrapper-5">MMORPG</div>
                                     </div>
-                                    <img class="platform" src={require('../../assets/images/ico_win.svg').default} />
+                                    <img
+                                        alt=""
+                                        class="platform"
+                                        src={require('../../assets/images/ico_win.svg').default}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -40,7 +44,7 @@ export default function Main() {
                     <a href="/aika" class="card2">
                         <div class="txt-2">
                             <div class="logo-2">
-                                <img class="logo-3" src={require('../../assets/images/logo_aika.png').default} />
+                                <img alt="" class="logo-3" src={require('../../assets/images/logo_aika.png').default} />
                             </div>
                             <div class="container-2">
                                 <div class="card_game_title">Aika Online Global</div>
@@ -48,7 +52,11 @@ export default function Main() {
                                     <div class="genre">
                                         <div class="text-wrapper-5">MMORPG</div>
                                     </div>
-                                    <img class="platform" src={require('../../assets/images/ico_win.svg').default} />
+                                    <img
+                                        alt=""
+                                        class="platform"
+                                        src={require('../../assets/images/ico_win.svg').default}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -62,8 +70,16 @@ export default function Main() {
                                     <div class="genre">
                                         <div class="text-wrapper-5">MMORPG</div>
                                     </div>
-                                    <img class="platform" src={require('../../assets/images/ico_ios.svg').default} />
-                                    <img class="platform" src={require('../../assets/images/ico_and.svg').default} />
+                                    <img
+                                        alt=""
+                                        class="platform"
+                                        src={require('../../assets/images/ico_ios.svg').default}
+                                    />
+                                    <img
+                                        alt=""
+                                        class="platform"
+                                        src={require('../../assets/images/ico_and.svg').default}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -73,8 +89,8 @@ export default function Main() {
             <div class="frame">
                 <div class="main-bottom">
                     <div class="bottom">
-                        <img class="bottom_left" src={require('../../assets/images/bottom_left.png')} />
-                        <img class="bottom_right" src={require('../../assets/images/bottom_right.png')} />
+                        <img alt="" class="bottom_left" src={require('../../assets/images/bottom_left.png')} />
+                        <img alt="" class="bottom_right" src={require('../../assets/images/bottom_right.png')} />
                     </div>
                     <div class="text-container">
                         <div class="heading">About CBM Interactive</div>

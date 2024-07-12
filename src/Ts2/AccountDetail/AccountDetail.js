@@ -18,8 +18,8 @@ export default function AccountDetail(props) {
                             </div>
                             <div class="divtd-cont1">
                                 <img
-                                    class="phcheck-bold-icon"
                                     alt=""
+                                    class="phcheck-bold-icon"
                                     src={require('../../assets/images/ico_check.svg').default}
                                 />
                                 <div class="jasonjmhangmailcom">Verified</div>

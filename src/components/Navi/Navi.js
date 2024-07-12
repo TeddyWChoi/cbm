@@ -10,7 +10,7 @@ export default function Navi() {
                 <div class="div">
                     <div class="logo">
                         <a href="./">
-                            <img class="img" src={require('../../assets/images/logo_cbm.svg').default} />
+                            <img alt="" class="img" src={require('../../assets/images/logo_cbm.svg').default} />
                         </a>
                     </div>
                     <div class="link-margin">
@@ -24,13 +24,19 @@ export default function Navi() {
                                         <ul>
                                             <li>
                                                 <a href="/ts2">
-                                                    <img src={require('../../assets/images/nav_ico1.png').default} />
+                                                    <img
+                                                        alt=""
+                                                        src={require('../../assets/images/nav_ico1.png').default}
+                                                    />
                                                     Twelve Sky 2
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/aika">
-                                                    <img src={require('../../assets/images/nav_ico2.png').default} />
+                                                    <img
+                                                        alt=""
+                                                        src={require('../../assets/images/nav_ico2.png').default}
+                                                    />
                                                     Aika Online Global
                                                 </a>
                                             </li>
@@ -47,9 +53,9 @@ export default function Navi() {
                         <nav id="primary_nav_wrap">
                             <ul class="language">
                                 <li>
-                                    <img class="global" src={require('../../assets/images/ico_global.png')} />
+                                    <img alt="" class="global" src={require('../../assets/images/ico_global.png')} />
                                     <a href="#">{t('language')}</a>
-                                    <img class="" src={require('../../assets/images/arrow2.svg').default} />
+                                    <img alt="" class="" src={require('../../assets/images/arrow2.svg').default} />
 
                                     <LanguageSwitcher />
                                 </li>

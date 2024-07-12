@@ -19,7 +19,11 @@ export default function SubTS2() {
                             </div>
                             <div class="">
                                 <div class="border">
-                                    <img class="SVG-margin-2" src={require('../../assets/images/ico_fb.svg').default} />
+                                    <img
+                                        alt=""
+                                        class="SVG-margin-2"
+                                        src={require('../../assets/images/ico_fb.svg').default}
+                                    />
                                     <div class="container-7">
                                         <a href="#" class="text-wrapper-5">
                                             FACEBOOK
@@ -27,7 +31,11 @@ export default function SubTS2() {
                                     </div>
                                 </div>
                                 <div class="border">
-                                    <img class="SVG-margin-3" src={require('../../assets/images/ico_ds.svg').default} />
+                                    <img
+                                        alt=""
+                                        class="SVG-margin-3"
+                                        src={require('../../assets/images/ico_ds.svg').default}
+                                    />
                                     <div class="container-7">
                                         <a href="#" class="text-wrapper-5">
                                             DISCORD
@@ -39,14 +47,18 @@ export default function SubTS2() {
                     </div>
                     <div class="button-wrapper">
                         <button class="button-3">
-                            <img class="SVG-margin-4" src={require('../../assets/images/ico_win2.svg').default} />
+                            <img
+                                alt=""
+                                class="SVG-margin-4"
+                                src={require('../../assets/images/ico_win2.svg').default}
+                            />
                             <div class="container-8">
                                 <div class="text-wrapper-6">DOWNLOAD</div>
                             </div>
                         </button>
                     </div>
                     <div class="game-card">
-                        <img class="image-shadow" src={require('../../assets/images/game_card_ts2.png')} />
+                        <img alt="" class="image-shadow" src={require('../../assets/images/game_card_ts2.png')} />
                         <div class="logo-2"></div>
                     </div>
                 </div>

@@ -63,6 +63,20 @@ function App() {
                     </div>
                 }
             />
+            <Route
+                path="/ts2/"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi />
+                            <SubTS2 />
+                            <SubMenu menu={'news'} />
+                            <News />
+                            <SubFooter />
+                        </div>
+                    </div>
+                }
+            />
 
             <Route
                 path="/ts2/news"

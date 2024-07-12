@@ -7,7 +7,7 @@ export default function Balance(props) {
                 <div class="frame-wrapper">
                     <div class="frame-parent">
                         <div class="group-parent">
-                            <img class="group-icon" alt="" src={require('../../assets/images/coin2.svg').default} />
+                            <img alt="" class="group-icon" src={require('../../assets/images/coin2.svg').default} />
                             <div class="frame-group">
                                 <div class="current-balance-wrapper">
                                     <div class="current-balance">Current Balance</div>

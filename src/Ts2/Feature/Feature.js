@@ -10,23 +10,28 @@ export default function Feature() {
                             <b class="heading">Video & Screenshots</b>
                             <div class="buttons-container">
                                 <div class="button">
-                                    <img class="icon" alt="" src={require('../../assets/images/btn_left.png')} />
+                                    <img alt="" class="icon" alt="" src={require('../../assets/images/btn_left.png')} />
                                 </div>
                                 <div class="button">
-                                    <img class="icon" alt="" src={require('../../assets/images/btn_right.png')} />
+                                    <img
+                                        alt=""
+                                        class="icon"
+                                        alt=""
+                                        src={require('../../assets/images/btn_right.png')}
+                                    />
                                 </div>
                             </div>
                         </div>
                         <div class="video_container">
                             <div class="picture">
-                                <img alt="" src={require('../../assets/images/video_sample1.jpg')} />
+                                <img alt="" alt="" src={require('../../assets/images/video_sample1.jpg')} />
                             </div>
                             <div class="video">
                                 <div class="video_margin">
-                                    <img alt="" src={require('../../assets/images/video_sample1.jpg')} />
+                                    <img alt="" alt="" src={require('../../assets/images/video_sample1.jpg')} />
                                 </div>
                                 <div class="">
-                                    <img alt="" src={require('../../assets/images/video_sample1.jpg')} />
+                                    <img alt="" alt="" src={require('../../assets/images/video_sample1.jpg')} />
                                 </div>
                             </div>
                         </div>

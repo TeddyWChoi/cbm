@@ -7,7 +7,7 @@ export default function Kopazar(props) {
                 <div class="frame-parent">
                     <div class="frame-group">
                         <div class="kp-logo-dark-parent">
-                            <img class="kp-logo-dark-icon" alt="" src={require('../../assets/images/logo_kp.png')} />
+                            <img alt="" class="kp-logo-dark-icon" src={require('../../assets/images/logo_kp.png')} />
                             <b class="epin-satn-almak">Epin satın almak için Kopazar'ı ziyaret edin</b>
                             <a href="#" class="wwwkopazarcomkarahan-online">
                                 www.kopazar.com/karahan-online
@@ -53,7 +53,7 @@ export default function Kopazar(props) {
                                     </ul>
                                 </div>
                             </div>
-                            <img class="image-30-icon" alt="" src={require('../../assets/images/img_sample.png')} />
+                            <img alt="" class="image-30-icon" src={require('../../assets/images/img_sample.png')} />
 
                             <a href={props.linkUrl} class="btn-black">
                                 <b class="proceed">{props.linkTxt}</b>

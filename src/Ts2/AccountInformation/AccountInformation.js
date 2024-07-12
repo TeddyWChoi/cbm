@@ -12,8 +12,8 @@ export default function AccountInformation(props) {
                         <div class="frame-container">
                             <div class="hugeiconsuser-account-group">
                                 <img
-                                    class="hugeiconsuser-account"
                                     alt=""
+                                    class="hugeiconsuser-account"
                                     src={require('../../assets/images/ico_mypage1.svg').default}
                                 />
                                 <b class="account">Account</b>
@@ -21,8 +21,8 @@ export default function AccountInformation(props) {
                             <div class="edit-wrapper">
                                 <a href="#">
                                     <img
-                                        class="edit-icon"
                                         alt=""
+                                        class="edit-icon"
                                         src={require('../../assets/images/ico_edit.svg').default}
                                     />
                                 </a>
@@ -43,8 +43,8 @@ export default function AccountInformation(props) {
                         <div class="frame-parent2">
                             <div class="hugeiconsuser-account-group">
                                 <img
-                                    class="icbaseline-history-icon"
                                     alt=""
+                                    class="icbaseline-history-icon"
                                     src={require('../../assets/images/ico_mypage2.svg').default}
                                 />
                                 <b class="account">Login History</b>
@@ -52,8 +52,8 @@ export default function AccountInformation(props) {
                             <div class="edit-wrapper">
                                 <a href="#">
                                     <img
-                                        class="edit-icon"
                                         alt=""
+                                        class="edit-icon"
                                         src={require('../../assets/images/ico_edit.svg').default}
                                     />
                                 </a>
@@ -86,8 +86,8 @@ export default function AccountInformation(props) {
                         <div class="frame-parent2">
                             <div class="hugeiconsuser-account-group">
                                 <img
-                                    class="hugeiconsuser-account"
                                     alt=""
+                                    class="hugeiconsuser-account"
                                     src={require('../../assets/images/ico_mypage3.svg').default}
                                 />
                                 <b class="account">In-game Purchase History</b>
@@ -95,8 +95,8 @@ export default function AccountInformation(props) {
                             <div class="edit-wrapper">
                                 <a href="#">
                                     <img
-                                        class="edit-icon"
                                         alt=""
+                                        class="edit-icon"
                                         src={require('../../assets/images/ico_edit.svg').default}
                                     />
                                 </a>

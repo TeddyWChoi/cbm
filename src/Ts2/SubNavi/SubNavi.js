@@ -10,7 +10,7 @@ export default function SubNavi() {
                 <div class="div">
                     <div class="logo">
                         <a href="/ts2">
-                            <img src={require('../../assets/images/logo_ts2.png')} />
+                            <img alt="" src={require('../../assets/images/logo_ts2.png')} />
                         </a>
                     </div>
                     <div class="link-margin">
@@ -58,9 +58,9 @@ export default function SubNavi() {
                                     <a href="./signup">CREATE ACCOUNT</a>
                                 </li>
                                 <li>
-                                    <img class="global" src={require('../../assets/images/ico_global.png')} />
+                                    <img alt="" class="global" src={require('../../assets/images/ico_global.png')} />
                                     <a href="#">{t('language')}</a>
-                                    <img class="" src={require('../../assets/images/arrow2.svg').default} />
+                                    <img alt="" class="" src={require('../../assets/images/arrow2.svg').default} />
                                     <LanguageSwitcher />
                                 </li>
                             </ul>

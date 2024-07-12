@@ -30,8 +30,8 @@ export default function IngamePurchaseHistory(props) {
                                 <input class="select" type="text" value="2024-02-22"></input>
                                 <a href="#" class="carboncalendar">
                                     <img
-                                        class="vector-icon"
                                         alt=""
+                                        class="vector-icon"
                                         src={require('../../assets/images/ico_calendar.svg').default}
                                     />
                                 </a>
@@ -41,8 +41,8 @@ export default function IngamePurchaseHistory(props) {
                                 <input class="select" type="text" value="2024-03-22"></input>
                                 <a href="#" class="carboncalendar">
                                     <img
-                                        class="vector-icon"
                                         alt=""
+                                        class="vector-icon"
                                         src={require('../../assets/images/ico_calendar.svg').default}
                                     />
                                 </a>
@@ -300,7 +300,7 @@ export default function IngamePurchaseHistory(props) {
                     </div>
                     <div class="paging">
                         <a href="#" class="object">
-                            <img class="icon-arrows" alt="" src={require('../../assets/images/ico_left.svg').default} />
+                            <img alt="" class="icon-arrows" src={require('../../assets/images/ico_left.svg').default} />
                         </a>
                         <div class="object">
                             <ul>
@@ -358,8 +358,8 @@ export default function IngamePurchaseHistory(props) {
                         </div>
                         <a href="#" class="object1">
                             <img
-                                class="icon-arrows1"
                                 alt=""
+                                class="icon-arrows1"
                                 src={require('../../assets/images/ico_right.svg').default}
                             />
                         </a>

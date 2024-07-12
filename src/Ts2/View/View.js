@@ -8,6 +8,7 @@ export default function View() {
                     <div class="div0">
                         <div class="div1"></div>
                         <img
+                            alt=""
                             class="glb-common-minjpg-icon"
                             alt=""
                             src={require('../../assets/images/board_sample.jpg')}
@@ -21,6 +22,7 @@ export default function View() {
                                         <div class="i">
                                             <div class="i1">
                                                 <img
+                                                    alt=""
                                                     class="edit-icon"
                                                     alt=""
                                                     src={require('../../assets/images/time2.svg').default}
@@ -32,6 +34,7 @@ export default function View() {
                                     <div class="div3">
                                         <div class="i2">
                                             <img
+                                                alt=""
                                                 class="icoutline-remove-red-eye-icon"
                                                 alt=""
                                                 src={require('../../assets/images/eye.svg').default}
@@ -99,7 +102,7 @@ export default function View() {
             </div>
             <div class="related-news-wrapper">
                 <div class="ico-boardsvg">
-                    <img class="page-1-icon" alt="" src={require('../../assets/images/ico_news.svg').default} />
+                    <img alt="" class="page-1-icon" alt="" src={require('../../assets/images/ico_news.svg').default} />
                 </div>
                 <b class="related-news">RELATED NEWS</b>
             </div>
@@ -109,6 +112,7 @@ export default function View() {
                     <a href="#" class="news">
                         <div class="grand-launch-events-wrapper">
                             <img
+                                alt=""
                                 class="grand-launch-events"
                                 src={require('../../assets/images/grand-launch-events-20-1-jpg-9.png')}
                             />
@@ -132,6 +136,7 @@ export default function View() {
                     <a href="#" class="news">
                         <div class="grand-launch-events-wrapper">
                             <img
+                                alt=""
                                 class="grand-launch-events"
                                 src={require('../../assets/images/grand-launch-events-20-1-jpg-9.png')}
                             />
@@ -155,6 +160,7 @@ export default function View() {
                     <a href="#" class="news">
                         <div class="grand-launch-events-wrapper">
                             <img
+                                alt=""
                                 class="grand-launch-events"
                                 src={require('../../assets/images/grand-launch-events-20-1-jpg-9.png')}
                             />

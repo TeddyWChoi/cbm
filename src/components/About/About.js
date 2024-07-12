@@ -8,7 +8,7 @@ export default function About() {
                     <div class="main-bottom">
                         <div class="bottom"></div>
                         <div class="text-container">
-                            <img src={require('../../assets/images/logo_cbm2.svg').default} />
+                            <img alt="" src={require('../../assets/images/logo_cbm2.svg').default} />
                             {/* <div class="heading">About CBM Interactive</div>
                         <p class="paragraph">Your gateway to the world&#39;s most exciting and captivating games.</p> */}
                         </div>

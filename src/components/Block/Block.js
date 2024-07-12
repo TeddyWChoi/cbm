@@ -5,7 +5,7 @@ export default function Block(props) {
         <div className="Block">
             <div class="frame-parent">
                 <div class="vector-parent">
-                    <img class="vector-icon" alt="" src={require('../../assets/images/ico_block.svg').default} />
+                    <img alt="" class="vector-icon" src={require('../../assets/images/ico_block.svg').default} />
                     <div class="container">
                         <b class="reason-payment">Reason : Payment Fraud</b>
                         <div class="reason-payment1">Reason : Payment Fraud</div>

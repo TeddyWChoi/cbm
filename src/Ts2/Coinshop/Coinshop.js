@@ -8,12 +8,12 @@ export default function Coinshop() {
                     <div class="coin-box">
                         <div class="frame-container">
                             <div class="group-group">
-                                <img class="group-icon1" alt="" src={require('../../assets/images/coin.svg').default} />
+                                <img alt="" class="group-icon1" src={require('../../assets/images/coin.svg').default} />
                                 <b class="text">500</b>
                             </div>
                             <div class="frame-child"></div>
                         </div>
-                        <img class="icon" alt="" src={require('../../assets/images/item1.png')} />
+                        <img alt="" class="icon" src={require('../../assets/images/item1.png')} />
                         <div class="buy-wrapper">
                             <b class="text">Buy $4.99</b>
                         </div>
@@ -21,12 +21,12 @@ export default function Coinshop() {
                     <div class="coin-box">
                         <div class="frame-container">
                             <div class="group-group">
-                                <img class="group-icon1" alt="" src={require('../../assets/images/coin.svg').default} />
+                                <img alt="" class="group-icon1" src={require('../../assets/images/coin.svg').default} />
                                 <b class="text">1,000</b>
                             </div>
                             <div class="frame-child"></div>
                         </div>
-                        <img class="icon" alt="" src={require('../../assets/images/item2.png')} />
+                        <img alt="" class="icon" src={require('../../assets/images/item2.png')} />
                         <div class="buy-wrapper">
                             <b class="text">Buy $9.99</b>
                         </div>
@@ -34,12 +34,12 @@ export default function Coinshop() {
                     <div class="coin-box">
                         <div class="frame-container">
                             <div class="group-group">
-                                <img class="group-icon1" alt="" src={require('../../assets/images/coin.svg').default} />
+                                <img alt="" class="group-icon1" src={require('../../assets/images/coin.svg').default} />
                                 <b class="text">2,000</b>
                             </div>
                             <div class="frame-child"></div>
                         </div>
-                        <img class="icon" alt="" src={require('../../assets/images/item3.png')} />
+                        <img alt="" class="icon" src={require('../../assets/images/item3.png')} />
                         <div class="buy-wrapper">
                             <b class="text">Buy $19.99</b>
                         </div>
@@ -47,14 +47,14 @@ export default function Coinshop() {
                     <div class="coin-box">
                         <div class="frame-parent2">
                             <div class="group-group">
-                                <img class="group-icon1" alt="" src={require('../../assets/images/coin.svg').default} />
+                                <img alt="" class="group-icon1" src={require('../../assets/images/coin.svg').default} />
                                 <b class="text">5,250</b>
                             </div>
                             <div class="bonus-330030-wrapper">
                                 <div class="bonus-330030">5,000 + 250 Bonus</div>
                             </div>
                         </div>
-                        <img class="icon3" alt="" src={require('../../assets/images/item4.png')} />
+                        <img alt="" class="icon3" src={require('../../assets/images/item4.png')} />
                         <div class="buy-wrapper">
                             <b class="text">Buy $49.99</b>
                         </div>
@@ -69,14 +69,14 @@ export default function Coinshop() {
                     <div class="coin-box">
                         <div class="frame-parent2">
                             <div class="group-group">
-                                <img class="group-icon1" alt="" src={require('../../assets/images/coin.svg').default} />
+                                <img alt="" class="group-icon1" src={require('../../assets/images/coin.svg').default} />
                                 <b class="text">11,000</b>
                             </div>
                             <div class="bonus-330030-wrapper">
                                 <div class="bonus-330030">10,000 + 1,000 Bonus</div>
                             </div>
                         </div>
-                        <img class="icon3" alt="" src={require('../../assets/images/item5.png')} />
+                        <img alt="" class="icon3" src={require('../../assets/images/item5.png')} />
                         <div class="buy-wrapper">
                             <b class="text">Buy $99.99</b>
                         </div>
