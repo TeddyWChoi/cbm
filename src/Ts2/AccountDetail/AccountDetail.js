@@ -58,7 +58,7 @@ export default function AccountDetail(props) {
                                     <div class="jasonjmhangmailcom">Latest Change: May 19 2024 11:46PM</div>
                                 </div>
 
-                                <a href="{() => false}" class="abtn">
+                                <a href="./password_changed" class="abtn">
                                     Change Password
                                 </a>
                             </div>

@@ -124,7 +124,7 @@ function App() {
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
                             />
-                            <Balance button={'Purchase History'} />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
                             <Coinshop />
                             <SubFooter />
                         </div>
@@ -203,7 +203,7 @@ function App() {
                                 messageTitle={'Password Changed!'}
                                 messageTxt={'Password has been changed successfully.'}
                                 linkTxt={'Go to Account'}
-                                linkUrl={'./account'}
+                                linkUrl={'./accountinformation'}
                             />
                             <SubFooter />
                         </div>

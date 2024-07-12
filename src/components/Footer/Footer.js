@@ -17,19 +17,19 @@ export default function Footer() {
                     <div class="list-2">
                         <div class="item-2">
                             <div class="link-2">
-                                <a href="{() => false}">Privacy Policy</a>
+                                <a href="#!">Privacy Policy</a>
                             </div>
                         </div>
                         <div class="item-2">
                             <div class="text-wrapper-8">|</div>
                             <div class="link-2">
-                                <a href="{() => false}">UGC</a>
+                                <a href="#!">UGC</a>
                             </div>
                         </div>
                         <div class="item-2">
                             <div class="text-wrapper-8">|</div>
                             <div class="link-2">
-                                <a href="{() => false}">TOS &amp; EULA</a>
+                                <a href="#!">TOS &amp; EULA</a>
                             </div>
                         </div>
                     </div>

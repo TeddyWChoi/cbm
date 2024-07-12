@@ -25,7 +25,7 @@ export default function SubTS2() {
                                         src={require('../../assets/images/ico_fb.svg').default}
                                     />
                                     <div class="container-7">
-                                        <a href="{() => false}" class="text-wrapper-5">
+                                        <a href="#!" class="text-wrapper-5">
                                             FACEBOOK
                                         </a>
                                     </div>
@@ -37,7 +37,7 @@ export default function SubTS2() {
                                         src={require('../../assets/images/ico_ds.svg').default}
                                     />
                                     <div class="container-7">
-                                        <a href="{() => false}" class="text-wrapper-5">
+                                        <a href="#!" class="text-wrapper-5">
                                             DISCORD
                                         </a>
                                     </div>

@@ -8,12 +8,11 @@ export default function CoinPurchaseHistory(props) {
             <AccountLnb account={'account5'} />
 
             <div class="instance-parent">
-                <Balance button={'Purchase History'} />
-
+                <Balance url={'./coinshop'} button={'Buy Coin'} />
                 <div class="frame-parent">
                     <div class="cash-filter-btn-parent">
                         <div class="cash-filter-btn">
-                            <button href="{() => false}" class="div">
+                            <button href="#!" class="div">
                                 1 Week
                             </button>
                         </div>
@@ -28,7 +27,7 @@ export default function CoinPurchaseHistory(props) {
                         <div class="cash-filter-btn-parent">
                             <div class="divtd-cont">
                                 <input class="select" type="text" value="2024-02-22"></input>
-                                <a href="{() => false}" class="carboncalendar">
+                                <a href="#!" class="carboncalendar">
                                     <img
                                         alt=""
                                         class="vector-icon"
@@ -39,7 +38,7 @@ export default function CoinPurchaseHistory(props) {
                             <b class="b">~</b>
                             <div class="divtd-cont">
                                 <input class="select" type="text" value="2024-03-22"></input>
-                                <a href="{() => false}" class="carboncalendar">
+                                <a href="#!" class="carboncalendar">
                                     <img
                                         alt=""
                                         class="vector-icon"
@@ -300,64 +299,64 @@ export default function CoinPurchaseHistory(props) {
                     </div>
 
                     <div class="paging">
-                        <a href="{() => false}" class="object">
+                        <a href="#!" class="object">
                             <img alt="" class="icon-arrows" src={require('../../assets/images/ico_left.svg').default} />
                         </a>
                         <div class="object">
                             <ul>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         1
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         2
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         3
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         4
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         5
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         6
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         7
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         8
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         9
                                     </a>
                                 </li>
                                 <li class="num">
-                                    <a href="{() => false}" class="div8">
+                                    <a href="#!" class="div8">
                                         10
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                        <a href="{() => false}" class="object1">
+                        <a href="#!" class="object1">
                             <img
                                 alt=""
                                 class="icon-arrows1"

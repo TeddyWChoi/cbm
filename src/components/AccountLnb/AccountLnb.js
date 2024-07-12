@@ -531,9 +531,9 @@ export default function AccountLnb(props) {
                                 </a>
                             </li>
                         </ul>
-                        <div class="button">
+                        <a href="/ts2" class="button">
                             <b class="text">Sign Out</b>
-                        </div>
+                        </a>
                     </div>
                 </div>
             );

@@ -106,7 +106,7 @@ export default function View() {
 
             <div class="related-news2">
                 <div class="div-3">
-                    <a href="{() => false}" class="news">
+                    <a href="#!" class="news">
                         <div class="grand-launch-events-wrapper">
                             <img
                                 alt=""
@@ -130,7 +130,7 @@ export default function View() {
                             </div>
                         </div>
                     </a>
-                    <a href="{() => false}" class="news">
+                    <a href="#!" class="news">
                         <div class="grand-launch-events-wrapper">
                             <img
                                 alt=""
@@ -154,7 +154,7 @@ export default function View() {
                             </div>
                         </div>
                     </a>
-                    <a href="{() => false}" class="news">
+                    <a href="#!" class="news">
                         <div class="grand-launch-events-wrapper">
                             <img
                                 alt=""

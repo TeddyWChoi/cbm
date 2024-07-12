@@ -15,7 +15,7 @@ export default function Balance(props) {
                                 <b class="b">3,000</b>
                             </div>
                         </div>
-                        <a href="{() => false}" class="button-3">
+                        <a href={props.url} class="button-3">
                             <b class="text">{props.button}</b>
                         </a>
                     </div>

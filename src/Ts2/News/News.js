@@ -14,13 +14,13 @@ export default function News() {
                         </div>
                         <ul class="filter_box">
                             <li>
-                                <a href="{() => false}">UPDATES</a>
+                                <a href="#!">UPDATES</a>
                             </li>
                             <li>
-                                <a href="{() => false}">EVENTS</a>
+                                <a href="#!">EVENTS</a>
                             </li>
                             <li>
-                                <a href="{() => false}">NOTICES</a>
+                                <a href="#!">NOTICES</a>
                             </li>
                         </ul>
                     </div>
@@ -244,7 +244,7 @@ export default function News() {
                         </a>
                     </div>
                     <div class="frame-4">
-                        <a href="{() => false}" class="button-2">
+                        <a href="#!" class="button-2">
                             <div class="text">See More</div>
                         </a>
                     </div>
