@@ -537,5 +537,7 @@ export default function AccountLnb(props) {
                     </div>
                 </div>
             );
+        default:
+            break;
     }
 }
