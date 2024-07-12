@@ -29,10 +29,10 @@ export default function SimpleSlider() {
             <Slider {...settings}>
                 <div>
                     <figure>
-                        <img src={require('../../assets/images/slider002.jpg')} alt="이미지1" />
+                        <img src={require('../../assets/images/slider002.jpg')} alt="image" />
                         <div class="game_title">
                             <div class="image-wrapper">
-                                <img class="image" src={require('../../assets/images/logo_ts2.png')} alt="로고" />
+                                <img class="image" src={require('../../assets/images/logo_ts2.png')} alt="logo" />
                             </div>
                             <figcaption class="txt">
                                 <em class="p">Dominate the Martial Arts World!</em>
@@ -50,10 +50,10 @@ export default function SimpleSlider() {
                 </div>
                 <div>
                     <figure>
-                        <img src={require('../../assets/images/slider001.jpg')} alt="이미지1" />
+                        <img src={require('../../assets/images/slider001.jpg')} alt="image" />
                         <div class="game_title">
                             <div class="image-wrapper">
-                                <img class="image" src={require('../../assets/images/logo_aika.png')} alt="로고" />
+                                <img class="image" src={require('../../assets/images/logo_aika.png')} alt="logo" />
                             </div>
                             <figcaption class="txt">
                                 <em class="p">Unleash Your Power in Aika Online Global</em>
