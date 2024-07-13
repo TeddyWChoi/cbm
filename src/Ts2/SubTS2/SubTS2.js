@@ -25,7 +25,11 @@ export default function SubTS2() {
                                         src={require('../../assets/images/ico_fb.svg').default}
                                     />
                                     <div class="container-7">
-                                        <a href="#!" class="text-wrapper-5">
+                                        <a
+                                            href="https://www.facebook.com/12sky2.official/"
+                                            target="_blank"
+                                            class="text-wrapper-5"
+                                        >
                                             FACEBOOK
                                         </a>
                                     </div>
@@ -37,7 +41,11 @@ export default function SubTS2() {
                                         src={require('../../assets/images/ico_ds.svg').default}
                                     />
                                     <div class="container-7">
-                                        <a href="#!" class="text-wrapper-5">
+                                        <a
+                                            href="https://discord.com/invite/YHCmW3vNSy"
+                                            target="_blank"
+                                            class="text-wrapper-5"
+                                        >
                                             DISCORD
                                         </a>
                                     </div>
@@ -46,7 +54,7 @@ export default function SubTS2() {
                         </div>
                     </div>
                     <div class="button-wrapper">
-                        <button class="button-3">
+                        <a href="https://cdn1-12sky2.geniusorc.com/fullclient/GOE_TS2_Full_Client.zip" class="button-3">
                             <img
                                 alt=""
                                 class="SVG-margin-4"
@@ -55,7 +63,7 @@ export default function SubTS2() {
                             <div class="container-8">
                                 <div class="text-wrapper-6">DOWNLOAD</div>
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <div class="game-card">
                         <img alt="" class="image-shadow" src={require('../../assets/images/game_card_ts2.png')} />

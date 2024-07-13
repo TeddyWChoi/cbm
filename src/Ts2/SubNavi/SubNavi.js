@@ -28,16 +28,21 @@ export default function SubNavi(props) {
                                                 <li>
                                                     <a
                                                         href="https://goe.freshdesk.com/en/support/solutions"
-                                                        tagret="_blank"
+                                                        target="_blank"
                                                     >
                                                         FAQ
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#!">Guides</a>
+                                                    <a
+                                                        href="https://goe.freshdesk.com/en/support/discussions/forums/80000410833"
+                                                        target="_blank"
+                                                    >
+                                                        Guides
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://goe.freshdesk.com/en/support/home" tagret="_blank">
+                                                    <a href="https://goe.freshdesk.com/en/support/home" target="_blank">
                                                         Contact us
                                                     </a>
                                                 </li>
@@ -106,16 +111,21 @@ export default function SubNavi(props) {
                                                 <li>
                                                     <a
                                                         href="https://goe.freshdesk.com/en/support/solutions"
-                                                        tagret="_blank"
+                                                        target="_blank"
                                                     >
                                                         FAQ
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#!">Guides</a>
+                                                    <a
+                                                        href="https://goe.freshdesk.com/en/support/discussions/forums/80000410833"
+                                                        target="_blank"
+                                                    >
+                                                        Guides
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://goe.freshdesk.com/en/support/home" tagret="_blank">
+                                                    <a href="https://goe.freshdesk.com/en/support/home" target="_blank">
                                                         Contact us
                                                     </a>
                                                 </li>
