@@ -24,19 +24,13 @@ export default function Navi() {
                                         <ul>
                                             <li>
                                                 <a href="/ts2">
-                                                    <img
-                                                        alt=""
-                                                        src={require('../../assets/images/nav_ico1.png').default}
-                                                    />
+                                                    <img alt="" src={require('../../assets/images/nav_ico1.png')} />
                                                     Twelve Sky 2
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/aika">
-                                                    <img
-                                                        alt=""
-                                                        src={require('../../assets/images/nav_ico2.png').default}
-                                                    />
+                                                    <img alt="" src={require('../../assets/images/nav_ico2.png')} />
                                                     Aika Online Global
                                                 </a>
                                             </li>
