@@ -35,8 +35,10 @@ import CoinPurchaseHistory from './Ts2/CoinPurchaseHistory/CoinPurchaseHistory.j
 import Block from './components/Block/Block.js';
 import Error from './components/Error/Error.js';
 import Redirect from './components/Redirect/Redirect.js';
+import Calendar from './Ts2/Calendar/Calendar.js';
 
 function App() {
+    const is_login = false; //로그인 로그아웃 변경
     return (
         <Routes>
             <Route
@@ -78,7 +80,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTS2 />
                             <SubMenu menu={'news'} />
                             <News />
@@ -92,7 +94,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubMenu menu={'news'} />
                             <View />
                             <SubFooter />
@@ -105,10 +107,24 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTS2 />
                             <SubMenu menu={'feature'} />
                             <Feature />
+                            <SubFooter />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/ts2/calendar"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi is_login={is_login} />
+                            <SubTS2 />
+                            <SubMenu menu={'calendar'} />
+                            <Calendar />
                             <SubFooter />
                         </div>
                     </div>
@@ -119,7 +135,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
@@ -136,7 +152,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop
                                 heading={'E-PİN İLE G-PARA YÜKLEME'}
                                 subtitle={'Hesabınıza G-Para yükleyerek oyun içerisinde kullanabilirsiniz.'}
@@ -153,7 +169,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
@@ -174,7 +190,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
@@ -197,7 +213,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <Purchase
                                 messageTitle={'Password Changed!'}
@@ -215,7 +231,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <Purchase
                                 messageTitle={'Sign up Completed!'}
@@ -235,7 +251,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <Signup linkTxt={'Create Account'} linkUrl={'./'} />
                             <SubFooter />
@@ -248,7 +264,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign in'} subtitle={''} />
                             <Signin linkTxt={'Sign in'} linkUrl={'./'} />
                             <SubFooter />
@@ -261,7 +277,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <Vaildcode linkTxt={'Valid Code'} linkUrl={'./'} />
                             <SubFooter />
@@ -274,7 +290,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign in'} subtitle={''} />
                             <Find linkTxt={'Find Password'} linkUrl={'./'} />
                             <SubFooter />
@@ -287,7 +303,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <FindPasswordChange linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooter />
@@ -300,7 +316,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <PasswordChange linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooter />
@@ -313,7 +329,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <AccountInformation />
                             <SubFooter />
@@ -326,7 +342,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <AccountDetail />
                             <SubFooter />
@@ -339,7 +355,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <LoginHistory />
                             <SubFooter />
@@ -352,7 +368,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <IngamePurchaseHistory />
                             <SubFooter />
@@ -365,7 +381,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <CoinPurchaseHistory />
                             <SubFooter />
@@ -378,7 +394,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Block'} subtitle={''} />
                             <Block url={'https://goe.freshdesk.com/en/support/home'} />
                             <SubFooter />
@@ -391,7 +407,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi />
+                            <SubNavi is_login={is_login} />
                             <SubTop heading={'Error'} subtitle={''} />
                             <Error url={'/ts2'} />
                             <SubFooter />

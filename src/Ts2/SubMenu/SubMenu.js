@@ -33,6 +33,52 @@ export default function SubMenu(props) {
                                         System Requirements
                                     </a>
                                 </div>
+                                <div class="button-text-dark">
+                                    <a href="./calendar" class="text-wrapper-7">
+                                        Calendar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        case 'calendar':
+            return (
+                <div className="SubMenu">
+                    <div class="category">
+                        <div class="section-title">
+                            <div class="filters">
+                                <div class="button-text-dark">
+                                    <a href="./news" class="text-wrapper-7">
+                                        Announcement
+                                    </a>
+                                </div>
+                                <div class="button-text-dark">
+                                    <a href="./feature#video" class="text-wrapper-7">
+                                        Video &amp; Screenshots
+                                    </a>
+                                </div>
+                                <div class="button-text-dark">
+                                    <a href="./feature#info" class="text-wrapper-7">
+                                        Info
+                                    </a>
+                                </div>
+                                <div class="button-text-dark">
+                                    <a href="./feature#overview" class="text-wrapper-7">
+                                        Overview
+                                    </a>
+                                </div>
+                                <div class="button-text-dark">
+                                    <a href="./feature#system" class="text-wrapper-7">
+                                        System Requirements
+                                    </a>
+                                </div>
+                                <div class="active button-text-dark">
+                                    <a href="./calendar" class="text-wrapper-7">
+                                        Calendar
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,6 +113,11 @@ export default function SubMenu(props) {
                                 <div class="button-text-dark">
                                     <a href="./feature#system" class="text-wrapper-7">
                                         System Requirements
+                                    </a>
+                                </div>
+                                <div class="button-text-dark">
+                                    <a href="./calendar" class="text-wrapper-7">
+                                        Calendar
                                     </a>
                                 </div>
                             </div>
