@@ -141,7 +141,7 @@ button:hover {
 /* 반응형 */
 @media screen and (max-width: calc(768px)) {
     .button-3 {
-        padding: 20px;
+        padding: 0 40px;
     }
     .btn-black b {
         font-size: 17px;

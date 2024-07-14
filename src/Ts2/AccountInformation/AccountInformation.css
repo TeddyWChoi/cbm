@@ -92,7 +92,8 @@
     color: #787878;
 }
 .AccountInformation .frame-group {
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #e6e7e9;
