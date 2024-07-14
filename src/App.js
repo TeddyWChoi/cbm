@@ -292,7 +292,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign in'} subtitle={''} />
-                            <Find linkTxt={'Find Password'} linkUrl={'./'} />
+                            <Find linkTxt={'Find Password'} linkUrl={'#!'} />
                             <SubFooter />
                         </div>
                     </div>

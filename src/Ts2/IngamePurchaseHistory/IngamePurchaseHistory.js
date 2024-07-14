@@ -10,7 +10,7 @@ export default function IngamePurchaseHistory(props) {
             <div class="instance-parent">
                 <Balance url={'./coinshop'} button={'Buy Coin'} />
 
-                <div class="frame-parent">
+                <div class="frame-parent2">
                     <div class="cash-filter-btn-parent">
                         <div class="cash-filter-btn">
                             <button href="#!" class="div">
@@ -80,220 +80,220 @@ export default function IngamePurchaseHistory(props) {
                         <div class="tab1">
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">GAME</div>
+                                    <div class="table_div">GAME</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
+                                    <div class="table_div">Mark of Honor [15day]</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">1,320</div>
+                                    <div class="table_div">1,320</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">GAME</div>
+                                    <div class="table_div">GAME</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
+                                    <div class="table_div">Mark of Honor [15day]</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">1,320</div>
+                                    <div class="table_div">1,320</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">GAME</div>
+                                    <div class="table_div">GAME</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
+                                    <div class="table_div">Mark of Honor [15day]</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">1,320</div>
+                                    <div class="table_div">1,320</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">GAME</div>
+                                    <div class="table_div">GAME</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
+                                    <div class="table_div">Mark of Honor [15day]</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="game">1,320</div>
+                                    <div class="table_div">1,320</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">GAME</div>
+                                    <div class="table_div">GAME</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
+                                    <div class="table_div">Mark of Honor [15day]</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">1,320</div>
+                                    <div class="table_div">1,320</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Apr 8 2024 10:20PM</div>
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">GAME</div>
+                                    <div class="table_div">GAME</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">Mark of Honor [15day]</div>
+                                    <div class="table_div">Mark of Honor [15day]</div>
                                 </div>
                             </div>
                             <div class="li4">
                                 <div class="a">
-                                    <div class="game">1,320</div>
+                                    <div class="table_div">1,320</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">GAME</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Mark of Honor [15day]</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">1,320</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">GAME</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Mark of Honor [15day]</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">1,320</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">GAME</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Mark of Honor [15day]</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">1,320</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">GAME</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">Mark of Honor [15day]</div>
+                                </div>
+                            </div>
+                            <div class="li4">
+                                <div class="a">
+                                    <div class="table_div">1,320</div>
                                 </div>
                             </div>
                         </div>

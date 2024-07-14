@@ -12,7 +12,8 @@
     letter-spacing: var(--PC-paragraph0-letter-spacing);
     line-height: var(--PC-paragraph0-line-height);
     font-style: var(--PC-paragraph0-font-style);
-    width: 1024px;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,4 +405,15 @@
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
+    padding: 0 20px;
+}
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .SubTop .heading {
+        font-size: 28px;
+    }
+    .SubTop .subtitle {
+        font-size: 14px;
+        margin-top: 10px;
+    }
 }

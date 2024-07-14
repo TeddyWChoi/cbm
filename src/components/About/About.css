@@ -452,12 +452,19 @@
     letter-spacing: var(--PC-paragraph0-letter-spacing);
     line-height: var(--PC-paragraph0-line-height);
     font-style: var(--PC-paragraph0-font-style);
-    width: 1024px;
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     margin: 0 auto;
+}
+.text-container img {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 694px;
 }
 
 .main-desktop-txt {
@@ -474,4 +481,11 @@
     font-size: 8px;
     color: #f5a623;
     font-family: Manrope;
+}
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .SubTop .main-bottom,
+    .SubTop .bottom {
+        height: 150px !important;
+    }
 }

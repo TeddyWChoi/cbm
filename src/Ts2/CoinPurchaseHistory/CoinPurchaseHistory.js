@@ -9,7 +9,7 @@ export default function CoinPurchaseHistory(props) {
 
             <div class="instance-parent">
                 <Balance url={'./coinshop'} button={'Buy Coin'} />
-                <div class="frame-parent">
+                <div class="frame-parent2">
                     <div class="cash-filter-btn-parent">
                         <div class="cash-filter-btn">
                             <button href="#!" class="div">

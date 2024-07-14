@@ -45,7 +45,7 @@ export default function Coinshop() {
                         </div>
                     </div>
                     <div class="coin-box">
-                        <div class="frame-parent2">
+                        <div class="frame-container">
                             <div class="group-group">
                                 <img alt="" class="group-icon1" src={require('../../assets/images/coin.svg').default} />
                                 <b class="text">5,250</b>
@@ -67,7 +67,7 @@ export default function Coinshop() {
                         </div>
                     </div>
                     <div class="coin-box">
-                        <div class="frame-parent2">
+                        <div class="frame-container">
                             <div class="group-group">
                                 <img alt="" class="group-icon1" src={require('../../assets/images/coin.svg').default} />
                                 <b class="text">11,000</b>

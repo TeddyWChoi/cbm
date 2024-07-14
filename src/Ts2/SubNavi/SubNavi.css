@@ -262,3 +262,138 @@
     position: relative;
     flex: 0 0 auto;
 }
+
+/* 반응형 */
+@media screen and (max-width: calc(1200px)) {
+    .coinshop_m {
+        padding-left: 20px;
+        background-image: url(../../assets/images/coin.svg);
+        background-repeat: no-repeat;
+        background-position: 0 4px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .show-menu {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0px;
+        top: 80px;
+        transition: 1s;
+        z-index: 999;
+        background-color: #000000bb;
+    }
+
+    .hide-menu {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        transition: 1s;
+        z-index: 999;
+        background-color: #000000bb;
+    }
+    .navbar-home {
+        padding: 10px 20px !important;
+    }
+    .main-desktop .container {
+        width: auto !important;
+    }
+    .logo {
+        margin-left: 60px;
+    }
+
+    .game {
+        position: relative;
+        letter-spacing: -0.02em;
+        line-height: 140%;
+        color: #fff;
+        font-size: 20px;
+    }
+    .game-wrapper {
+        align-self: stretch;
+        width: 130px;
+        background-color: #333;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 30px;
+        box-sizing: border-box;
+    }
+
+    .frame-child {
+        align-self: stretch;
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+    }
+    .image-34-icon {
+        width: 15px;
+        position: relative;
+        border-radius: 3px;
+        height: 15px;
+        object-fit: cover;
+    }
+
+    .mobile_menu {
+        align-self: stretch;
+        height: 24px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 30px 30px;
+        box-sizing: border-box;
+        gap: 5px;
+        color: #f8f8f8;
+        border-bottom: 1px solid #333;
+        background-color: #000;
+    }
+    .mobile_menu a {
+        font-size: 18px;
+        color: #ddd;
+    }
+    .mobile_menu img {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    .frame-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* padding: 15px 0px 15px; */
+        /* gap: 15px; */
+        font-size: 16px;
+    }
+    .SubNavi .frame-group {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-top: 1px solid #787878;
+    }
+    .navi-mobile {
+        width: 100%;
+        position: relative;
+        border-top: 1px solid #787878;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: center;
+        font-size: 17px;
+        color: #fff;
+        font-family: Manrope;
+    }
+    .container {
+        width: auto !important;
+    }
+}

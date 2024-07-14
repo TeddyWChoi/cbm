@@ -6,6 +6,7 @@
 .Block .reason-payment {
     position: relative;
     line-height: 130%;
+    text-align: center;
 }
 .Block .reason-payment1 {
     align-self: stretch;
@@ -51,4 +52,18 @@
     font-size: 44px;
     color: #fff;
     font-family: Manrope;
+}
+@media screen and (max-width: calc(500px)) {
+    .Block .reason-payment {
+        font-size: 28px;
+    }
+    .Block .button-2 .reason-payment {
+        font-size: 17px;
+    }
+    .Block .frame-parent {
+        padding: 50px 0px;
+    }
+    .Block .reason-payment1 {
+        margin: 0 20px;
+    }
 }

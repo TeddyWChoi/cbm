@@ -283,6 +283,7 @@
 
 .slider figure {
     position: relative;
+    overflow: hidden;
 }
 .slider figcaption {
     position: absolute;
@@ -388,6 +389,7 @@
     width: 163px;
     height: 44px;
     object-fit: cover;
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .main-desktop .txt {
@@ -436,4 +438,59 @@
     line-height: var(--PC-subtitle2-line-height);
     white-space: nowrap;
     font-style: var(--PC-subtitle2-font-style);
+}
+
+/* 반응형 */
+@media screen and (max-width: calc(1400px)) {
+    figure > img {
+        margin-left: -15%;
+    }
+}
+@media screen and (max-width: calc(1200px)) {
+    figure > img {
+        margin-left: -30%;
+    }
+}
+@media screen and (max-width: calc(768px)) {
+    .main-desktop .txt {
+        width: 100% !important;
+        padding: 0 20px;
+    }
+    .main-desktop .txt em {
+        font-size: 24px;
+        text-align: center;
+    }
+    .main-desktop .txt span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .game_title {
+        text-align: center;
+        left: 0 !important;
+        width: 100%;
+        top: 50% !important;
+    }
+    figure {
+        height: 540px;
+        width: 100%;
+    }
+    figure > img {
+        width: 150%;
+        margin-left: -40%;
+    }
+}
+/* @media screen and (max-width: calc(768px)) {
+    figure > img {
+        width: 120%;
+        margin-left: -23%;
+    }
+} */
+
+@media screen and (max-width: calc(550px)) {
+    .game_title {
+        top: 35% !important;
+    }
+    figure {
+        height: 480px;
+    }
 }

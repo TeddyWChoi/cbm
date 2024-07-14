@@ -2,7 +2,8 @@
     display: flex;
     gap: 25px;
     margin: 30px 0 50px 0;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .LoginHistory .div {
@@ -47,7 +48,7 @@
     margin: 0 !important;
     position: absolute;
     top: 11.4px;
-    left: 120.5px;
+    left: 110px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -57,7 +58,7 @@
     z-index: 1;
 }
 .LoginHistory .select {
-    width: 140px;
+    width: 130px;
     background-color: #fff;
     border: 1px solid #ddd;
     box-sizing: border-box;
@@ -127,7 +128,8 @@
     color: #787878;
 }
 .LoginHistory .frame-parent {
-    width: 792px;
+    width: 100%;
+    max-width: 792px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -192,7 +194,8 @@
     max-width: 1200px;
 }
 .LoginHistory .tab-parent {
-    width: 790px;
+    width: 100%;
+    max-width: 790px;
     border-top: 5px solid #2a3eef;
     box-sizing: border-box;
     display: flex;
@@ -263,6 +266,7 @@
     gap: 30px;
     font-size: 14px;
     color: #787878;
+    width: 100%;
 }
 .LoginHistory .instance-parent {
     position: relative;
@@ -277,4 +281,25 @@
     color: #fff;
     font-family: Manrope;
     padding: 0;
+}
+@media screen and (max-width: calc(1200px)) {
+    .LoginHistory {
+        flex-direction: column;
+        align-items: center;
+    }
+    .LoginHistory .frame-parent {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 20px;
+
+        width: auto;
+    }
+    .LoginHistory .frame-container {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: calc(500px)) {
+    .LoginHistory .frame-group {
+        flex-direction: column;
+    }
 }

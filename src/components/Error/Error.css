@@ -52,3 +52,17 @@
     color: #fff;
     font-family: Manrope;
 }
+@media screen and (max-width: calc(500px)) {
+    .Error .reason-payment {
+        font-size: 28px;
+    }
+    .Error .button-2 .reason-payment {
+        font-size: 17px;
+    }
+    .Error .frame-parent {
+        padding: 50px 0px;
+    }
+    .Error .reason-payment1 {
+        margin: 0 20px;
+    }
+}

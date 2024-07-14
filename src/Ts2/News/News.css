@@ -294,3 +294,16 @@
 .filter_box li a {
     color: #eee;
 }
+/* 반응형 */
+@media screen and (max-width: calc(1200px)) {
+    .facebook-login-reply {
+        font-size: 17px !important;
+    }
+    .News {
+        width: 100%;
+        /* max-width: 1200px; */
+    }
+    .sub-desktop .container-9 {
+        margin-top: 40px;
+    }
+}

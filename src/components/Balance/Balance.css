@@ -72,3 +72,9 @@
     color: #f8f8f8;
     font-family: Manrope;
 }
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .Balance .instance-parent {
+        padding-top: 0;
+    }
+}

@@ -259,3 +259,10 @@ a {
     letter-spacing: 40px;
     line-height: normal;
 }
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .container-5 img {
+        width: 100px;
+        height: auto;
+    }
+}

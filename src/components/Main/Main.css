@@ -473,3 +473,39 @@
     line-height: var(--PC-paragraph0-line-height);
     font-style: var(--PC-paragraph0-font-style);
 }
+@media screen and (max-width: calc(1024px)) {
+    .main-desktop .category {
+        padding: 20px 0px !important;
+    }
+    .main-desktop ul.filters li a {
+        font-size: 16px !important;
+    }
+    .main-desktop .filters {
+        gap: 20px !important;
+    }
+    .main-desktop .main-card {
+        flex-direction: column;
+    }
+    .main-desktop .card1,
+    .main-desktop .card2,
+    .main-desktop .card3 {
+        width: 100% !important;
+        padding: 0px 20px;
+    }
+    .bottom_left,
+    .bottom_right {
+        display: none;
+    }
+    .main-desktop .main-card {
+        margin-bottom: 20px !important;
+    }
+    .main-desktop .heading {
+        font-size: 28px;
+    }
+    .main-desktop .paragraph {
+        font-size: 16px;
+    }
+    .main-desktop .text {
+        font-size: 16px !important;
+    }
+}

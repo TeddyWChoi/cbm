@@ -1,7 +1,8 @@
 .Kopazar .kp-logo-dark-icon {
-    width: 430px;
+    max-width: 430px;
+    width: 100%;
     position: relative;
-    height: 120px;
+    height: auto;
     object-fit: cover;
 }
 .Kopazar .epin-satn-almak {
@@ -9,7 +10,8 @@
     line-height: 130%;
 }
 .Kopazar .wwwkopazarcomkarahan-online {
-    width: 331px;
+    width: 100%;
+    max-width: 331px;
     position: relative;
     line-height: 130%;
     display: inline-block;
@@ -160,7 +162,8 @@
     color: #333;
 }
 .Kopazar .epin-ykleme-ve-container {
-    width: 472px;
+    max-width: 472px;
+    width: 100%;
     position: relative;
     font-size: 16px;
     line-height: 148%;
@@ -237,4 +240,24 @@
     justify-content: center;
     padding: 25px 16px 7px 16px;
     font-size: 16px;
+}
+/* 반응형 */
+@media screen and (max-width: calc(1200px)) {
+    .Kopazar {
+        margin-bottom: 50px;
+        padding: 0 20px;
+        margin: 30px 0 50px 0;
+    }
+    .Kopazar .frame-parent {
+        flex-direction: column;
+        height: auto;
+    }
+    .Kopazar .frame-group,
+    .Kopazar .frame-container {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .instance-parent {
+        padding: 0;
+    }
 }
