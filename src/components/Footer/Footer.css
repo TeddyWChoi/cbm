@@ -40,9 +40,9 @@
     flex: 0 0 auto;
 }
 
-.footer-inner {
+.Footer .footer-inner {
     flex-direction: column;
-    min-height: 148px;
+    /* min-height: 148px; */
     align-items: flex-start;
     align-self: stretch;
     width: 100%;
