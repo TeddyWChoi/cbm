@@ -23,20 +23,17 @@ export default function SubNavi(props) {
 
                         <ul class="frame-container">
                             <li class="mobile_menu">
-                                <a href="https://goe.freshdesk.com/en/support/solutions" target="_blank">
+                                <a href="https://aikaonlineglobal-help.freshdesk.com/support/solutions" target="_blank">
                                     FAQ
                                 </a>
                             </li>
                             <li class="mobile_menu">
-                                <a
-                                    href="https://goe.freshdesk.com/en/support/discussions/forums/80000410833"
-                                    target="_blank"
-                                >
+                                <a href="https://aikaonlinena.fandom.com/wiki/AikaOnlineNA_Wiki" target="_blank">
                                     Guides
                                 </a>
                             </li>
                             <li class="mobile_menu">
-                                <a href="https://goe.freshdesk.com/en/support/home" target="_blank">
+                                <a href="https://aikaonlineglobal-help.freshdesk.com/support/home" target="_blank">
                                     Contact us
                                 </a>
                             </li>
@@ -49,12 +46,7 @@ export default function SubNavi(props) {
 
                         <ul class="frame-container">
                             <li class="mobile_menu">
-                                <a
-                                    href="https://goe.freshdesk.com/en/support/solutions/articles/80001025398-game-operations-policy"
-                                    target="_blank"
-                                >
-                                    Game Policy
-                                </a>
+                                <a href="#!">Game Policy</a>
                             </li>
                             <li class="mobile_menu">
                                 <a class="coinshop_m" href="./coinshop">
@@ -76,8 +68,8 @@ export default function SubNavi(props) {
                             <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} />
                         </button>
                         <div class="logo">
-                            <a href="/ts2">
-                                <img alt="" src={require('../../assets/images/logo_ts2.png')} />
+                            <a href="/aika">
+                                <img alt="" src={require('../../assets/images/logo_aika.png')} />
                             </a>
                         </div>
                         <div class="link-margin">
@@ -92,7 +84,7 @@ export default function SubNavi(props) {
                                             <ul>
                                                 <li>
                                                     <a
-                                                        href="https://goe.freshdesk.com/en/support/solutions"
+                                                        href="https://aikaonlineglobal-help.freshdesk.com/support/solutions"
                                                         target="_blank"
                                                     >
                                                         FAQ
@@ -100,26 +92,24 @@ export default function SubNavi(props) {
                                                 </li>
                                                 <li>
                                                     <a
-                                                        href="https://goe.freshdesk.com/en/support/discussions/forums/80000410833"
+                                                        href="https://aikaonlinena.fandom.com/wiki/AikaOnlineNA_Wiki"
                                                         target="_blank"
                                                     >
                                                         Guides
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://goe.freshdesk.com/en/support/home" target="_blank">
+                                                    <a
+                                                        href="https://aikaonlineglobal-help.freshdesk.com/support/home"
+                                                        target="_blank"
+                                                    >
                                                         Contact us
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="">
-                                            <a
-                                                href="https://goe.freshdesk.com/en/support/solutions/articles/80001025398-game-operations-policy"
-                                                target="_blank"
-                                            >
-                                                Game Policy
-                                            </a>
+                                            <a href="#!">GAME POLICY</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -127,8 +117,8 @@ export default function SubNavi(props) {
                         </div>
                     </div>
                     <div class="logo_m">
-                        <a href="/ts2">
-                            <img alt="" src={require('../../assets/images/logo_ts2.png')} />
+                        <a href="/aika">
+                            <img alt="" src={require('../../assets/images/logo_aika.png')} />
                         </a>
                     </div>
                     <div class="container">
@@ -141,7 +131,7 @@ export default function SubNavi(props) {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/ts2">SIGN OUT</a>
+                                        <a href="/aika">SIGN OUT</a>
                                     </li>
                                     <li>
                                         <a href="./accountinformation">MY PAGE</a>
@@ -175,20 +165,17 @@ export default function SubNavi(props) {
 
                         <ul class="frame-container">
                             <li class="mobile_menu">
-                                <a href="https://goe.freshdesk.com/en/support/solutions" target="_blank">
+                                <a href="https://aikaonlineglobal-help.freshdesk.com/support/solutions" target="_blank">
                                     FAQ
                                 </a>
                             </li>
                             <li class="mobile_menu">
-                                <a
-                                    href="https://goe.freshdesk.com/en/support/discussions/forums/80000410833"
-                                    target="_blank"
-                                >
+                                <a href="https://aikaonlinena.fandom.com/wiki/AikaOnlineNA_Wiki" target="_blank">
                                     Guides
                                 </a>
                             </li>
                             <li class="mobile_menu">
-                                <a href="https://goe.freshdesk.com/en/support/home" target="_blank">
+                                <a href="https://aikaonlineglobal-help.freshdesk.com/support/home" target="_blank">
                                     Contact us
                                 </a>
                             </li>
@@ -201,12 +188,7 @@ export default function SubNavi(props) {
 
                         <ul class="frame-container">
                             <li class="mobile_menu">
-                                <a
-                                    href="https://goe.freshdesk.com/en/support/solutions/articles/80001025398-game-operations-policy"
-                                    target="_blank"
-                                >
-                                    Game Policy
-                                </a>
+                                <a href="#!">Game Policy</a>
                             </li>
                             <li class="mobile_menu">
                                 <a class="coinshop_m" href="./coinshop">
@@ -228,8 +210,8 @@ export default function SubNavi(props) {
                             <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} />
                         </button>
                         <div class="logo">
-                            <a href="/ts2">
-                                <img alt="" src={require('../../assets/images/logo_ts2.png')} />
+                            <a href="/aika">
+                                <img alt="" src={require('../../assets/images/logo_aika.png')} />
                             </a>
                         </div>
                         <div class="link-margin">
@@ -244,7 +226,7 @@ export default function SubNavi(props) {
                                             <ul>
                                                 <li>
                                                     <a
-                                                        href="https://goe.freshdesk.com/en/support/solutions"
+                                                        href="https://aikaonlineglobal-help.freshdesk.com/support/solutions"
                                                         target="_blank"
                                                     >
                                                         FAQ
@@ -252,26 +234,24 @@ export default function SubNavi(props) {
                                                 </li>
                                                 <li>
                                                     <a
-                                                        href="https://goe.freshdesk.com/en/support/discussions/forums/80000410833"
+                                                        href="https://aikaonlinena.fandom.com/wiki/AikaOnlineNA_Wiki"
                                                         target="_blank"
                                                     >
                                                         Guides
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://goe.freshdesk.com/en/support/home" target="_blank">
+                                                    <a
+                                                        href="https://aikaonlineglobal-help.freshdesk.com/support/home"
+                                                        target="_blank"
+                                                    >
                                                         Contact us
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="">
-                                            <a
-                                                href="https://goe.freshdesk.com/en/support/solutions/articles/80001025398-game-operations-policy"
-                                                target="_blank"
-                                            >
-                                                Game Policy
-                                            </a>
+                                            <a href="#!">GAME POLICY</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -279,8 +259,8 @@ export default function SubNavi(props) {
                         </div>
                     </div>
                     <div class="logo_m">
-                        <a href="/ts2">
-                            <img alt="" src={require('../../assets/images/logo_ts2.png')} />
+                        <a href="/aika">
+                            <img alt="" src={require('../../assets/images/logo_aika.png')} />
                         </a>
                     </div>
                     <div class="container">
