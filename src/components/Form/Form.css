@@ -1,8 +1,7 @@
-.Find {
+.Form {
     width: 100%;
-    max-width: 1200px;
 }
-.Find .logo-ts2-icon {
+.Form .logo-ts2-icon {
     width: 259px;
     position: relative;
     height: 84px;
@@ -10,7 +9,7 @@
     flex-shrink: 0;
     object-fit: cover;
 }
-.Find .logo {
+.Form .logo {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -18,30 +17,38 @@
     padding: 0px 0px 20px;
     height: 100px;
 }
-.Find .form_title {
+.Form .form_title {
     position: absolute;
     line-height: 140%;
     font-weight: 300;
     text-align: left;
-    /* width: 100%; */
     top: 8px;
     left: 17px;
 }
 .form_input {
+    width: 100%;
     position: relative;
 }
-
-.Find .frame1 {
+.Form .johndoeexamplecom {
+    /* width: 330px; */
+    flex: 1;
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.Form .frame1 {
     align-self: stretch;
-    height: 48Signup 0.2px;
+    /* height: 480px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.Find .input {
+.Form .input {
     width: 100%;
-    max-width: 361px;
     background-color: #fff;
     border: 1px solid #dddddd;
     box-sizing: border-box;
@@ -55,28 +62,24 @@
     padding: 25px 16px 7px 16px;
     font-size: 16px;
 }
-.Find .only-lowercase-letters-are-all {
+.Form .only-lowercase-letters-are-all {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
     padding-left: 19px;
 }
-.Find .only-lowercase-letters-are-all li {
-    list-style-type: disc;
-}
-
-.Find .johndoeexamplecom1 {
+.Form .johndoeexamplecom1 {
     align-self: stretch;
     position: relative;
     line-height: 140%;
 }
-.Find .johndoeexamplecom2 {
+.Form .johndoeexamplecom2 {
     align-self: stretch;
     position: relative;
     line-height: 140%;
     color: #ff3300;
 }
-.Find .johndoeexamplecom-parent {
+.Form .johndoeexamplecom-parent {
     align-self: stretch;
     display: flex;
     flex-direction: column;
@@ -85,22 +88,22 @@
     font-size: 14px;
     color: #333;
 }
-.Find .frame3 {
-    height: 47Signup 0.2px;
+.Form .frame3 {
+    height: 47Form 0.2px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 2px;
 }
-.Find .frame2 {
+.Form .frame2 {
     align-self: stretch;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.Find .inputname-copy-4 {
+.Form .inputname-copy-4 {
     width: 361px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -114,24 +117,24 @@
     justify-content: center;
     padding: 9px 17px;
 }
-.Find .johndoeexamplecom3 {
+.Form .johndoeexamplecom3 {
     align-self: stretch;
     position: relative;
     font-size: 14px;
     line-height: 140%;
     color: #333;
 }
-.Find .include-8-16-capital {
+.Form .include-8-16-capital {
     margin-bottom: 0px;
 }
-.Find .johndoeexamplecom5 {
+.Form .johndoeexamplecom5 {
     align-self: stretch;
     position: relative;
     font-size: 14px;
     line-height: 140%;
     color: #ff3300;
 }
-.Find .frame {
+.Form .frame {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,7 +142,7 @@
     gap: 10px;
     text-align: left;
 }
-.Find .inputallcheck {
+.Form .inputallcheck {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -147,49 +150,50 @@
     right: 0%;
     bottom: 0%;
     left: 0%;
-    border-radius: 2Signup 0.5px;
+    border-radius: 2Form 0.5px;
     background-color: #fff;
     border: 1px solid #787878;
     box-sizing: border-box;
 }
-.Find .check-box {
+.Form .check-box {
     width: 13px;
     position: relative;
     height: 13px;
 }
-.Find .i-agree-to {
+.Form .i-agree-to {
     position: relative;
     line-height: 140%;
+    text-align: left;
 }
-.Find .raphaelnewwindow-icon {
+.Form .raphaelnewwindow-icon {
     width: 18px;
     position: relative;
     height: 18px;
     overflow: hidden;
     flex-shrink: 0;
 }
-.Find .pregister2-check {
+.Form .pregister2-check {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
-.Find .pregister2-check1 {
+.Form .pregister2-check1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     color: #333;
 }
-.Find .pregister2-check-parent {
+.Form .pregister2-check-parent {
     align-self: stretch;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
-.Find .frame-group {
+.Form .frame-group {
     align-self: stretch;
     display: flex;
     flex-direction: column;
@@ -198,30 +202,30 @@
     gap: 10px;
     font-size: 14px;
 }
-.Find .image-30-icon {
+.Form .image-30-icon {
     width: 303px;
     position: relative;
     height: 77px;
     object-fit: cover;
 }
-.Find .proceed {
+.Form .proceed {
     position: relative;
     line-height: 130%;
 }
 
-.Find .frame-parent {
+.Form .frame-parent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
-    max-width: 360px;
     width: 100%;
+    max-width: 360px;
 }
-.Find .logo-parent {
+.Form .logo-parent {
     width: 100%;
     max-width: 587px;
-    box-shadow: 0px 82px 40px -14px rgba(100, 100, 100, 0Signup 0.08);
+    box-shadow: 0px 82px 40px -14px rgba(100, 100, 100, 0Form 0.08);
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #e0e0e0;
@@ -234,7 +238,7 @@
     justify-content: flex-start;
     padding: 30px 20px;
 }
-.Find .instance-parent {
+.Form .instance-parent {
     width: 100%;
     position: relative;
     display: flex;
@@ -249,12 +253,12 @@
     font-family: Manrope;
 }
 
-.Find .terms {
+.Form .terms {
     position: relative;
     line-height: 140%;
     font-weight: 300;
 }
-.Find .terms-parent {
+.Form .terms-parent {
     position: relative;
     width: 100%;
     display: flex;
@@ -268,11 +272,27 @@
     font-family: Manrope;
     margin-top: 20px;
 }
-.Find .terms a:hover {
+.Form .terms a:hover {
     color: #333;
 }
-@media screen and (max-width: calc(1200px)) {
-    .Find .logo {
+
+.Form .vaildtxt {
+    align-self: center;
+    line-height: 148%;
+    position: relative;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+@media screen and (max-width: calc(768px)) {
+    .form_input {
+        width: 100%;
+        margin: 0 20px;
+    }
+    .Form .logo {
         margin-left: 0px;
     }
 }

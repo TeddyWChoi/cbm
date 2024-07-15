@@ -31,7 +31,7 @@
     align-self: stretch;
     position: relative;
     line-height: 140%;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 .johndoeexamplecom-container {
     width: 380px;

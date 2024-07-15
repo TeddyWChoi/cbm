@@ -1,55 +1,9 @@
-import AccountLnb from '../../components/AccountLnb/AccountLnb.js';
-import './LoginHistory.css';
+import './Table.css';
 
-export default function LoginHistory(props) {
+export default function Table(props) {
     return (
-        <div className="LoginHistory">
-            <AccountLnb account={'account3'} />
-
-            <div class="instance-parent">
-                <div class="frame-parent">
-                    <div class="cash-filter-btn-parent">
-                        <div class="cash-filter-btn">
-                            <button href="#!" class="div">
-                                1 Week
-                            </button>
-                        </div>
-                        <div class="cash-filter-btn">
-                            <button class="div">1 Month</button>
-                        </div>
-                        <div class="cash-filter-btn">
-                            <button class="div">6 Months</button>
-                        </div>
-                    </div>
-                    <div class="frame-group">
-                        <div class="cash-filter-btn-parent">
-                            <div class="divtd-cont">
-                                <input class="select" type="text" value="2024-02-22"></input>
-                                <a href="#!" class="carboncalendar">
-                                    <img
-                                        alt=""
-                                        class="vector-icon"
-                                        src={require('../../assets/images/ico_calendar.svg').default}
-                                    />
-                                </a>
-                            </div>
-                            <b class="b">~</b>
-                            <div class="divtd-cont">
-                                <input class="select" type="text" value="2024-03-22"></input>
-                                <a href="#!" class="carboncalendar">
-                                    <img
-                                        alt=""
-                                        class="vector-icon"
-                                        src={require('../../assets/images/ico_calendar.svg').default}
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="cash-filter-btn3">
-                            <button class="div">Search</button>
-                        </div>
-                    </div>
-                </div>
+        <div className="Table">
+            <div class="Table_div">
                 <div class="frame-container">
                     <div class="tab-parent">
                         <div class="tab">

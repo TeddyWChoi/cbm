@@ -93,7 +93,7 @@
 }
 .AccountInformation .frame-group {
     width: 100%;
-    max-width: 380px;
+
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #e6e7e9;
@@ -145,9 +145,10 @@
 .AccountInformation .frame-parent {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     gap: 10px;
+    width: 100%;
 }
 .AccountInformation .b {
     width: 311.6px;
@@ -353,7 +354,7 @@
     color: #fff;
 }
 .AccountInformation .frame-parent4 {
-    width: 380px;
+    width: 100%;
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #e6e7e9;
@@ -390,5 +391,19 @@
     .AccountInformation .component-4 {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: calc(1200px)) {
+    .AccountInformation .component-4 {
+        padding: 0 20px;
+    }
+    .AccountInformation .frame-group,
+    .AccountInformation .frame-parent4,
+    .AccountLnb .account-sidebar {
+        max-width: 360px;
+    }
+    .AccountInformation .frame-parent9 {
+        width: 320px;
     }
 }

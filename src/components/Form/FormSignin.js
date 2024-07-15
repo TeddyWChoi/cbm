@@ -1,13 +1,15 @@
-import './Signin.css';
+import './Form.css';
 
-export default function Signin(props) {
+export default function Form(props) {
     return (
-        <div className="Signin">
+        <div className="Form">
             <div class="instance-parent">
                 <div class="logo-parent">
-                    <div class="logo">
+                    {props.logo === 'ts2' ? (
                         <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
-                    </div>
+                    ) : (
+                        <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_aika.png')} />
+                    )}
                     <div class="frame-parent">
                         <div class="frame">
                             <div class="form_input">

@@ -1,15 +1,10 @@
-import AccountLnb from '../../components/AccountLnb/AccountLnb.js';
-import Balance from '../../components/Balance/Balance.js';
-import './CoinPurchaseHistory.css';
+import './HistoryFilter.css';
 
-export default function CoinPurchaseHistory(props) {
+export default function HistoryFilter(props) {
     return (
-        <div className="CoinPurchaseHistory">
-            <AccountLnb account={'account5'} />
-
-            <div class="instance-parent">
-                <Balance url={'./coinshop'} button={'Buy Coin'} />
-                <div class="frame-parent2">
+        <div className="HistoryFilter">
+            <div class="HistoryFilter_div">
+                <div class="frame-parent">
                     <div class="cash-filter-btn-parent">
                         <div class="cash-filter-btn">
                             <button href="#!" class="div">
@@ -23,7 +18,7 @@ export default function CoinPurchaseHistory(props) {
                             <button class="div">6 Months</button>
                         </div>
                     </div>
-                    <div class="frame-group2">
+                    <div class="frame-group">
                         <div class="cash-filter-btn-parent">
                             <div class="divtd-cont">
                                 <input class="select" type="text" value="2024-02-22"></input>
@@ -52,252 +47,196 @@ export default function CoinPurchaseHistory(props) {
                         </div>
                     </div>
                 </div>
-                <div class="frame-container">
+                {/* <div class="frame-container">
                     <div class="tab-parent">
                         <div class="tab">
                             <div class="li">
                                 <div class="a">
-                                    <b class="date">Date</b>
+                                    <b class="connection">Connection</b>
                                 </div>
                             </div>
                             <div class="li">
                                 <div class="a">
-                                    <b class="date">Coin</b>
+                                    <b class="connection">Access Type</b>
                                 </div>
                             </div>
                             <div class="li">
                                 <div class="a">
-                                    <b class="date">TID</b>
-                                </div>
-                            </div>
-                            <div class="li">
-                                <div class="a">
-                                    <b class="date">Status</b>
+                                    <b class="connection">Date</b>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>May 15 2024 10:37PM</div>
+                                    <div class="south-korea">South Korea</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>-210</div>
+                                    <div class="south-korea">WEB</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div>Confirmed</div>
+                                    <div class="south-korea">Jun 9 2024 5:50AM</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="paging">
                         <a href="#!" class="object">
                             <img alt="" class="icon-arrows" src={require('../../assets/images/ico_left.svg').default} />
@@ -364,7 +303,7 @@ export default function CoinPurchaseHistory(props) {
                             />
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

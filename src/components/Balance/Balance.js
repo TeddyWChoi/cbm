@@ -3,7 +3,7 @@ import './Balance.css';
 export default function Balance(props) {
     return (
         <div className="Balance">
-            <div class="instance-parent">
+            <div class="Balance_div">
                 <div class="frame-wrapper">
                     <div class="frame-parent">
                         <div class="group-parent">

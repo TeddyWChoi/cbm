@@ -1,12 +1,16 @@
-import './FindPasswordChange.css';
+import './Form.css';
 
-export default function FindPasswordChange(props) {
+export default function Form(props) {
     return (
-        <div className="FindPasswordChange">
+        <div className="Form">
             <div class="instance-parent">
                 <div class="logo-parent">
                     <div class="logo">
-                        <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
+                        {props.logo === 'ts2' ? (
+                            <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
+                        ) : (
+                            <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_aika.png')} />
+                        )}
                     </div>
                     <div class="frame-parent">
                         <div class="frame">

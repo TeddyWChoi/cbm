@@ -40,7 +40,7 @@ export default function AccountInformation(props) {
                         </div>
                     </div>
                     <div class="frame-group">
-                        <div class="frame-parent2">
+                        <div class="frame-container">
                             <div class="hugeiconsuser-account-group">
                                 <img
                                     alt=""
@@ -83,7 +83,7 @@ export default function AccountInformation(props) {
                 </div>
                 <div class="frame-parent4">
                     <div class="frame-parent5">
-                        <div class="frame-parent2">
+                        <div class="frame-container">
                             <div class="hugeiconsuser-account-group">
                                 <img
                                     alt=""

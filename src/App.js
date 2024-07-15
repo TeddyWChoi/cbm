@@ -20,25 +20,29 @@ import View from './Ts2/View/View.js';
 import SubFooter from './Ts2/SubFooter/SubFooter.js';
 import Coinshop from './Ts2/Coinshop/Coinshop.js';
 import Purchase from './Ts2/Purchase/Purchase.js';
-import Signup from './Ts2/Signup/Signup.js';
-import Signin from './Ts2/Signin/Signin.js';
-import Vaildcode from './Ts2/Vaildcode/Vaildcode.js';
-import Find from './Ts2/Find/Find.js';
-import FindPasswordChange from './Ts2/FindPasswordChange/FindPasswordChange.js';
-import PasswordChange from './Ts2/PasswordChange/PasswordChange.js';
+
 import Kopazar from './Ts2/Kopazar/Kopazar.js';
 import AccountInformation from './Ts2/AccountInformation/AccountInformation.js';
 import AccountDetail from './Ts2/AccountDetail/AccountDetail.js';
-import LoginHistory from './Ts2/LoginHistory/LoginHistory.js';
-import IngamePurchaseHistory from './Ts2/IngamePurchaseHistory/IngamePurchaseHistory.js';
-import CoinPurchaseHistory from './Ts2/CoinPurchaseHistory/CoinPurchaseHistory.js';
+
 import Block from './components/Block/Block.js';
 import Error from './components/Error/Error.js';
 import Redirect from './components/Redirect/Redirect.js';
 import Calendar from './Ts2/Calendar/Calendar.js';
+import HistoryFilter from './components/HistoryFilter/HistoryFilter.js';
+import AccountLnb from './components/AccountLnb/AccountLnb.js';
+import Table1 from './components/Table/Table1.js';
+import Table2 from './components/Table/Table2.js';
+import Table3 from './components/Table/Table3.js';
+import FormSignup from './components/Form/FormSignup.js';
+import FormSignin from './components/Form/FormSignin.js';
+import FormFind from './components/Form/FormFind.js';
+import FormFindPasswordChange from './components/Form/FormFindPasswordChange.js';
+import FormPasswordChange from './components/Form/FormPasswordChange.js';
+import FormVaildcode from './components/Form/FormVaildcode.js';
 
 function App() {
-    const is_login = false; //로그인 로그아웃 변경
+    const is_login = true; //로그인 로그아웃 변경
     return (
         <Routes>
             <Route
@@ -253,7 +257,9 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
-                            <Signup linkTxt={'Create Account'} linkUrl={'./'} />
+
+                            <FormSignup logo={'ts2'} linkTxt={'Create Account'} linkUrl={'./'} />
+
                             <SubFooter />
                         </div>
                     </div>
@@ -266,7 +272,8 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign in'} subtitle={''} />
-                            <Signin linkTxt={'Sign in'} linkUrl={'./'} />
+                            <FormSignin logo={'ts2'} linkTxt={'Sign in'} linkUrl={'./'} />
+
                             <SubFooter />
                         </div>
                     </div>
@@ -279,7 +286,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
-                            <Vaildcode linkTxt={'Valid Code'} linkUrl={'./'} />
+                            <FormVaildcode logo={'ts2'} linkTxt={'Valid Code'} linkUrl={'./'} />
                             <SubFooter />
                         </div>
                     </div>
@@ -292,7 +299,8 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign in'} subtitle={''} />
-                            <Find linkTxt={'Find Password'} linkUrl={'#!'} />
+                            <FormFind logo={'ts2'} linkTxt={'Find Password'} linkUrl={'#!'} />
+
                             <SubFooter />
                         </div>
                     </div>
@@ -305,7 +313,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
-                            <FindPasswordChange linkTxt={'Update Password'} linkUrl={'./'} />
+                            <FormFindPasswordChange logo={'ts2'} linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooter />
                         </div>
                     </div>
@@ -318,7 +326,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
-                            <PasswordChange linkTxt={'Update Password'} linkUrl={'./'} />
+                            <FormPasswordChange logo={'ts2'} linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooter />
                         </div>
                     </div>
@@ -357,7 +365,13 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
-                            <LoginHistory />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account3'} />
+                                <div class="information_div">
+                                    <HistoryFilter />
+                                    <Table1 />
+                                </div>
+                            </div>
                             <SubFooter />
                         </div>
                     </div>
@@ -370,7 +384,15 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
-                            <IngamePurchaseHistory />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account4'} />
+                                <div class="information_div">
+                                    <Balance url={'./coinshop'} button={'Buy Coin'} />
+                                    <HistoryFilter />
+                                    <Table2 />
+                                </div>
+                            </div>
+
                             <SubFooter />
                         </div>
                     </div>
@@ -383,7 +405,14 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
-                            <CoinPurchaseHistory />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account5'} />
+                                <div class="information_div">
+                                    <Balance url={'./coinshop'} button={'Buy Coin'} />
+                                    <HistoryFilter />
+                                    <Table3 />
+                                </div>
+                            </div>
                             <SubFooter />
                         </div>
                     </div>

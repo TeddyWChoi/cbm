@@ -1,14 +1,16 @@
-import './Signup.css';
+import './Form.css';
 import ModalPopup from '../../components/Modalpopup/Modalpopup.js';
 
-export default function Signup(props) {
+export default function Form(props) {
     return (
-        <div className="Signup">
+        <div className="Form">
             <div class="instance-parent">
                 <div class="logo-parent">
-                    <div class="logo">
+                    {props.logo === 'ts2' ? (
                         <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
-                    </div>
+                    ) : (
+                        <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_aika.png')} />
+                    )}
                     <div class="frame-parent">
                         <div class="frame">
                             <div class="form_input">

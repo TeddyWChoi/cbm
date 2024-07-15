@@ -1,58 +1,9 @@
-import AccountLnb from '../../components/AccountLnb/AccountLnb.js';
-import Balance from '../../components/Balance/Balance.js';
-import './IngamePurchaseHistory.css';
+import './Table.css';
 
-export default function IngamePurchaseHistory(props) {
+export default function Table(props) {
     return (
-        <div className="IngamePurchaseHistory">
-            <AccountLnb account={'account4'} />
-
-            <div class="instance-parent">
-                <Balance url={'./coinshop'} button={'Buy Coin'} />
-
-                <div class="frame-parent2">
-                    <div class="cash-filter-btn-parent">
-                        <div class="cash-filter-btn">
-                            <button href="#!" class="div">
-                                1 Week
-                            </button>
-                        </div>
-                        <div class="cash-filter-btn">
-                            <button class="div">1 Month</button>
-                        </div>
-                        <div class="cash-filter-btn">
-                            <button class="div">6 Months</button>
-                        </div>
-                    </div>
-                    <div class="frame-group2">
-                        <div class="cash-filter-btn-parent">
-                            <div class="divtd-cont">
-                                <input class="select" type="text" value="2024-02-22"></input>
-                                <a href="#!" class="carboncalendar">
-                                    <img
-                                        alt=""
-                                        class="vector-icon"
-                                        src={require('../../assets/images/ico_calendar.svg').default}
-                                    />
-                                </a>
-                            </div>
-                            <b class="b">~</b>
-                            <div class="divtd-cont">
-                                <input class="select" type="text" value="2024-03-22"></input>
-                                <a href="#!" class="carboncalendar">
-                                    <img
-                                        alt=""
-                                        class="vector-icon"
-                                        src={require('../../assets/images/ico_calendar.svg').default}
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="cash-filter-btn3">
-                            <button class="div">Search</button>
-                        </div>
-                    </div>
-                </div>
+        <div className="Table">
+            <div class="Table_div">
                 <div class="frame-container">
                     <div class="tab-parent">
                         <div class="tab">
@@ -63,241 +14,242 @@ export default function IngamePurchaseHistory(props) {
                             </div>
                             <div class="li">
                                 <div class="a">
-                                    <b class="date">Access Type</b>
+                                    <b class="date">Coin</b>
                                 </div>
                             </div>
                             <div class="li">
                                 <div class="a">
-                                    <b class="date">Product</b>
+                                    <b class="date">TID</b>
                                 </div>
                             </div>
                             <div class="li">
                                 <div class="a">
-                                    <b class="date">Price</b>
+                                    <b class="date">Status</b>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                    <div>May 15 2024 10:37PM</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">GAME</div>
+                                    <div>-210</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">1,320</div>
+                                    <div>Confirmed</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                    <div>May 15 2024 10:37PM</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">GAME</div>
+                                    <div>-210</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">1,320</div>
+                                    <div>Confirmed</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                    <div>May 15 2024 10:37PM</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">GAME</div>
+                                    <div>-210</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">1,320</div>
+                                    <div>Confirmed</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                    <div>May 15 2024 10:37PM</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">GAME</div>
+                                    <div>-210</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">1,320</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab1">
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">GAME</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
-                                </div>
-                            </div>
-                            <div class="li4">
-                                <div class="a">
-                                    <div class="table_div">1,320</div>
+                                    <div>Confirmed</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                    <div>May 15 2024 10:37PM</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">GAME</div>
+                                    <div>-210</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">1,320</div>
+                                    <div>Confirmed</div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab1">
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Apr 8 2024 10:20PM</div>
+                                    <div>May 15 2024 10:37PM</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">GAME</div>
+                                    <div>-210</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">Mark of Honor [15day]</div>
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
                                 </div>
                             </div>
-                            <div class="li4">
+                            <div class="li3">
                                 <div class="a">
-                                    <div class="table_div">1,320</div>
+                                    <div>Confirmed</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li3">
+                                <div class="a">
+                                    <div>May 15 2024 10:37PM</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>-210</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>Confirmed</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li3">
+                                <div class="a">
+                                    <div>May 15 2024 10:37PM</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>-210</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>Confirmed</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li3">
+                                <div class="a">
+                                    <div>May 15 2024 10:37PM</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>-210</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>Confirmed</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab1">
+                            <div class="li3">
+                                <div class="a">
+                                    <div>May 15 2024 10:37PM</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>-210</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>a734e81f-5dd9-4347-8975-3ed318bb010b</div>
+                                </div>
+                            </div>
+                            <div class="li3">
+                                <div class="a">
+                                    <div>Confirmed</div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="paging">
                         <a href="#!" class="object">
                             <img alt="" class="icon-arrows" src={require('../../assets/images/ico_left.svg').default} />

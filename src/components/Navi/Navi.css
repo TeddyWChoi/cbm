@@ -138,7 +138,7 @@
     background: #000;
 }
 
-.div {
+.Navi .logo_wrapper {
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -383,5 +383,34 @@
         font-size: 17px;
         color: #fff;
         font-family: Manrope;
+    }
+    .mobile_btn {
+        display: none;
+    }
+    .logo_m {
+        display: none;
+    }
+    .logo {
+        display: flex;
+    }
+    .Navi .navbar-home .logo_wrapper {
+        display: block;
+    }
+}
+@media screen and (max-width: calc(1200px)) {
+    .mobile_btn {
+        display: block;
+    }
+    .logo_m {
+        display: flex;
+    }
+    .Navi .logo {
+        display: none;
+    }
+    .Navi .logo_m {
+        margin-left: 60px;
+    }
+    .Navi .navbar-home .logo_wrapper {
+        display: none;
     }
 }

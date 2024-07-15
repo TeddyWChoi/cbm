@@ -1,16 +1,20 @@
-import './Vaildcode.css';
+import './Form.css';
 
-export default function Vaildcode(props) {
+export default function Form(props) {
     return (
-        <div className="Vaildcode">
+        <div className="Form">
             <div class="instance-parent">
                 <div class="logo-parent">
                     <div class="logo">
-                        <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
+                        {props.logo === 'ts2' ? (
+                            <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_ts2.png')} />
+                        ) : (
+                            <img alt="" class="logo-ts2-icon" src={require('../../assets/images/logo_aika.png')} />
+                        )}
                     </div>
                     <div class="johndoeexamplecom-parent">
-                        <b class="johndoeexamplecom">Input Verification Code</b>
-                        <b class="johndoeexamplecom">puckmind@gmail.com</b>
+                        <b class="vaildtxt">Input Verification Code</b>
+                        <b class="vaildtxt">puckmind@gmail.com</b>
                     </div>
                     <div class="frame-parent">
                         <div class="frame">
