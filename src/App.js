@@ -521,8 +521,8 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi2 is_login={is_login} />
                             <SubAIKA />
-                            <SubMenu menu={'calendar'} />
-                            <Calendar />
+                            <SubMenu2 menu={'calendar'} />
+                            <Calendar2 />
                             <SubFooter />
                         </div>
                     </div>
