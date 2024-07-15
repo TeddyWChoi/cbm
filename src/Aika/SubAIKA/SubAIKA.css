@@ -8,23 +8,23 @@
     padding-top: 80px;
 }
 
-.Sub {
+.SubAIKA {
     width: 100%;
 }
-.sub {
+/* .sub {
     width: 1200px;
-}
+} */
 
-.video_margin {
+.sub-desktop .video_margin {
     margin-bottom: 0px;
 }
-.picture img {
+.sub-desktop .picture img {
     width: 720px;
 }
-.video {
+.sub-desktop .video {
     margin-left: 15px;
 }
-.video img {
+.sub-desktop .video img {
     width: 360px;
 }
 .sub-desktop .margin {
@@ -56,7 +56,7 @@
     background-color: #1a1a1a;
 }
 
-.sub-desktop .sub_top_bg {
+.SubAIKA .sub_top_bg {
     position: relative;
     align-self: stretch;
     width: 100%;

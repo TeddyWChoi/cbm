@@ -2,7 +2,7 @@ import './SubAIKA.css';
 
 export default function SubAIKA() {
     return (
-        <div className="Sub">
+        <div className="SubAIKA">
             <div class="sub-top">
                 <div class="sub_top_bg"></div>
                 <div class="container-2">

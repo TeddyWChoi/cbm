@@ -2,7 +2,7 @@ import './SubTS2.css';
 
 export default function SubTS2() {
     return (
-        <div className="Sub">
+        <div className="SubTS2">
             <div class="sub-top">
                 <div class="sub_top_bg"></div>
                 <div class="container-2">
