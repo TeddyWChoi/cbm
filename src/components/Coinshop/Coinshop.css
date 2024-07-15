@@ -48,8 +48,7 @@
     min-width: 320px;
     width: 100%;
     border-radius: 5px;
-    background: radial-gradient(50% 50% at 50% 50%, #4c5569, #1d2333),
-        radial-gradient(50% 50% at 50% 50%, #2b62a0, #1d2333);
+    background: radial-gradient(50% 50% at 50% 50%, #4c5569, #1d2333);
     border: 1px solid #8bacff;
     box-sizing: border-box;
     overflow: hidden;
@@ -64,6 +63,21 @@
 .Coinshop .coin-box:hover {
     margin-top: -15px;
     transition: all 0.3s;
+}
+
+.Coinshop .coin-box.coin15 {
+    background: radial-gradient(50% 50% at 50% 50%, #2ba08b, #1d3033);
+}
+.Coinshop .coin-box.coin20 {
+    background: radial-gradient(50% 50% at 50% 50%, #b05300, #33241d);
+}
+
+.Coinshop .coin-box.coin25 {
+    background: radial-gradient(50% 50% at 50% 50%, #7d00c7, #291d33);
+}
+
+.Coinshop .coin-box.coin30 {
+    background: radial-gradient(50% 50% at 50% 50%, #a38e6a, #221b0e);
 }
 
 .Coinshop .bonus-330030 {

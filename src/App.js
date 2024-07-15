@@ -11,7 +11,11 @@ import Footer from './components/Footer/Footer.js';
 import Balance from './components/Balance/Balance.js';
 import SubTop from './components/SubTop/SubTop.js';
 import Purchase from './components/Purchase/Purchase.js';
+import Coinshop from './components/Coinshop/Coinshop.js';
+import Coinshop2 from './components/Coinshop/Coinshop2.js';
+import Coinshop3 from './components/Coinshop/Coinshop3.js';
 
+/* TS2 */
 import SubNavi from './Ts2/SubNavi/SubNavi.js';
 import SubTS2 from './Ts2/SubTS2/SubTS2.js';
 import SubMenu from './Ts2/SubMenu/SubMenu.js';
@@ -19,25 +23,22 @@ import Feature from './Ts2/Feature/Feature.js';
 import News from './Ts2/News/News.js';
 import View from './Ts2/View/View.js';
 import SubFooter from './Ts2/SubFooter/SubFooter.js';
-import Coinshop from './Ts2/Coinshop/Coinshop.js';
-
 import Kopazar from './Ts2/Kopazar/Kopazar.js';
 import AccountInformation from './Ts2/AccountInformation/AccountInformation.js';
 import AccountDetail from './Ts2/AccountDetail/AccountDetail.js';
 import Calendar from './Ts2/Calendar/Calendar.js';
 
-import SubNavi2 from './Aika/SubNavi/SubNavi.js';
+/* AIKA */
+import SubNavi_Aika from './Aika/SubNavi/SubNavi.js';
 import SubAIKA from './Aika/SubAIKA/SubAIKA.js';
-import SubMenu2 from './Aika/SubMenu/SubMenu.js';
-import Feature2 from './Aika/Feature/Feature.js';
-import News2 from './Aika/News/News.js';
-import View2 from './Aika/View/View.js';
-import SubFooter2 from './Aika/SubFooter/SubFooter.js';
-import Coinshop2 from './Aika/Coinshop/Coinshop.js';
-
-import AccountInformation2 from './Aika/AccountInformation/AccountInformation.js';
-import AccountDetail2 from './Aika/AccountDetail/AccountDetail.js';
-import Calendar2 from './Aika/Calendar/Calendar.js';
+import SubMenu_Aika from './Aika/SubMenu/SubMenu.js';
+import SubMenu_Feature from './Aika/Feature/Feature.js';
+import News_Aika from './Aika/News/News.js';
+import View_Aika from './Aika/View/View.js';
+import SubFooterAika from './Aika/SubFooter/SubFooter.js';
+import AccountInformation_Aika from './Aika/AccountInformation/AccountInformation.js';
+import AccountDetail_Aika from './Aika/AccountDetail/AccountDetail.js';
+import Calendar_Aika from './Aika/Calendar/Calendar.js';
 
 import Block from './components/Block/Block.js';
 import Error from './components/Error/Error.js';
@@ -160,6 +161,40 @@ function App() {
                             />
                             <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
                             <Coinshop />
+                            <SubFooter />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/ts2/coinshop2"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop coinshop_wrapper">
+                            <SubNavi is_login={is_login} />
+                            <SubTop
+                                heading={'G-Coin Shop'}
+                                subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
+                            />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
+                            <Coinshop2 />
+                            <SubFooter />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/ts2/coinshop3"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop coinshop_wrapper">
+                            <SubNavi is_login={is_login} />
+                            <SubTop
+                                heading={'G-Coin Shop'}
+                                subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
+                            />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
+                            <Coinshop3 />
                             <SubFooter />
                         </div>
                     </div>
@@ -478,11 +513,11 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubAIKA />
-                            <SubMenu2 menu={'news'} />
-                            <News2 />
-                            <SubFooter2 />
+                            <SubMenu_Aika menu={'news'} />
+                            <News_Aika />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -492,10 +527,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
-                            <SubMenu2 menu={'news'} />
-                            <View2 />
-                            <SubFooter2 />
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubMenu_Aika menu={'news'} />
+                            <View_Aika />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -505,11 +540,11 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubAIKA />
-                            <SubMenu2 menu={'feature'} />
-                            <Feature2 />
-                            <SubFooter2 />
+                            <SubMenu_Aika menu={'feature'} />
+                            <SubMenu_Feature />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -519,10 +554,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubAIKA />
-                            <SubMenu2 menu={'calendar'} />
-                            <Calendar2 />
+                            <SubMenu_Aika menu={'calendar'} />
+                            <Calendar_Aika />
                             <SubFooter />
                         </div>
                     </div>
@@ -533,7 +568,26 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop coinshop_wrapper">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop
+                                heading={'M-Coin Shop'}
+                                subtitle={
+                                    'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
+                                }
+                            />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
+                            <Coinshop />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/coinshop2"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop coinshop_wrapper">
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop
                                 heading={'M-Coin Shop'}
                                 subtitle={
@@ -542,7 +596,26 @@ function App() {
                             />
                             <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
                             <Coinshop2 />
-                            <SubFooter2 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/coinshop3"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop coinshop_wrapper">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop
+                                heading={'M-Coin Shop'}
+                                subtitle={
+                                    'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
+                                }
+                            />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
+                            <Coinshop3 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -553,7 +626,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop
                                 heading={'M-Coin Shop'}
                                 subtitle={
@@ -567,7 +640,7 @@ function App() {
                                 linkTxt={'Purchase History'}
                                 linkUrl={'./history'}
                             />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -577,7 +650,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop
                                 heading={'M-Coin Shop'}
                                 subtitle={
@@ -593,7 +666,7 @@ function App() {
                                 linkTxt={'Purchase History'}
                                 linkUrl={'./history'}
                             />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -603,7 +676,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <Purchase
                                 logo={'aika'}
@@ -612,7 +685,7 @@ function App() {
                                 linkTxt={'Go to Account'}
                                 linkUrl={'./accountinformation'}
                             />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -622,7 +695,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <Purchase
                                 logo={'aika'}
@@ -633,7 +706,7 @@ function App() {
                                 linkTxt={'Go to Homepage'}
                                 linkUrl={'./'}
                             />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -643,12 +716,12 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
 
                             <FormSignup logo={'aika'} linkTxt={'Create Account'} linkUrl={'./'} />
 
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -658,11 +731,11 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Sign in'} subtitle={''} />
                             <FormSignin logo={'aika'} linkTxt={'Sign in'} linkUrl={'./'} />
 
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -672,10 +745,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <FormVaildcode logo={'aika'} linkTxt={'Valid Code'} linkUrl={'./'} />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -685,11 +758,11 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Sign in'} subtitle={''} />
                             <FormFind logo={'aika'} linkTxt={'Find Password'} linkUrl={'#!'} />
 
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -699,10 +772,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <FormFindPasswordChange logo={'aika'} linkTxt={'Update Password'} linkUrl={'./'} />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -712,10 +785,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Sign up'} subtitle={''} />
                             <FormPasswordChange logo={'aika'} linkTxt={'Update Password'} linkUrl={'./'} />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -725,10 +798,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
-                            <AccountInformation2 />
-                            <SubFooter2 />
+                            <AccountInformation_Aika />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -738,10 +811,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
-                            <AccountDetail2 />
-                            <SubFooter2 />
+                            <AccountDetail_Aika />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -751,7 +824,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account3'} />
@@ -760,7 +833,7 @@ function App() {
                                     <Table1 />
                                 </div>
                             </div>
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -770,7 +843,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account4'} />
@@ -781,7 +854,7 @@ function App() {
                                 </div>
                             </div>
 
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -791,7 +864,7 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account5'} />
@@ -801,7 +874,7 @@ function App() {
                                     <Table3 />
                                 </div>
                             </div>
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -811,10 +884,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Block'} subtitle={''} />
                             <Block url={'https://goe.freshdesk.com/en/support/home'} />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
@@ -824,10 +897,10 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
-                            <SubNavi2 is_login={is_login} />
+                            <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Error'} subtitle={''} />
                             <Error url={'/aika'} />
-                            <SubFooter2 />
+                            <SubFooterAika />
                         </div>
                     </div>
                 }
