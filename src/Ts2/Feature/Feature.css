@@ -266,6 +266,18 @@
     color: #787878;
     font-family: Manrope;
 }
+.Feature .video_margin {
+    margin-bottom: 0px;
+}
+.Feature .picture img {
+    width: 720px;
+}
+.Feature .video {
+    margin-left: 15px;
+}
+.Feature .video img {
+    width: 360px;
+}
 /* 반응형 */
 @media screen and (max-width: calc(1200px)) {
     .margin4 {
@@ -279,7 +291,7 @@
     }
     .picture img,
     .video img {
-        width: 100%;
+        width: 100% !important;
     }
     .sub {
         max-width: 1200px;
@@ -293,7 +305,7 @@
     }
     .picture,
     .video {
-        margin-left: 0;
+        margin-left: 0 !important;
     }
     .Feature {
         width: 100%;

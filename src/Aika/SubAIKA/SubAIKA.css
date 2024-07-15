@@ -15,18 +15,6 @@
     width: 1200px;
 } */
 
-.sub-desktop .video_margin {
-    margin-bottom: 0px;
-}
-.sub-desktop .picture img {
-    width: 720px;
-}
-.sub-desktop .video {
-    margin-left: 15px;
-}
-.sub-desktop .video img {
-    width: 360px;
-}
 .sub-desktop .margin {
     display: inline-flex;
     flex-direction: column;
