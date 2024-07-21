@@ -54,6 +54,8 @@ import FormFind from './components/Form/FormFind.js';
 import FormFindPasswordChange from './components/Form/FormFindPasswordChange.js';
 import FormPasswordChange from './components/Form/FormPasswordChange.js';
 import FormVaildcode from './components/Form/FormVaildcode.js';
+import LandingTs2 from './Ts2/LandingTs2/Landing.js';
+import LandingAika from './Aika/LandingAika/Landing.js';
 
 function App() {
     const is_login = true; //로그인 로그아웃 변경
@@ -89,7 +91,9 @@ function App() {
                 path="/ts2"
                 element={
                     <div className="App">
-                        <Redirect url={'./ts2/news'} />
+                        <div class="sub-desktop">
+                            <LandingTs2 />
+                        </div>
                     </div>
                 }
             />
@@ -503,7 +507,9 @@ function App() {
                 path="/aika"
                 element={
                     <div className="App">
-                        <Redirect url={'./aika/news'} />
+                        <div class="sub-desktop">
+                            <LandingAika />
+                        </div>
                     </div>
                 }
             />
