@@ -30,13 +30,13 @@ export default function Landing() {
                         <img class="landing_txt_img" alt="" src={require('../../assets/images/landing_aika.png')} />
                     </div>
                     <div class="btn_landing">
-                        <a href="./aika/feature">
+                        <a href="./feature">
                             <img class="frame-icon" alt="" src={require('../../assets/images/btn_aika.png')} />
                         </a>
                     </div>
 
                     <div class="landing_logos">
-                        <img class="bega" alt="" src={require('../../assets/images/logo_ha.png')} />
+                        <img class="ha" alt="" src={require('../../assets/images/logo_ha.png')} />
 
                         <img class="image-14-icon" alt="" src={require('../../assets/images/logo_cbm.svg').default} />
                     </div>

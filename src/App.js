@@ -92,6 +92,16 @@ function App() {
                 element={
                     <div className="App">
                         <div class="sub-desktop">
+                            <Redirect url={'/ts2/news'} />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/ts2/landing"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
                             <LandingTs2 />
                         </div>
                     </div>
@@ -505,6 +515,16 @@ function App() {
             {/* AIKA start */}
             <Route
                 path="/aika"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <Redirect url={'/aika/news'} />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/landing"
                 element={
                     <div className="App">
                         <div class="sub-desktop">

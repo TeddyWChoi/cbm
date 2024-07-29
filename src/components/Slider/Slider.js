@@ -27,7 +27,7 @@ export default function SimpleSlider() {
     return (
         <div className="slider">
             <Slider {...settings}>
-                <div>
+                <div class="figure_wrap">
                     <figure>
                         <img src={require('../../assets/images/slider002.jpg')} alt="banner" />
                         <div class="game_title">
@@ -48,7 +48,7 @@ export default function SimpleSlider() {
                         </div>
                     </figure>
                 </div>
-                <div>
+                <div class="figure_wrap">
                     <figure>
                         <img src={require('../../assets/images/slider001.jpg')} alt="banner" />
                         <div class="game_title">

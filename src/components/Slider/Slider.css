@@ -280,10 +280,15 @@
 }
 
 /* 이미지 슬라이드 */
+.figure_wrap {
+    display: flex !important;
+    justify-content: center;
+}
 
 .slider figure {
     position: relative;
     overflow: hidden;
+    max-width: 1920px;
 }
 .slider figcaption {
     position: absolute;

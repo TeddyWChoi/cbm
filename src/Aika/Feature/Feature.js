@@ -54,6 +54,16 @@ export default function Feature() {
                                     </div>
                                 </div>
                             </div>
+                            <div class="margin4">
+                                <div class="container1">
+                                    <div class="container2">
+                                        <div class="genre">Supported Languages</div>
+                                    </div>
+                                    <div class="container3">
+                                        <div class="genre">English</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="container7">
                                 <div class="container2">
                                     <div class="genre">Developer</div>

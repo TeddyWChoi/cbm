@@ -52,9 +52,9 @@
     width: 100%;
     height: 400px;
     background-image: url(../../assets/images/sub_top_aika.jpg);
-    background-size: auto;
+    background-size: contain;
     background-position: 0 80px;
-
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 

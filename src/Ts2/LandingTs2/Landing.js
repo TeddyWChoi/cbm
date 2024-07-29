@@ -30,7 +30,7 @@ export default function Landing() {
                         <img class="landing_txt_img" alt="" src={require('../../assets/images/landing_ts2.png')} />
                     </div>
                     <div class="btn_landing">
-                        <a href="./ts2/feature">
+                        <a href="./feature">
                             <img class="frame-icon" alt="" src={require('../../assets/images/btn_ts2.png')} />
                         </a>
                     </div>

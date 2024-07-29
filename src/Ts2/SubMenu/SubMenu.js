@@ -14,6 +14,11 @@ export default function SubMenu(props) {
                                     </a>
                                 </div>
                                 <div class="button-text-dark">
+                                    <a href="./calendar" class="text-wrapper-7">
+                                        Calendar
+                                    </a>
+                                </div>
+                                <div class="button-text-dark">
                                     <a href="./feature#video" class="text-wrapper-7">
                                         Video &amp; Screenshots
                                     </a>
@@ -31,11 +36,6 @@ export default function SubMenu(props) {
                                 <div class="button-text-dark">
                                     <a href="./feature#system" class="text-wrapper-7">
                                         System Requirements
-                                    </a>
-                                </div>
-                                <div class="button-text-dark">
-                                    <a href="./calendar" class="text-wrapper-7">
-                                        Calendar
                                     </a>
                                 </div>
                             </div>
@@ -54,6 +54,11 @@ export default function SubMenu(props) {
                                         Announcement
                                     </a>
                                 </div>
+                                <div class="active button-text-dark">
+                                    <a href="./calendar" class="text-wrapper-7">
+                                        Calendar
+                                    </a>
+                                </div>
                                 <div class="button-text-dark">
                                     <a href="./feature#video" class="text-wrapper-7">
                                         Video &amp; Screenshots
@@ -72,11 +77,6 @@ export default function SubMenu(props) {
                                 <div class="button-text-dark">
                                     <a href="./feature#system" class="text-wrapper-7">
                                         System Requirements
-                                    </a>
-                                </div>
-                                <div class="active button-text-dark">
-                                    <a href="./calendar" class="text-wrapper-7">
-                                        Calendar
                                     </a>
                                 </div>
                             </div>
@@ -95,6 +95,11 @@ export default function SubMenu(props) {
                                         Announcement
                                     </a>
                                 </div>
+                                <div class="button-text-dark">
+                                    <a href="./calendar" class="text-wrapper-7">
+                                        Calendar
+                                    </a>
+                                </div>
                                 <div class="active button-text-dark">
                                     <a href="./feature#video" class="text-wrapper-7">
                                         Video &amp; Screenshots
@@ -113,11 +118,6 @@ export default function SubMenu(props) {
                                 <div class="button-text-dark">
                                     <a href="./feature#system" class="text-wrapper-7">
                                         System Requirements
-                                    </a>
-                                </div>
-                                <div class="button-text-dark">
-                                    <a href="./calendar" class="text-wrapper-7">
-                                        Calendar
                                     </a>
                                 </div>
                             </div>
