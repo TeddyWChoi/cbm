@@ -7,7 +7,7 @@ export default function Landing() {
                 <div class="landing_header_wrapper">
                     <div class="landing_header">
                         <img class="logo-ts2-icon" alt="" src={require('../../assets/images/logo_aika.png')} />
-                        <a href="./aika/news" class="btn-home">
+                        <a href="./news" class="btn-home">
                             <img class="vector-icon" alt="" src={require('../../assets/images/ico_home.png')} />
                             <div class="homepage">HOMEPAGE</div>
                         </a>

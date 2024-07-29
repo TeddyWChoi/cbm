@@ -7,7 +7,7 @@ export default function Landing() {
                 <div class="landing_header_wrapper">
                     <div class="landing_header">
                         <img class="logo-ts2-icon" alt="" src={require('../../assets/images/logo_ts2.png')} />
-                        <a href="./ts2/news" class="btn-home">
+                        <a href="./news" class="btn-home">
                             <img class="vector-icon" alt="" src={require('../../assets/images/ico_home.png')} />
                             <div class="homepage">HOMEPAGE</div>
                         </a>

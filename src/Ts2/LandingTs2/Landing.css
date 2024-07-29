@@ -19,7 +19,7 @@
     flex-shrink: 0;
     object-fit: cover;
 }
-.vector-icon {
+.Landing .vector-icon {
     position: absolute;
     height: 43.9%;
     width: 13.33%;
