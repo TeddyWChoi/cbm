@@ -1,0 +1,48 @@
+import './Landing.css';
+
+export default function LandingTr() {
+    return (
+        <div className="Landing">
+            <div class="landing_wrapper">
+                <div class="landing_header_wrapper">
+                    <div class="landing_header">
+                        <img class="logo-ts2-icon" alt="" src={require('../../assets/images/logo_ts2_tr.png')} />
+                        <a href="./news" class="btn-home">
+                            <img class="vector-icon" alt="" src={require('../../assets/images/ico_home.png')} />
+                            <div class="homepage">ANASAYFA</div>
+                        </a>
+                    </div>
+                </div>
+                <video
+                    id="sec-01-video"
+                    class="landing_video"
+                    playsinline=""
+                    autoplay=""
+                    muted="muted"
+                    loop="loop"
+                    poster="../../assets/images/bg_landing_ts2.jpg"
+                >
+                    <source type="video/mp4" src={require('../../assets/images/ts2.mp4')} />
+                </video>
+
+                <div class="lading_txt">
+                    <div class="landing_txt_img_wrapper">
+                        <img class="landing_txt_img" alt="" src={require('../../assets/images/landing_ts2_tr.png')} />
+                    </div>
+                    <div class="btn_landing">
+                        <a href="./feature">
+                            <img class="frame-icon" alt="" src={require('../../assets/images/btn_ts2_tr.png')} />
+                        </a>
+                    </div>
+
+                    <div class="landing_logos">
+                        <img class="bega" alt="" src={require('../../assets/images/bega.png')} />
+
+                        <img class="image-14-icon" alt="" src={require('../../assets/images/logo_cbm.svg').default} />
+                    </div>
+                    <div class="cbm-interactive-inc">© 2024 CBM Interactive Inc. Bütün hakları saklıdır</div>
+                </div>
+            </div>
+        </div>
+    );
+}

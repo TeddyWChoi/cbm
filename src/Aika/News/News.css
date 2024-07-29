@@ -255,7 +255,7 @@
 .sub-desktop .filter-wrapper {
     z-index: 1;
     position: absolute;
-    top: -53px;
+    top: -63px;
     display: grid;
     align-items: center;
     justify-content: center;

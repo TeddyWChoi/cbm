@@ -7,6 +7,9 @@ import Navi from './components/Navi/Navi.js';
 import Slider from './components/Slider/Slider.js';
 import Main from './components/Main/Main.js';
 import About from './components/About/About.js';
+import PrivatePolicy from './components/Policy/PrivatePolicy.js';
+import TOS from './components/Policy/TOS.js';
+import UGC from './components/Policy/UGC.js';
 import Footer from './components/Footer/Footer.js';
 import Balance from './components/Balance/Balance.js';
 import SubTop from './components/SubTop/SubTop.js';
@@ -55,6 +58,7 @@ import FormFindPasswordChange from './components/Form/FormFindPasswordChange.js'
 import FormPasswordChange from './components/Form/FormPasswordChange.js';
 import FormVaildcode from './components/Form/FormVaildcode.js';
 import LandingTs2 from './Ts2/LandingTs2/Landing.js';
+import LandingTs2Tr from './Ts2/LandingTs2/LandingTr.js';
 import LandingAika from './Aika/LandingAika/Landing.js';
 
 function App() {
@@ -86,6 +90,45 @@ function App() {
                     </div>
                 }
             />
+            <Route
+                path="/private_policy"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <Navi />
+                            <SubTop heading={'Private Policy'} />
+                            <PrivatePolicy />
+                            <Footer />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/term_of_service"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <Navi />
+                            <SubTop heading={'TOS & EULA'} />
+                            <TOS />
+                            <Footer />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/ugc"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <Navi />
+                            <SubTop heading={'User Generated Content Policy'} />
+                            <UGC />
+                            <Footer />
+                        </div>
+                    </div>
+                }
+            />
             {/* TS2 start */}
             <Route
                 path="/ts2"
@@ -103,6 +146,16 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <LandingTs2 />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/ts2/landing_tr"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <LandingTs2Tr />
                         </div>
                     </div>
                 }
