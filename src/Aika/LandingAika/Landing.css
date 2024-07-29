@@ -163,9 +163,9 @@
 
 @media screen and (max-width: 582px) {
     .landing_video {
-        height: 100%;
-        margin-left: -175%;
-        margin-top: -30%;
+        height: 896px;
+        margin-left: -222%;
+        margin-top: 0;
     }
     .landing_txt_img {
         width: 300px;
@@ -187,9 +187,11 @@
 }
 @media screen and (max-width: 376px) {
     .landing_video {
-        height: 100%;
-        margin-left: -305%;
-        margin-top: -30%;
+        height: 667px;
+        margin-top: 0;
+        margin-left: -170%;
+        /* margin-left: -305%;
+        margin-top: -30%; */
     }
     .landing_txt_img {
         width: 300px;
