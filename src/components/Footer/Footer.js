@@ -14,7 +14,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div> */}
-                    {/* <div class="list-2">
+                    <div class="list-2">
                         <div class="item-2">
                             <div class="link-2">
                                 <a href="#!">Privacy Policy</a>
@@ -32,7 +32,7 @@ export default function Footer() {
                                 <a href="#!">TOS &amp; EULA</a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div class="container-5">
                         <div>
                             <a href="./">
