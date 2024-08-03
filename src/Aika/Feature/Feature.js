@@ -1,8 +1,10 @@
 import './Feature.css';
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import VideoImageSlider from '../../components/VideoImageSlider/VideoImageSlider';
 
 export default function Feature() {
+    /* 슬라이더관련 */
     const sliderRef = useRef();
 
     const items = [
@@ -16,6 +18,18 @@ export default function Feature() {
             sliderRef.current.openModal(item);
         }
     };
+
+    /* 서브메뉴 내부링크 관련 */
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+            const element = document.getElementById(location.hash.substring(1));
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location]);
 
     return (
         <div className="Feature">

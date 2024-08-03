@@ -1,5 +1,5 @@
 import './SubMenu.css';
-
+import { Link } from 'react-router-dom';
 export default function SubMenu(props) {
     switch (props.menu) {
         case 'news':
@@ -9,34 +9,34 @@ export default function SubMenu(props) {
                         <div class="section-title">
                             <div class="filters">
                                 <div class="active button-text-dark">
-                                    <a href="./news" class="text-wrapper-7">
+                                    <Link to="/aika/news#news" class="text-wrapper-7">
                                         Announcement
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./calendar" class="text-wrapper-7">
+                                    <Link to="/aika/calendar#calendar" class="text-wrapper-7">
                                         Calendar
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#video" class="text-wrapper-7">
+                                    <Link to="/aika/feature#video" class="text-wrapper-7">
                                         Video &amp; Screenshots
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#info" class="text-wrapper-7">
+                                    <Link to="/aika/feature#info" class="text-wrapper-7">
                                         Info
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#overview" class="text-wrapper-7">
+                                    <Link to="/aika/feature#overview" class="text-wrapper-7">
                                         Overview
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#system" class="text-wrapper-7">
+                                    <Link to="/aika/feature#system" class="text-wrapper-7">
                                         System Requirements
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -49,35 +49,35 @@ export default function SubMenu(props) {
                     <div class="category">
                         <div class="section-title">
                             <div class="filters">
-                                <div class="button-text-dark">
-                                    <a href="./news" class="text-wrapper-7">
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/news#news" class="text-wrapper-7">
                                         Announcement
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="active button-text-dark">
-                                    <a href="./calendar" class="text-wrapper-7">
+                                    <Link to="/aika/calendar#calendar" class="text-wrapper-7">
                                         Calendar
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#video" class="text-wrapper-7">
+                                    <Link to="/aika/feature#video" class="text-wrapper-7">
                                         Video &amp; Screenshots
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#info" class="text-wrapper-7">
+                                    <Link to="/aika/feature#info" class="text-wrapper-7">
                                         Info
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#overview" class="text-wrapper-7">
+                                    <Link to="/aika/feature#overview" class="text-wrapper-7">
                                         Overview
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#system" class="text-wrapper-7">
+                                    <Link to="/aika/feature#system" class="text-wrapper-7">
                                         System Requirements
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -90,35 +90,35 @@ export default function SubMenu(props) {
                     <div class="category">
                         <div class="section-title">
                             <div class="filters">
-                                <div class="button-text-dark">
-                                    <a href="./news" class="text-wrapper-7">
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/news#news" class="text-wrapper-7">
                                         Announcement
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./calendar" class="text-wrapper-7">
+                                    <Link to="/aika/calendar#calendar" class="text-wrapper-7">
                                         Calendar
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="active button-text-dark">
-                                    <a href="./feature#video" class="text-wrapper-7">
+                                    <Link to="/aika/feature#video" class="text-wrapper-7">
                                         Video &amp; Screenshots
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#info" class="text-wrapper-7">
+                                    <Link to="/aika/feature#info" class="text-wrapper-7">
                                         Info
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#overview" class="text-wrapper-7">
+                                    <Link to="/aika/feature#overview" class="text-wrapper-7">
                                         Overview
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="button-text-dark">
-                                    <a href="./feature#system" class="text-wrapper-7">
+                                    <Link to="/aika/feature#system" class="text-wrapper-7">
                                         System Requirements
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -110,11 +110,14 @@
 
 @media screen and (max-width: 1920px) {
     .landing_video {
-        width: auto;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 1200px) {
+    .landing_video {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 1025px) {

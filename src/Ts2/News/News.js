@@ -1,8 +1,21 @@
 import './News.css';
-
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 export default function News() {
+    /* 서브메뉴 내부링크 관련 */
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+            const element = document.getElementById(location.hash.substring(1));
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location]);
+
     return (
-        <div className="News">
+        <div id="news" className="News">
             <div>
                 <div class="container-9">
                     <div class="filter-wrapper">
