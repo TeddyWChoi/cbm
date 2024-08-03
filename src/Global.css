@@ -1,5 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
 @import url('https://fonts.googleapis.com/css?family=Manrope:var(--PC-paragraph0-font-weight),var(--PC-h4-font-weight),var(--PC-paragraph1-font-weight),var(--PC-subtitle2-font-weight),var(--PC-paragraph2-font-weight),var(--PC-h2-font-weight),var(--PC-h1-font-weight),var(--PC-paragraph3-font-weight)');
+
 * {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
@@ -10,6 +11,7 @@ body {
     margin: 0px;
     height: 100%;
     background-color: #141414;
+    scroll-padding-top: 80px;
 }
 /* a blue color as a generic focus style */
 button:focus-visible {

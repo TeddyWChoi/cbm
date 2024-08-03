@@ -1,8 +1,24 @@
 import './Feature.css';
+import React, { useRef } from 'react';
+import VideoImageSlider from '../../components/VideoImageSlider/VideoImageSlider';
 
 export default function Feature() {
+    const sliderRef = useRef();
+
+    const items = [
+        { type: 'video', id: 'dQw4w9WgXcQ', title: 'Video 1' },
+        { type: 'image', src: 'https://via.placeholder.com/800x450', title: 'Image 1' },
+        { type: 'video', id: 'J---aiyznGQ', title: 'Video 2' },
+    ];
+
+    const handleOpenModal = (item) => {
+        if (sliderRef.current) {
+            sliderRef.current.openModal(item);
+        }
+    };
     return (
         <div className="Feature">
+            <VideoImageSlider ref={sliderRef} initialItem={items} />
             <div class="sub">
                 <div class="sub-container">
                     <div id="video" class="container-video">
@@ -19,14 +35,26 @@ export default function Feature() {
                         </div>
                         <div class="video_container">
                             <div class="picture">
-                                <img alt="" src={require('../../assets/images/video_sample1.jpg')} />
+                                <img
+                                    onClick={() => handleOpenModal(items[0])}
+                                    alt=""
+                                    src={require('../../assets/images/video_sample1.jpg')}
+                                />
                             </div>
                             <div class="video">
                                 <div class="video_margin">
-                                    <img alt="" src={require('../../assets/images/video_sample1.jpg')} />
+                                    <img
+                                        onClick={() => handleOpenModal(items[1])}
+                                        alt=""
+                                        src={require('../../assets/images/video_sample1.jpg')}
+                                    />
                                 </div>
                                 <div class="">
-                                    <img alt="" src={require('../../assets/images/video_sample1.jpg')} />
+                                    <img
+                                        onClick={() => handleOpenModal(items[2])}
+                                        alt=""
+                                        src={require('../../assets/images/video_sample1.jpg')}
+                                    />
                                 </div>
                             </div>
                         </div>

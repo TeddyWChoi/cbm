@@ -167,7 +167,6 @@
     gap: 20px;
     position: relative;
     flex: 0 0 auto;
-    overflow-x: scroll;
     width: 100%;
     margin-bottom: 70px;
 }
