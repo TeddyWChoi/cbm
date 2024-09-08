@@ -39,6 +39,7 @@ export default function SubNavi(props) {
                             </li>
                         </ul>
                     </div>
+
                     <div class="frame-group">
                         <div class="game-wrapper">
                             <b class="game"></b>
@@ -105,6 +106,40 @@ export default function SubNavi(props) {
                                                     >
                                                         Contact us
                                                     </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a class="nav_arrow" href="#!">
+                                                RANKING
+                                            </a>
+
+                                            <ul>
+                                                <li>
+                                                    <a href="./character">Character</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./guild">Guild</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./durgeon">Durgeon</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./relics">Relics</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a class="nav_arrow" href="#!">
+                                                GUILD
+                                            </a>
+
+                                            <ul>
+                                                <li>
+                                                    <a href="./mark">Guild Mark</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./slots">Guild Slots</a>
                                                 </li>
                                             </ul>
                                         </li>

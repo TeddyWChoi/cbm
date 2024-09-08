@@ -1,0 +1,145 @@
+.filter-component .period {
+    position: relative;
+}
+.filter-component .period-wrapper {
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.filter-component .character {
+    position: relative;
+    line-height: 140%;
+}
+.filter-component .character-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.filter-component .link {
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #2a3eef;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+    padding: 0;
+}
+.filter-component .link1 {
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #333;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.filter-component .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 5px 0px;
+}
+.filter-component .fiilter-button {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.filter-component .nickname {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    width: 95.9px;
+    height: 24.3px;
+}
+.filter-component .container {
+    align-self: stretch;
+    position: relative;
+    height: 24.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.filter-component .input {
+    width: 273.1px;
+    background-color: #fff;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 17px;
+    box-sizing: border-box;
+}
+.filter-component .search {
+    position: relative;
+    line-height: 150%;
+}
+.filter-component .button {
+    background-color: #2a3eef;
+    height: 38px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+.filter-component .filter-form {
+    align-self: stretch;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #757575;
+}
+.filter-component {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ddd;
+    font-family: Manrope;
+}
+.Ranking_Filter {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+.Ranking_Filter .button-2 {
+    height: 34px;
+    border-radius: 0;
+}

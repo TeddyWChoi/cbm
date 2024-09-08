@@ -84,6 +84,172 @@ export default function SubMenu(props) {
                     </div>
                 </div>
             );
+        case 'character':
+            return (
+                <div className="SubMenu">
+                    <div class="category">
+                        <div class="section-title">
+                            <div class="filters">
+                                <div class="active button-text-dark">
+                                    <Link to="/aika/character" class="text-wrapper-7">
+                                        Character
+                                    </Link>
+                                </div>
+                                <div class="button-text-dark">
+                                    <Link to="/aika/guild" class="text-wrapper-7">
+                                        Guild
+                                    </Link>
+                                </div>
+                                <div class="button-text-dark">
+                                    <Link to="/aika/durgeon" class="text-wrapper-7">
+                                        Durgeon
+                                    </Link>
+                                </div>
+                                <div class="button-text-dark">
+                                    <Link to="/aika/relics" class="text-wrapper-7">
+                                        Relics
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        case 'guild':
+            return (
+                <div className="SubMenu">
+                    <div class="category">
+                        <div class="section-title">
+                            <div class="filters">
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/character" class="text-wrapper-7">
+                                        Character
+                                    </Link>
+                                </div>
+                                <div class="active button-text-dark">
+                                    <Link to="/aika/guild" class="text-wrapper-7">
+                                        Guild
+                                    </Link>
+                                </div>
+                                <div class="button-text-dark">
+                                    <Link to="/aika/durgeon" class="text-wrapper-7">
+                                        Durgeon
+                                    </Link>
+                                </div>
+                                <div class="button-text-dark">
+                                    <Link to="/aika/relics" class="text-wrapper-7">
+                                        Relics
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        case 'durgeon':
+            return (
+                <div className="SubMenu">
+                    <div class="category">
+                        <div class="section-title">
+                            <div class="filters">
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/character" class="text-wrapper-7">
+                                        Character
+                                    </Link>
+                                </div>
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/guild" class="text-wrapper-7">
+                                        Guild
+                                    </Link>
+                                </div>
+                                <div class="active button-text-dark">
+                                    <Link to="/aika/durgeon" class="text-wrapper-7">
+                                        Durgeon
+                                    </Link>
+                                </div>
+                                <div class="button-text-dark">
+                                    <Link to="/aika/relics" class="text-wrapper-7">
+                                        Relics
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        case 'relics':
+            return (
+                <div className="SubMenu">
+                    <div class="category">
+                        <div class="section-title">
+                            <div class="filters">
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/character" class="text-wrapper-7">
+                                        Character
+                                    </Link>
+                                </div>
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/guild" class="text-wrapper-7">
+                                        Guild
+                                    </Link>
+                                </div>
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/durgeon" class="text-wrapper-7">
+                                        Durgeon
+                                    </Link>
+                                </div>
+                                <div class="active button-text-dark">
+                                    <Link to="/aika/relics" class="text-wrapper-7">
+                                        Relics
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        case 'mark':
+            return (
+                <div className="SubMenu">
+                    <div class="category">
+                        <div class="section-title">
+                            <div class="filters">
+                                <div class="active button-text-dark">
+                                    <Link to="/aika/mark" class="text-wrapper-7">
+                                        Guild Mark
+                                    </Link>
+                                </div>
+                                <div class="button-text-dark">
+                                    <Link to="/aika/slots" class="text-wrapper-7">
+                                        Guild Slots
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        case 'slots':
+            return (
+                <div className="SubMenu">
+                    <div class="category">
+                        <div class="section-title">
+                            <div class="filters">
+                                <div class=" button-text-dark">
+                                    <Link to="/aika/mark" class="text-wrapper-7">
+                                        Guild Mark
+                                    </Link>
+                                </div>
+                                <div class="active button-text-dark">
+                                    <Link to="/aika/slots" class="text-wrapper-7">
+                                        Guild Slots
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
         default:
             return (
                 <div className="SubMenu">

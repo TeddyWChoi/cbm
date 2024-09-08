@@ -62,6 +62,7 @@ input::placeholder {
     margin-right: -9px;
     background-color: #293def;
     border-radius: 5px;
+    cursor: pointer;
 }
 .button-3:hover {
     background-color: #4a57cb;
@@ -69,7 +70,25 @@ input::placeholder {
 .button-3 b {
     text-align: center;
 }
-
+.button-1 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 18px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #333;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    min-width: 120px;
+    justify-content: center;
+}
+.button-1:hover {
+    background-color: #4b4b4b;
+}
 .button-2 {
     all: unset;
     box-sizing: border-box;
@@ -82,6 +101,9 @@ input::placeholder {
     background-color: #293def;
     border-radius: 8px;
     color: #fff;
+    cursor: pointer;
+    min-width: 120px;
+    justify-content: center;
 }
 .button-2:hover {
     background-color: #4a57cb;

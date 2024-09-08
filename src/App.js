@@ -60,6 +60,15 @@ import FormVaildcode from './components/Form/FormVaildcode.js';
 import LandingTs2 from './Ts2/LandingTs2/Landing.js';
 import LandingTs2Tr from './Ts2/LandingTs2/LandingTr.js';
 import LandingAika from './Aika/LandingAika/Landing.js';
+import Ranking_Filter from './components/Ranking_Filter/Ranking_Filter.js';
+import Ranking_Table from './components/Ranking_Table/Ranking_Table.js';
+import Ranking_Table2 from './components/Ranking_Table/Ranking_Table2.js';
+import Ranking_Table3 from './components/Ranking_Table/Ranking_Table3.js';
+import Ranking_Table4 from './components/Ranking_Table/Ranking_Table4.js';
+import Ranking_Table5 from './components/Ranking_Table/Ranking_Table5.js';
+import Ranking_Table6 from './components/Ranking_Table/Ranking_Table6.js';
+import Ranking_Search from './components/Ranking_Search/Ranking_Search.js';
+import GuildRegister from './Aika/GuildRegister/GuildRegister.js';
 
 function App() {
     const is_login = true; //로그인 로그아웃 변경
@@ -979,6 +988,107 @@ function App() {
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Error'} subtitle={''} />
                             <Error url={'/aika'} />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/character"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Character Ranking'} subtitle={''} />
+                            <SubMenu_Aika menu={'character'} />
+                            <Ranking_Filter />
+                            <Ranking_Table />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/guild"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Guild Ranking'} subtitle={''} />
+                            <SubMenu_Aika menu={'guild'} />
+                            <Ranking_Filter filter={'guild'} />
+                            <Ranking_Table2 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/durgeon"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Dungeon Ranking'} subtitle={''} />
+                            <SubMenu_Aika menu={'durgeon'} />
+                            <Ranking_Filter filter={'all'} />
+                            <Ranking_Table3 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/relics"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Situation of the Relics'} subtitle={''} />
+                            <SubMenu_Aika menu={'relics'} />
+                            <Ranking_Table4 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/mark"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Guild mark registration'} subtitle={''} />
+                            <SubMenu_Aika menu={'mark'} />
+                            <Ranking_Table5 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/guild_register"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Guild mark registration'} subtitle={''} />
+                            <SubMenu_Aika menu={'mark'} />
+                            <GuildRegister />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/slots"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Guild Slots'} subtitle={''} />
+                            <SubMenu_Aika menu={'slots'} />
+                            <Ranking_Table6 />
                             <SubFooterAika />
                         </div>
                     </div>

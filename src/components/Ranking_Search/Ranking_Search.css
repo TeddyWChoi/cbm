@@ -1,0 +1,100 @@
+.Ranking_Search {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.Ranking_Search .div1 {
+    position: relative;
+    line-height: 148%;
+}
+.Ranking_Search .div {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 20px 1px 0px;
+}
+.Ranking_Search .dropdown-icon {
+    width: 10px;
+    position: relative;
+    height: 5px;
+}
+.Ranking_Search .div-parent {
+    align-self: stretch;
+    width: 108px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.Ranking_Search .category {
+    background-color: #333;
+    border: 1px solid #787878;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    width: 110px;
+    height: 38px;
+}
+.Ranking_Search .nickname {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    width: 95.9px;
+    height: 24.3px;
+}
+.Ranking_Search .container {
+    align-self: stretch;
+    position: relative;
+    height: 24.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.Ranking_Search .input {
+    width: 273.1px;
+    background-color: #fff;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 17px;
+    box-sizing: border-box;
+    color: #757575;
+}
+.Ranking_Search .search {
+    position: relative;
+    line-height: 150%;
+}
+.Ranking_Search .button-2 {
+    height: 34px;
+    border-radius: 0;
+}
+.Ranking_Search .filter-form {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Manrope;
+}
+
+.Ranking_Search .filter-wrapper {
+    position: relative;
+    top: 0;
+    height: 34px;
+}
