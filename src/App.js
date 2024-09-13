@@ -67,8 +67,10 @@ import Ranking_Table3 from './components/Ranking_Table/Ranking_Table3.js';
 import Ranking_Table4 from './components/Ranking_Table/Ranking_Table4.js';
 import Ranking_Table5 from './components/Ranking_Table/Ranking_Table5.js';
 import Ranking_Table6 from './components/Ranking_Table/Ranking_Table6.js';
-import Ranking_Search from './components/Ranking_Search/Ranking_Search.js';
 import GuildRegister from './Aika/GuildRegister/GuildRegister.js';
+import Board from './components/Board/Board.js';
+import Board2 from './components/Board/Board2.js';
+import Board3 from './components/Board/Board3.js';
 
 function App() {
     const is_login = true; //로그인 로그아웃 변경
@@ -1089,6 +1091,45 @@ function App() {
                             <SubTop heading={'Guild Slots'} subtitle={''} />
                             <SubMenu_Aika menu={'slots'} />
                             <Ranking_Table6 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/ticket_history"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Ticket History'} subtitle={''} />
+                            <Board />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/ticket_submit"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'Submit A Ticket'} subtitle={''} />
+                            <Board2 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika/my_ticket"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop heading={'My Ticket'} subtitle={''} />
+                            <Board3 />
                             <SubFooterAika />
                         </div>
                     </div>

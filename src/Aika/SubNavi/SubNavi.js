@@ -33,9 +33,7 @@ export default function SubNavi(props) {
                                 </a>
                             </li>
                             <li class="mobile_menu">
-                                <a href="https://aikaonlineglobal-help.freshdesk.com/support/home" target="_blank">
-                                    Contact us
-                                </a>
+                                <a href="./ticket_history">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -100,12 +98,7 @@ export default function SubNavi(props) {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="https://aikaonlineglobal-help.freshdesk.com/support/home"
-                                                        target="_blank"
-                                                    >
-                                                        Contact us
-                                                    </a>
+                                                    <a href="./ticket_history">Contact us</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -210,9 +203,7 @@ export default function SubNavi(props) {
                                 </a>
                             </li>
                             <li class="mobile_menu">
-                                <a href="https://aikaonlineglobal-help.freshdesk.com/support/home" target="_blank">
-                                    Contact us
-                                </a>
+                                <a href="./ticket_history">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -276,12 +267,7 @@ export default function SubNavi(props) {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="https://aikaonlineglobal-help.freshdesk.com/support/home"
-                                                        target="_blank"
-                                                    >
-                                                        Contact us
-                                                    </a>
+                                                    <a href="./ticket_history">Contact us</a>
                                                 </li>
                                             </ul>
                                         </li>

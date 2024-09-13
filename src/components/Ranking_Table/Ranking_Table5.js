@@ -1,4 +1,4 @@
-import Ranking_Search from '../Ranking_Search/Ranking_Search';
+import Search from '../Search/Search.js';
 import './Ranking_Table.css';
 
 export default function Ranking_Table() {
@@ -19,7 +19,7 @@ export default function Ranking_Table() {
                     </ul>
                 </div>
             </div>
-            <Ranking_Search />
+            <Search menu={'ranking'} />
             <h3 class="heading">Guild mark currently registered</h3>
 
             <div class="table">
