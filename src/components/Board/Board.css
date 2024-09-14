@@ -701,7 +701,7 @@
     background-color: #fff;
     border: 1px solid #ddd;
     box-sizing: border-box;
-    height: 56px;
+    height: 200px;
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -746,7 +746,7 @@
     flex: 1;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 8px;
 }
@@ -755,7 +755,7 @@
     background-color: #f8f8f8;
     border-top: 1px solid #ddd;
     box-sizing: border-box;
-    height: 140px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -819,7 +819,7 @@
 .Board3 .component-1-parent {
     margin-top: 15px;
     align-self: stretch;
-    height: 613px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -847,4 +847,7 @@
 .Board3 .button-2.reply {
     border-radius: 0;
     padding: 21px 24px;
+}
+.Board3 .logo img {
+    width: 100px;
 }

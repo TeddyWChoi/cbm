@@ -89,35 +89,6 @@ export default function Board3(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div class="p2">
-                                <div class="spanico-re-parent">
-                                    <img alt="" src={require('../../assets/images/ico_re.svg').default} />
-                                    <div class="completed">Reply</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tdreply-td">
-                        <div class="frame-group">
-                            <div class="preply-num1-parent">
-                                <div class="preply-num1">
-                                    <div class="completed">
-                                        <span>댓글 </span>
-                                        <span class="span">1</span>
-                                    </div>
-                                </div>
-                                <textarea class="textareacont1" id="message" required="" spellcheck="false"></textarea>
-
-                                <div class="preply-num2">
-                                    <div class="completed">
-                                        <span>0</span>
-                                        <span class="span1">/500자</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="#" class="button-2 reply">
-                                <div class="text">Reply</div>
-                            </a>
                         </div>
                     </div>
                     <div class="component-2">
@@ -144,6 +115,52 @@ export default function Board3(props) {
                                     packages and web page editors{' '}
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="component-1">
+                        <div class="divvar-box-inner">
+                            <div class="divvar-box-inner-inner">
+                                <div class="p-parent">
+                                    <div class="logo">
+                                        <img alt="" src={require('../../assets/images/logo_aika.png')} />
+                                    </div>
+                                    <div class="p1">
+                                        <img class="time" alt="" src={require('../../assets/images/time.png')} />
+                                        <div class="completed">2024-02-20 (19:46)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-wrappper3">
+                                <div class="it-is-a-container1">
+                                    <p class="it-is-a">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                        that it has a more-or-less normal distribution of letters, as opposed to using
+                                        'Content here, content here', making it look like readable English. Many desktop
+                                        publishing packages and web page editors now use Lorem Ipsum as their default
+                                        model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                                        their infancy. Various versions have evolved over the years, sometimes by
+                                        accident, sometimes on purpose (injected humour and the like).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tdreply-td">
+                        <div class="frame-group">
+                            <div class="preply-num1-parent">
+                                <textarea class="textareacont1" id="message" required="" spellcheck="false"></textarea>
+
+                                <div class="preply-num2">
+                                    <div class="completed">
+                                        <span>0</span>
+                                        <span class="span1">/500</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="button-2 reply">
+                                <div class="text">Reply</div>
+                            </a>
                         </div>
                     </div>
                 </div>
