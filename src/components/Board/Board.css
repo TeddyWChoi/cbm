@@ -674,7 +674,7 @@
 }
 .Board3 .divvar-box-inner {
     align-self: stretch;
-    background-color: #f8f8f8;
+    background-color: #eee;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     display: flex;
