@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     max-width: 1200px;
-    padding: 0px 0 70px 0;
+    padding: 20px 0 70px 0;
     flex-direction: column;
 }
 
@@ -550,7 +550,8 @@
 
     .Ranking_Table .table .header-row,
     .Ranking_Table .table .body {
-        width: 1200px;
+        width: 100%;
+        min-width: 1000px;
     }
     .Ranking_Table .table2 .header-row,
     .Ranking_Table .table2 .body {
@@ -575,7 +576,7 @@
     .Ranking_Table .table6 .header-row,
     .Ranking_Table .table6 .body {
         width: 100%;
-        min-width: 400px;
+        min-width: 300px;
     }
     .Ranking_Table .heading {
         margin-top: 30px;

@@ -29,11 +29,10 @@ export default function Search(props) {
                                 </li>
                             </ul>
                         </div>
-                        <div class="search_input">
-                            <input type="text" class="input" placeholder="Search" />
-                            <div class="button-2">
-                                <div class="search">Search</div>
-                            </div>
+
+                        <input type="text" class="input" placeholder="Search" />
+                        <div class="button-2">
+                            <div class="search">Search</div>
                         </div>
                     </div>
                 </div>

@@ -70,6 +70,7 @@
     padding: 11px 17px;
     box-sizing: border-box;
     color: #757575;
+    width: 215px;
 }
 .Search .search {
     position: relative;
@@ -98,9 +99,4 @@
     position: relative;
     top: 0;
     height: 34px;
-}
-.Search .search_input {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
 }
