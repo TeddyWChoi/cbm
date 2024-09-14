@@ -39,7 +39,8 @@ export default function Navi() {
 
             <div class="navbar-home">
                 <button onClick={() => toggleMenu()} class="mobile_btn">
-                    <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} />
+                    <p className={isOpen ? 'close' : 'open'}></p>
+                    {/* <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} /> */}
                 </button>
                 <div class="logo_m">
                     <a href="./">

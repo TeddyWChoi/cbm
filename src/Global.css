@@ -261,6 +261,22 @@ button:hover {
     flex-direction: column;
 }
 
+.open {
+    background: url(assets/images/ico_menu.svg);
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.close {
+    background: url(assets/images/ico_close.svg);
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 @media screen and (max-width: calc(1200px)) {
     .information_wrapper {
         flex-direction: column;

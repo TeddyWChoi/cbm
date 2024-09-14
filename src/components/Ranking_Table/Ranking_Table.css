@@ -502,6 +502,20 @@
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    gap: 10px;
+}
+.relics_form a {
+    cursor: pointer;
+    opacity: 0.3;
+    display: block;
+    transition: 0.2s;
+}
+.relics_form a.active {
+    opacity: 1;
+}
+.relics_form a:hover {
+    margin-top: -10px;
+    opacity: 1;
 }
 .relics_form img {
     width: 100%;

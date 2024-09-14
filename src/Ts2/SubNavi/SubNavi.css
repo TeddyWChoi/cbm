@@ -316,7 +316,7 @@
         position: fixed;
         left: 0px;
         top: 80px;
-        transition: 1s;
+        transition: 0.5s;
         z-index: 999;
         background-color: #000000bb;
     }
@@ -327,10 +327,11 @@
         position: fixed;
         left: -100%;
         top: 80px;
-        transition: 1s;
+        transition: 0.5s;
         z-index: 999;
         background-color: #000000bb;
     }
+
     .navbar-home {
         padding: 10px 20px !important;
     }

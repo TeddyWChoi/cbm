@@ -12,7 +12,31 @@ export default function Ranking_Table() {
                 </div>
             </div>
             <div class="relics_form">
-                <img alt="" src={require('../../assets/images/relics_form.png')} />
+                <div>
+                    <a class="active" href="#">
+                        <img alt="" src={require('../../assets/images/nation1.png')} />
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img alt="" src={require('../../assets/images/nation2.png')} />
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img alt="" src={require('../../assets/images/nation3.png')} />
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img alt="" src={require('../../assets/images/nation4.png')} />
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img alt="" src={require('../../assets/images/nation5.png')} />
+                    </a>
+                </div>
             </div>
             <div class="filter-bar">
                 <b class="filter-character-diary">Amarkand</b>

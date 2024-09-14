@@ -73,7 +73,8 @@ export default function SubNavi(props) {
                 <div class="navbar-home">
                     <div class="logo_wrapper">
                         <button onClick={() => toggleMenu()} class="mobile_btn">
-                            <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} />
+                            <p className={isOpen ? 'close' : 'open'}></p>
+                            {/* <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} /> */}
                         </button>
                         <div class="logo">
                             <a href="/ts2">
@@ -225,7 +226,8 @@ export default function SubNavi(props) {
                 <div class="navbar-home">
                     <div class="logo_wrapper">
                         <button onClick={() => toggleMenu()} class="mobile_btn">
-                            <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} />
+                            <p className={isOpen ? 'close' : 'open'}></p>
+                            {/* <img class="vector-icon" alt="" src={require('../../assets/images/ico_menu.svg').default} /> */}
                         </button>
                         <div class="logo">
                             <a href="/ts2">
