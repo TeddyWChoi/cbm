@@ -67,7 +67,6 @@ import Ranking_Table3 from './components/Ranking_Table/Ranking_Table3.js';
 import Ranking_Table4 from './components/Ranking_Table/Ranking_Table4.js';
 import Ranking_Table5 from './components/Ranking_Table/Ranking_Table5.js';
 import Ranking_Table6 from './components/Ranking_Table/Ranking_Table6.js';
-import GuildRegister from './Aika/GuildRegister/GuildRegister.js';
 import Board from './components/Board/Board.js';
 import Board2 from './components/Board/Board2.js';
 import Board3 from './components/Board/Board3.js';

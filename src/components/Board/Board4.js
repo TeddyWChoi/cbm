@@ -13,7 +13,7 @@ export default function Board4(props) {
                         </div>
                         <div class="td">
                             <div class="divtd-cont">
-                                <div class="">
+                                <div class="divtd-cont-in">
                                     <select name="World" id="World">
                                         <option value="World">World</option>
                                     </select>

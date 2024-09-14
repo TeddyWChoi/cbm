@@ -942,6 +942,11 @@
     align-items: flex-start;
     justify-content: flex-start;
 }
+.Board4 .divtd-cont-in {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
 .Board4 .divtd-cont-wrapper {
     display: flex;
     flex-direction: row;
