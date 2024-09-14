@@ -40,6 +40,40 @@ export default function SubNavi(props) {
 
                     <div class="frame-group">
                         <div class="game-wrapper">
+                            <b class="game">RANKING</b>
+                        </div>
+
+                        <ul class="frame-container">
+                            <li class="mobile_menu">
+                                <a href="./character">Character</a>
+                            </li>
+                            <li class="mobile_menu">
+                                <a href="./guild">Guild</a>
+                            </li>
+                            <li class="mobile_menu">
+                                <a href="./durgeon">Durgeon</a>
+                            </li>
+                            <li class="mobile_menu">
+                                <a href="./durgeon">Relics</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="frame-group">
+                        <div class="game-wrapper">
+                            <b class="game">GUILD</b>
+                        </div>
+
+                        <ul class="frame-container">
+                            <li class="mobile_menu">
+                                <a href="./mark">Guild Mark</a>
+                            </li>
+                            <li class="mobile_menu">
+                                <a href="./slots">Guild Slots</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="frame-group">
+                        <div class="game-wrapper">
                             <b class="game"></b>
                         </div>
 
@@ -53,10 +87,10 @@ export default function SubNavi(props) {
                                 </a>
                             </li>
                             <li class="mobile_menu">
-                                <a href="./signin">Sign In</a>
+                                <a href="/aika">SIGN OUT</a>
                             </li>
                             <li class="mobile_menu">
-                                <a href="./signup">Create Account</a>
+                                <a href="./accountinformation">MY PAGE</a>
                             </li>
                         </ul>
                     </div>

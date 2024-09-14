@@ -11,19 +11,21 @@ export default function Ranking_Filter(props) {
                                 <div class="period-wrapper">
                                     <b class="period">Period</b>
                                 </div>
-                                <div class="link">
-                                    <div class="character-wrapper">
-                                        <div class="character">DAILY</div>
+                                <div class="filter_btn">
+                                    <div class="link">
+                                        <div class="character-wrapper">
+                                            <div class="character">DAILY</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">WEEKLY</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">WEEKLY</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">MONTHLY</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">MONTHLY</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -31,34 +33,36 @@ export default function Ranking_Filter(props) {
                                 <div class="period-wrapper">
                                     <b class="period">Nation</b>
                                 </div>
-                                <div class="link">
-                                    <div class="character-wrapper">
-                                        <div class="character">GENERAL</div>
+                                <div class="filter_btn">
+                                    <div class="link">
+                                        <div class="character-wrapper">
+                                            <div class="character">GENERAL</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">ERIDANUS</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">ERIDANUS</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">OCTANS</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">OCTANS</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">VOLANS</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">VOLANS</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">CHARIOTEER</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">CHARIOTEER</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">CRUX</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">CRUX</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -81,19 +85,21 @@ export default function Ranking_Filter(props) {
                                 <div class="period-wrapper">
                                     <b class="period">Period</b>
                                 </div>
-                                <div class="link">
-                                    <div class="character-wrapper">
-                                        <div class="character">DAILY</div>
+                                <div class="filter_btn">
+                                    <div class="link">
+                                        <div class="character-wrapper">
+                                            <div class="character">DAILY</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">WEEKLY</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">WEEKLY</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">MONTHLY</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">MONTHLY</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -101,34 +107,36 @@ export default function Ranking_Filter(props) {
                                 <div class="period-wrapper">
                                     <b class="period">Nation</b>
                                 </div>
-                                <div class="link">
-                                    <div class="character-wrapper">
-                                        <div class="character">GENERAL</div>
+                                <div class="filter_btn">
+                                    <div class="link">
+                                        <div class="character-wrapper">
+                                            <div class="character">GENERAL</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">ERIDANUS</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">ERIDANUS</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">OCTANS</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">OCTANS</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">VOLANS</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">VOLANS</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">CHARIOTEER</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">CHARIOTEER</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">CRUX</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">CRUX</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -136,39 +144,41 @@ export default function Ranking_Filter(props) {
                                 <div class="period-wrapper">
                                     <b class="period">Class</b>
                                 </div>
-                                <div class="link">
-                                    <div class="character-wrapper">
-                                        <div class="character">GENERAL</div>
+                                <div class="filter_btn">
+                                    <div class="link">
+                                        <div class="character-wrapper">
+                                            <div class="character">GENERAL</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">WARRIOR</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">WARRIOR</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">TEMPLAR</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">TEMPLAR</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">SHOOTER</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">SHOOTER</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">GUNSLINGER</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">GUNSLINGER</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">BLACK WIZARD</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">BLACK WIZARD</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="link1">
-                                    <div class="character-wrapper">
-                                        <div class="character">CLERIC</div>
+                                    <div class="link1">
+                                        <div class="character-wrapper">
+                                            <div class="character">CLERIC</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -60,7 +60,7 @@
     flex-shrink: 0;
 }
 .Search .input {
-    width: 273.1px;
+    max-width: 270px;
     background-color: #fff;
     height: 36px;
     display: flex;
@@ -91,10 +91,16 @@
     font-size: 16px;
     color: #fff;
     font-family: Manrope;
+    flex-wrap: wrap;
 }
 
 .Search .filter-wrapper {
     position: relative;
     top: 0;
     height: 34px;
+}
+.Search .search_input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }

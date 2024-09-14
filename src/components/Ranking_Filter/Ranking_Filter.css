@@ -2,7 +2,7 @@
     position: relative;
 }
 .filter-component .period-wrapper {
-    width: 70px;
+    min-width: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -142,4 +142,17 @@
 .Ranking_Filter .button-2 {
     height: 34px;
     border-radius: 0;
+}
+.Ranking_Filter .filter_btn {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* 반응형 */
+@media screen and (max-width: calc(1200px)) {
+    .Ranking_Filter {
+        padding: 0 20px;
+    }
 }

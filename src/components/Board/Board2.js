@@ -17,7 +17,7 @@ export default function Board2(props) {
                     </div>
                 </div>
                 <div class="th-parent">
-                    <div class="th1">
+                    <div class="th">
                         <b class="th_text">
                             <span>Game </span>
                             <span class="span">*</span>
@@ -33,7 +33,7 @@ export default function Board2(props) {
                     </div>
                 </div>
                 <div class="th-parent">
-                    <div class="th1">
+                    <div class="th">
                         <b class="th_text">
                             <span>Category </span>
                             <span class="span">*</span>

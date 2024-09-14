@@ -281,7 +281,7 @@
 }
 
 /* 반응형 */
-@media screen and (max-width: calc(1200px)) {
+@media screen and (max-width: calc(1400px)) {
     .SubNavi .logo {
         display: none;
     }
@@ -289,6 +289,11 @@
     #navi-mobile,
     .mobile_btn {
         display: block;
+    }
+    #navi-mobile {
+        overflow-y: auto;
+        height: 100%;
+        padding-bottom: 80px;
     }
     .logo_m {
         display: flex;

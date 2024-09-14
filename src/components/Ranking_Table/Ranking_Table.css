@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     max-width: 1200px;
-    padding: 30px 0 70px 0;
+    padding: 0px 0 70px 0;
     flex-direction: column;
 }
 
@@ -238,7 +238,6 @@
     padding: 19px 43px;
 }
 .Ranking_Table .image-icon1 {
-    align-self: stretch;
     position: relative;
     max-width: 100%;
     overflow: hidden;
@@ -410,7 +409,7 @@
     line-height: 148%;
 }
 .Ranking_Table .the-ranking-is {
-    width: 1072.3px;
+    width: 100%;
     position: relative;
     line-height: 148%;
     display: flex;
@@ -460,7 +459,8 @@
     padding-left: 21px;
 }
 .Ranking_Table .if-you-have-container {
-    width: 1072.3px;
+    width: 100%;
+    padding: 0 30px;
     position: relative;
     font-size: 16px;
     line-height: 148%;
@@ -503,6 +503,10 @@
     justify-content: center;
     margin-bottom: 30px;
 }
+.relics_form img {
+    width: 100%;
+    max-width: 770px;
+}
 .filter-character-diary {
     position: relative;
     line-height: 130%;
@@ -532,4 +536,48 @@
 }
 .Ranking_Table .table6 .green {
     color: #3fc91c;
+}
+
+@media screen and (max-width: calc(1200px)) {
+    .Ranking_Table {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Ranking_Table .table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .Ranking_Table .table .header-row,
+    .Ranking_Table .table .body {
+        width: 1200px;
+    }
+    .Ranking_Table .table2 .header-row,
+    .Ranking_Table .table2 .body {
+        width: 100%;
+        min-width: 900px;
+    }
+    .Ranking_Table .table3 .header-row,
+    .Ranking_Table .table3 .body {
+        width: 100%;
+        min-width: 700px;
+    }
+    .Ranking_Table .table4 .header-row,
+    .Ranking_Table .table4 .body {
+        width: 100%;
+        min-width: 700px;
+    }
+    .Ranking_Table .table5 .header-row,
+    .Ranking_Table .table5 .body {
+        width: 100%;
+        min-width: 800px;
+    }
+    .Ranking_Table .table6 .header-row,
+    .Ranking_Table .table6 .body {
+        width: 100%;
+        min-width: 400px;
+    }
+    .Ranking_Table .heading {
+        margin-top: 30px;
+    }
 }

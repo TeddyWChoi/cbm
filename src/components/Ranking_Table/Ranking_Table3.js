@@ -3,7 +3,7 @@ import './Ranking_Table.css';
 export default function Ranking_Table() {
     return (
         <div className="Ranking_Table">
-            <div class="table">
+            <div class="table table3">
                 <div class="header-row">
                     <div class="cell-parent">
                         <div class="cell">

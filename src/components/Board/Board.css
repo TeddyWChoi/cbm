@@ -15,12 +15,13 @@
     color: #2a3eef;
 }
 .Board .wrapper {
-    width: 120px;
+    width: 80px;
     height: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
 }
 .Board .board_list {
     flex: 1;
@@ -29,14 +30,18 @@
     line-height: 148%;
     color: #333;
     text-align: left;
+    width: 720px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .Board .frame-group {
-    flex: 1;
+    flex: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    min-width: 320px;
+    /* min-width: 320px; */
 }
 .Board .container {
     width: 80px;
@@ -56,7 +61,7 @@
     text-align: right;
 }
 .Board .frame-container {
-    width: 320px;
+    width: 180px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,7 +89,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding: 15px 20px;
-    min-width: 360px;
+    /* min-width: 360px; */
     max-width: 1200px;
 }
 .Board .my-board-listview {
@@ -93,6 +98,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     border-bottom: 1px solid #ddd;
+    width: 100%;
 }
 .Board .my-board-listview:hover .my-board-list {
     background-color: #eee;
@@ -117,7 +123,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-width: 360px;
+    /* min-width: 360px; */
     max-width: 1200px;
     text-align: center;
     font-size: 14px;
@@ -798,7 +804,7 @@
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     box-sizing: border-box;
-    height: 156px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -808,7 +814,7 @@
 }
 .Board3 .component-2 {
     align-self: stretch;
-    height: 156px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -848,6 +854,50 @@
     border-radius: 0;
     padding: 21px 24px;
 }
+.Board3 .logo {
+    margin-left: 0;
+}
 .Board3 .logo img {
     width: 100px;
+}
+
+@media screen and (max-width: calc(1200px)) {
+    .Board,
+    .Board2,
+    .Board3 {
+        padding: 0 20px;
+    }
+    .Board .my-board-list {
+        width: 100%;
+    }
+    .Board .board_list {
+        width: 100%;
+        overflow: visible;
+        text-overflow: clip;
+        white-space: normal;
+    }
+}
+@media screen and (max-width: calc(500px)) {
+    .Board .wrapper {
+        position: absolute;
+        bottom: 16px;
+        flex-direction: inherit;
+        justify-content: flex-start;
+    }
+    .Board {
+        padding: 0 20px;
+    }
+    .Board3 .frame-group {
+        flex-direction: column;
+    }
+    .Board3 .preply-num1-parent {
+        width: 100%;
+    }
+    .Board3 .button-2.reply {
+        margin-top: -23px;
+    }
+    .Board2 .th {
+        padding-right: 0;
+        width: 150px;
+    }
 }

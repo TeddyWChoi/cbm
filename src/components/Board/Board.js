@@ -53,7 +53,11 @@ export default function Board(props) {
                                 <div class="wrapper">
                                     <div class="ticket_category">Billing</div>
                                 </div>
-                                <div class="board_list">I have an inquiry. Waiting for your answer.</div>
+                                <div class="board_list">
+                                    I have an inquiry. Waiting for your answer.I have an inquiry. Waiting for your
+                                    answer.I have an inquiry. Waiting for your answer.I have an inquiry. Waiting for
+                                    your answer.
+                                </div>
                             </div>
                             <div class="frame-container">
                                 <div class="container">

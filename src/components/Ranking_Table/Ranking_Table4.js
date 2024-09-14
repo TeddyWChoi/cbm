@@ -14,11 +14,10 @@ export default function Ranking_Table() {
             <div class="relics_form">
                 <img alt="" src={require('../../assets/images/relics_form.png')} />
             </div>
-
-            <div class="table">
-                <div class="filter-bar">
-                    <b class="filter-character-diary">Amarkand</b>
-                </div>
+            <div class="filter-bar">
+                <b class="filter-character-diary">Amarkand</b>
+            </div>
+            <div class="table table4">
                 <div class="header-row">
                     <div class="cell-parent">
                         <div class="cell">
@@ -126,10 +125,10 @@ export default function Ranking_Table() {
                     </div>
                 </div>
             </div>
-            <div class="table">
-                <div class="filter-bar">
-                    <b class="filter-character-diary">Sigmund</b>
-                </div>
+            <div class="filter-bar">
+                <b class="filter-character-diary">Sigmund</b>
+            </div>
+            <div class="table table4">
                 <div class="header-row">
                     <div class="cell-parent">
                         <div class="cell">
@@ -237,10 +236,10 @@ export default function Ranking_Table() {
                     </div>
                 </div>
             </div>
-            <div class="table">
-                <div class="filter-bar">
-                    <b class="filter-character-diary">Cahill</b>
-                </div>
+            <div class="filter-bar">
+                <b class="filter-character-diary">Cahill</b>
+            </div>
+            <div class="table table4">
                 <div class="header-row">
                     <div class="cell-parent">
                         <div class="cell">
@@ -348,10 +347,10 @@ export default function Ranking_Table() {
                     </div>
                 </div>
             </div>
-            <div class="table">
-                <div class="filter-bar">
-                    <b class="filter-character-diary">Mirza</b>
-                </div>
+            <div class="filter-bar">
+                <b class="filter-character-diary">Mirza</b>
+            </div>
+            <div class="table table4">
                 <div class="header-row">
                     <div class="cell-parent">
                         <div class="cell">

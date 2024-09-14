@@ -22,7 +22,7 @@ export default function Ranking_Table() {
             <Search menu={'ranking'} />
             <h3 class="heading">Guild mark currently registered</h3>
 
-            <div class="table">
+            <div class="table table5">
                 <div class="header-row">
                     <div class="cell-parent">
                         <div class="cell">
