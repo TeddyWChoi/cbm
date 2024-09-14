@@ -71,6 +71,7 @@ import GuildRegister from './Aika/GuildRegister/GuildRegister.js';
 import Board from './components/Board/Board.js';
 import Board2 from './components/Board/Board2.js';
 import Board3 from './components/Board/Board3.js';
+import Board4 from './components/Board/Board4.js';
 
 function App() {
     const is_login = true; //로그인 로그아웃 변경
@@ -1076,7 +1077,7 @@ function App() {
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop heading={'Guild mark registration'} subtitle={''} />
                             <SubMenu_Aika menu={'mark'} />
-                            <GuildRegister />
+                            <Board4 />
                             <SubFooterAika />
                         </div>
                     </div>
