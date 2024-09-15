@@ -119,7 +119,7 @@ export default function SubNavi(props) {
                                                 href="https://goe.freshdesk.com/en/support/solutions/articles/80001025398-game-operations-policy"
                                                 target="_blank"
                                             >
-                                                Game Policy
+                                                GAME POLICY
                                             </a>
                                         </li>
                                     </ul>
@@ -272,7 +272,7 @@ export default function SubNavi(props) {
                                                 href="https://goe.freshdesk.com/en/support/solutions/articles/80001025398-game-operations-policy"
                                                 target="_blank"
                                             >
-                                                Game Policy
+                                                GAME POLICY
                                             </a>
                                         </li>
                                     </ul>
