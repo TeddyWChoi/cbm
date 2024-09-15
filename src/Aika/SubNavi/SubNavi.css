@@ -128,7 +128,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 162px;
+    padding: 10px 30px;
     /* position: fixed; */
     flex: 0 0 auto;
     z-index: 1000;
@@ -282,11 +282,23 @@
 }
 
 /* 반응형 */
-@media screen and (max-width: calc(1400px)) {
+@media screen and (max-width: calc(1200px)) {
+    .Navi .navbar-home .logo_wrapper {
+        display: none;
+    }
+    .Navi .logo_m {
+        margin-left: 60px;
+    }
     .SubNavi .logo {
         display: none;
     }
-
+    .Navi .frame-group,
+    .navi-mobile {
+        align-items: flex-start;
+        border-top: 1px solid #787878;
+        display: flex;
+        justify-content: flex-start;
+    }
     #navi-mobile,
     .mobile_btn {
         display: block;

@@ -128,7 +128,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 162px;
+    padding: 10px 30px;
     /* position: fixed; */
     flex: 0 0 auto;
     z-index: 1000;
@@ -276,19 +276,37 @@
 .mobile_btn {
     display: none;
 }
+
 .SubNavi .logo {
     display: flex;
 }
 
 /* 반응형 */
 @media screen and (max-width: calc(1200px)) {
+    .Navi .navbar-home .logo_wrapper {
+        display: none;
+    }
+    .Navi .logo_m {
+        margin-left: 60px;
+    }
     .SubNavi .logo {
         display: none;
     }
-
+    .Navi .frame-group,
+    .navi-mobile {
+        align-items: flex-start;
+        border-top: 1px solid #787878;
+        display: flex;
+        justify-content: flex-start;
+    }
     #navi-mobile,
     .mobile_btn {
         display: block;
+    }
+    #navi-mobile {
+        overflow-y: auto;
+        height: 100%;
+        padding-bottom: 80px;
     }
     .logo_m {
         display: flex;
@@ -331,7 +349,6 @@
         z-index: 999;
         background-color: #000000bb;
     }
-
     .navbar-home {
         padding: 10px 20px !important;
     }

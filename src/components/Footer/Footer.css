@@ -1,5 +1,5 @@
 /* footer */
-.Footer {
+.SubFooter {
     width: 100%;
 }
 .footer {
@@ -40,16 +40,15 @@
     flex: 0 0 auto;
 }
 
-.Footer .footer-inner {
+.footer-inner {
     flex-direction: column;
-    /* min-height: 148px; */
+    min-height: 148px;
     align-items: flex-start;
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
     display: flex;
     position: relative;
-    flex-flow: wrap;
 }
 
 .list {
@@ -259,4 +258,11 @@ a {
     text-align: center;
     letter-spacing: 40px;
     line-height: normal;
+}
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .container-5 img {
+        width: 100px;
+        height: auto;
+    }
 }

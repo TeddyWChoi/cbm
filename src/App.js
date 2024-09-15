@@ -107,7 +107,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <Navi />
-                            <SubTop heading={'Private Policy'} />
+                            <SubTop bg={'bottom'} heading={'Private Policy'} />
                             <PrivatePolicy />
                             <Footer />
                         </div>
@@ -120,7 +120,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <Navi />
-                            <SubTop heading={'TOS & EULA'} />
+                            <SubTop bg={'bottom'} heading={'TOS & EULA'} />
                             <TOS />
                             <Footer />
                         </div>
@@ -133,7 +133,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <Navi />
-                            <SubTop heading={'User Generated Content Policy'} />
+                            <SubTop bg={'bottom'} heading={'User Generated Content Policy'} />
                             <UGC />
                             <Footer />
                         </div>
@@ -234,6 +234,7 @@ function App() {
                         <div class="sub-desktop coinshop_wrapper">
                             <SubNavi is_login={is_login} />
                             <SubTop
+                                bg={'bottom_ts2'}
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
                             />
@@ -251,6 +252,7 @@ function App() {
                         <div class="sub-desktop coinshop_wrapper">
                             <SubNavi is_login={is_login} />
                             <SubTop
+                                bg={'bottom_ts2'}
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
                             />
@@ -268,6 +270,7 @@ function App() {
                         <div class="sub-desktop coinshop_wrapper">
                             <SubNavi is_login={is_login} />
                             <SubTop
+                                bg={'bottom_ts2'}
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
                             />
@@ -285,6 +288,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop
+                                bg={'bottom_ts2'}
                                 heading={'E-PİN İLE G-PARA YÜKLEME'}
                                 subtitle={'Hesabınıza G-Para yükleyerek oyun içerisinde kullanabilirsiniz.'}
                             />
@@ -302,6 +306,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop
+                                bg={'bottom_ts2'}
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
                             />
@@ -324,6 +329,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
                             <SubTop
+                                bg={'bottom_ts2'}
                                 heading={'G-Coin Shop'}
                                 subtitle={'Twelve Sky 2 uses G-Coin as its currency for the purchase of in-game items'}
                             />
@@ -347,7 +353,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'My page'} subtitle={''} />
                             <Purchase
                                 logo={'ts2'}
                                 messageTitle={'Password Changed!'}
@@ -366,7 +372,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Sign up'} subtitle={''} />
                             <Purchase
                                 logo={'ts2'}
                                 messageTitle={'Sign up Completed!'}
@@ -387,7 +393,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Sign up'} subtitle={''} />
 
                             <FormSignup logo={'ts2'} linkTxt={'Create Account'} linkUrl={'./'} />
 
@@ -402,7 +408,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Sign in'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Sign in'} subtitle={''} />
                             <FormSignin logo={'ts2'} linkTxt={'Sign in'} linkUrl={'./'} />
 
                             <SubFooter />
@@ -416,7 +422,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Sign up'} subtitle={''} />
                             <FormVaildcode logo={'ts2'} linkTxt={'Valid Code'} linkUrl={'./'} />
                             <SubFooter />
                         </div>
@@ -429,7 +435,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Sign in'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Sign in'} subtitle={''} />
                             <FormFind logo={'ts2'} linkTxt={'Find Password'} linkUrl={'#!'} />
 
                             <SubFooter />
@@ -443,7 +449,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Sign up'} subtitle={''} />
                             <FormFindPasswordChange logo={'ts2'} linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooter />
                         </div>
@@ -456,7 +462,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Sign up'} subtitle={''} />
                             <FormPasswordChange logo={'ts2'} linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooter />
                         </div>
@@ -469,7 +475,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'My page'} subtitle={''} />
                             <AccountInformation />
                             <SubFooter />
                         </div>
@@ -482,7 +488,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'My page'} subtitle={''} />
                             <AccountDetail />
                             <SubFooter />
                         </div>
@@ -495,7 +501,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account3'} />
                                 <div class="information_div">
@@ -514,7 +520,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account4'} />
                                 <div class="information_div">
@@ -535,7 +541,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account5'} />
                                 <div class="information_div">
@@ -555,7 +561,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Block'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Block'} subtitle={''} />
                             <Block url={'https://goe.freshdesk.com/en/support/home'} />
                             <SubFooter />
                         </div>
@@ -568,7 +574,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi is_login={is_login} />
-                            <SubTop heading={'Error'} subtitle={''} />
+                            <SubTop bg={'bottom_ts2'} heading={'Error'} subtitle={''} />
                             <Error url={'/ts2'} />
                             <SubFooter />
                         </div>
@@ -660,6 +666,7 @@ function App() {
                         <div class="sub-desktop coinshop_wrapper">
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop
+                                bg={'bottom_aika'}
                                 heading={'M-Coin Shop'}
                                 subtitle={
                                     'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
@@ -679,6 +686,7 @@ function App() {
                         <div class="sub-desktop coinshop_wrapper">
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop
+                                bg={'bottom_aika'}
                                 heading={'M-Coin Shop'}
                                 subtitle={
                                     'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
@@ -698,6 +706,7 @@ function App() {
                         <div class="sub-desktop coinshop_wrapper">
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop
+                                bg={'bottom_aika'}
                                 heading={'M-Coin Shop'}
                                 subtitle={
                                     'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
@@ -718,6 +727,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop
+                                bg={'bottom_aika'}
                                 heading={'M-Coin Shop'}
                                 subtitle={
                                     'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
@@ -742,6 +752,7 @@ function App() {
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop
+                                bg={'bottom_aika'}
                                 heading={'M-Coin Shop'}
                                 subtitle={
                                     'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
@@ -767,7 +778,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
                             <Purchase
                                 logo={'aika'}
                                 messageTitle={'Password Changed!'}
@@ -786,7 +797,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
                             <Purchase
                                 logo={'aika'}
                                 messageTitle={'Sign up Completed!'}
@@ -807,7 +818,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
 
                             <FormSignup logo={'aika'} linkTxt={'Create Account'} linkUrl={'./'} />
 
@@ -822,7 +833,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Sign in'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign in'} subtitle={''} />
                             <FormSignin logo={'aika'} linkTxt={'Sign in'} linkUrl={'./'} />
 
                             <SubFooterAika />
@@ -836,7 +847,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
                             <FormVaildcode logo={'aika'} linkTxt={'Valid Code'} linkUrl={'./'} />
                             <SubFooterAika />
                         </div>
@@ -849,7 +860,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Sign in'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign in'} subtitle={''} />
                             <FormFind logo={'aika'} linkTxt={'Find Password'} linkUrl={'#!'} />
 
                             <SubFooterAika />
@@ -863,7 +874,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
                             <FormFindPasswordChange logo={'aika'} linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooterAika />
                         </div>
@@ -876,7 +887,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Sign up'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
                             <FormPasswordChange logo={'aika'} linkTxt={'Update Password'} linkUrl={'./'} />
                             <SubFooterAika />
                         </div>
@@ -889,7 +900,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
                             <AccountInformation_Aika />
                             <SubFooterAika />
                         </div>
@@ -902,7 +913,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
                             <AccountDetail_Aika />
                             <SubFooterAika />
                         </div>
@@ -915,7 +926,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account3'} />
                                 <div class="information_div">
@@ -934,7 +945,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account4'} />
                                 <div class="information_div">
@@ -955,7 +966,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'My page'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
                             <div class="information_wrapper">
                                 <AccountLnb account={'account5'} />
                                 <div class="information_div">
@@ -975,7 +986,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Block'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Block'} subtitle={''} />
                             <Block url={'https://goe.freshdesk.com/en/support/home'} />
                             <SubFooterAika />
                         </div>
@@ -988,7 +999,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Error'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Error'} subtitle={''} />
                             <Error url={'/aika'} />
                             <SubFooterAika />
                         </div>
@@ -1001,7 +1012,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Character Ranking'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Character Ranking'} subtitle={''} />
                             <SubMenu_Aika menu={'character'} />
                             <Ranking_Filter />
                             <Ranking_Table />
@@ -1016,7 +1027,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Guild Ranking'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild Ranking'} subtitle={''} />
                             <SubMenu_Aika menu={'guild'} />
                             <Ranking_Filter filter={'guild'} />
                             <Ranking_Table2 />
@@ -1031,7 +1042,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Dungeon Ranking'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Dungeon Ranking'} subtitle={''} />
                             <SubMenu_Aika menu={'durgeon'} />
                             <Ranking_Filter filter={'all'} />
                             <Ranking_Table3 />
@@ -1046,7 +1057,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Situation of the Relics'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Situation of the Relics'} subtitle={''} />
                             <SubMenu_Aika menu={'relics'} />
                             <Ranking_Table4 />
                             <SubFooterAika />
@@ -1060,7 +1071,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Guild mark registration'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild mark registration'} subtitle={''} />
                             <SubMenu_Aika menu={'mark'} />
                             <Ranking_Table5 />
                             <SubFooterAika />
@@ -1074,7 +1085,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Guild mark registration'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild mark registration'} subtitle={''} />
                             <SubMenu_Aika menu={'mark'} />
                             <Board4 />
                             <SubFooterAika />
@@ -1088,7 +1099,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Guild Slots'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild Slots'} subtitle={''} />
                             <SubMenu_Aika menu={'slots'} />
                             <Ranking_Table6 />
                             <SubFooterAika />
@@ -1102,7 +1113,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Ticket History'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Ticket History'} subtitle={''} />
                             <Board />
                             <SubFooterAika />
                         </div>
@@ -1115,7 +1126,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'Submit A Ticket'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'Submit A Ticket'} subtitle={''} />
                             <Board2 />
                             <SubFooterAika />
                         </div>
@@ -1128,7 +1139,7 @@ function App() {
                     <div className="App">
                         <div class="sub-desktop">
                             <SubNavi_Aika is_login={is_login} />
-                            <SubTop heading={'My Ticket'} subtitle={''} />
+                            <SubTop bg={'bottom_aika'} heading={'My Ticket'} subtitle={''} />
                             <Board3 />
                             <SubFooterAika />
                         </div>

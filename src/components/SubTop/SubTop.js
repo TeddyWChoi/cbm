@@ -5,7 +5,7 @@ function SubTop(props) {
         <div className="SubTop">
             <div class="frame">
                 <div class="main-bottom">
-                    <div class="bottom"></div>
+                    <div class={props.bg}></div>
                     <div class="text-container">
                         <div class="heading">{props.heading}</div>
                         <p class="subtitle">{props.subtitle}</p>
