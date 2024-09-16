@@ -54,7 +54,7 @@ export default function SubNavi(props) {
                                 <a href="./durgeon">Durgeon</a>
                             </li>
                             <li class="mobile_menu">
-                                <a href="./durgeon">Relics</a>
+                                <a href="./relics">Relics</a>
                             </li>
                         </ul>
                     </div>
