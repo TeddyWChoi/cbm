@@ -65,6 +65,7 @@ import Ranking_Table from './components/Ranking_Table/Ranking_Table.js';
 import Ranking_Table2 from './components/Ranking_Table/Ranking_Table2.js';
 import Ranking_Table3 from './components/Ranking_Table/Ranking_Table3.js';
 import Ranking_Table4 from './components/Ranking_Table/Ranking_Table4.js';
+import Ranking_Table4_po from './components/Ranking_Table/Ranking_Table4_po.js';
 import Ranking_Table5 from './components/Ranking_Table/Ranking_Table5.js';
 import Ranking_Table6 from './components/Ranking_Table/Ranking_Table6.js';
 import Board from './components/Board/Board.js';
@@ -1135,6 +1136,571 @@ function App() {
             />
             <Route
                 path="/aika/my_ticket"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My Ticket'} subtitle={''} />
+                            <Board3 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+
+            {/* AIKA_po start */}
+            <Route
+                path="/aika_po"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <Redirect url={'/aika_po/news'} />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/landing"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <LandingAika />
+                        </div>
+                    </div>
+                }
+            />
+
+            <Route
+                path="/aika_po/news"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubAIKA />
+                            <SubMenu_Aika menu={'news'} />
+                            <News_Aika />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/view"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubMenu_Aika menu={'news'} />
+                            <View_Aika />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/feature"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubAIKA />
+                            <SubMenu_Aika menu={'feature'} />
+                            <SubMenu_Feature />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/calendar"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubAIKA />
+                            <SubMenu_Aika menu={'calendar'} />
+                            <Calendar_Aika />
+                            <SubFooter />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/coinshop"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop coinshop_wrapper">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop
+                                bg={'bottom_aika'}
+                                heading={'M-Coin Shop'}
+                                subtitle={
+                                    'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
+                                }
+                            />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
+                            <Coinshop />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/coinshop2"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop coinshop_wrapper">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop
+                                bg={'bottom_aika'}
+                                heading={'M-Coin Shop'}
+                                subtitle={
+                                    'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
+                                }
+                            />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
+                            <Coinshop2 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/coinshop3"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop coinshop_wrapper">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop
+                                bg={'bottom_aika'}
+                                heading={'M-Coin Shop'}
+                                subtitle={
+                                    'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
+                                }
+                            />
+                            <Balance url={'./coinpurchasehistory'} button={'Purchase History'} />
+                            <Coinshop3 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+
+            <Route
+                path="/aika_po/purchase_completed"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop
+                                bg={'bottom_aika'}
+                                heading={'M-Coin Shop'}
+                                subtitle={
+                                    'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
+                                }
+                            />
+                            <Purchase
+                                logo={'aika'}
+                                messageTitle={'Purchase completed!'}
+                                messageTxt={'You have successfully purchased G-Coins!'}
+                                linkTxt={'Purchase History'}
+                                linkUrl={'./history'}
+                            />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/purchase_failed"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop
+                                bg={'bottom_aika'}
+                                heading={'M-Coin Shop'}
+                                subtitle={
+                                    'Aika Online Global uses M-Coin as its currency for the purchase of in-game items'
+                                }
+                            />
+                            <Purchase
+                                logo={'aika'}
+                                messageTitle={'Purchase failed!'}
+                                messageTxt={
+                                    'Purchase has been failed because something went wrong. Your account has not been charged.'
+                                }
+                                linkTxt={'Purchase History'}
+                                linkUrl={'./history'}
+                            />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/password_changed"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <Purchase
+                                logo={'aika'}
+                                messageTitle={'Password Changed!'}
+                                messageTxt={'Password has been changed successfully.'}
+                                linkTxt={'Go to Account'}
+                                linkUrl={'./accountinformation'}
+                            />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/signup_completed"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
+                            <Purchase
+                                logo={'aika'}
+                                messageTitle={'Sign up Completed!'}
+                                messageTxt={
+                                    'Welcome to Twelve Sky2 on an unforgettable adventure presended by CBM Entertainment.'
+                                }
+                                linkTxt={'Go to Homepage'}
+                                linkUrl={'./'}
+                            />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/signup"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
+
+                            <FormSignup logo={'aika'} linkTxt={'Create Account'} linkUrl={'./'} />
+
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/signin"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign in'} subtitle={''} />
+                            <FormSignin logo={'aika'} linkTxt={'Sign in'} linkUrl={'./'} />
+
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/vaildcode"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
+                            <FormVaildcode logo={'aika'} linkTxt={'Valid Code'} linkUrl={'./'} />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/find"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign in'} subtitle={''} />
+                            <FormFind logo={'aika'} linkTxt={'Find Password'} linkUrl={'#!'} />
+
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/FindPasswordChange"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
+                            <FormFindPasswordChange logo={'aika'} linkTxt={'Update Password'} linkUrl={'./'} />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/PasswordChange"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Sign up'} subtitle={''} />
+                            <FormPasswordChange logo={'aika'} linkTxt={'Update Password'} linkUrl={'./'} />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/AccountInformation"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <AccountInformation_Aika />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/AccountDetail"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <AccountDetail_Aika />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/LoginHistory"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account3'} />
+                                <div class="information_div">
+                                    <HistoryFilter />
+                                    <Table1 />
+                                </div>
+                            </div>
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/IngamePurchaseHistory"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account4'} />
+                                <div class="information_div">
+                                    <Balance url={'./coinshop'} button={'Buy Coin'} />
+                                    <HistoryFilter />
+                                    <Table2 />
+                                </div>
+                            </div>
+
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/CoinPurchaseHistory"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account5'} />
+                                <div class="information_div">
+                                    <Balance url={'./coinshop'} button={'Buy Coin'} />
+                                    <HistoryFilter />
+                                    <Table3 />
+                                </div>
+                            </div>
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/Block"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Block'} subtitle={''} />
+                            <Block url={'https://goe.freshdesk.com/en/support/home'} />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/Error"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Error'} subtitle={''} />
+                            <Error url={'/aika_po'} />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/character"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Character Ranking'} subtitle={''} />
+                            <SubMenu_Aika menu={'character'} />
+                            <Ranking_Filter />
+                            <Ranking_Table />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/guild"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild Ranking'} subtitle={''} />
+                            <SubMenu_Aika menu={'guild'} />
+                            <Ranking_Filter filter={'guild'} />
+                            <Ranking_Table2 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/durgeon"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Dungeon Ranking'} subtitle={''} />
+                            <SubMenu_Aika menu={'durgeon'} />
+                            <Ranking_Filter filter={'all'} />
+                            <Ranking_Table3 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/relics"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Situation of the Relics'} subtitle={''} />
+                            <SubMenu_Aika menu={'relics'} />
+                            <Ranking_Table4_po />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/mark"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild mark registration'} subtitle={''} />
+                            <SubMenu_Aika menu={'mark'} />
+                            <Ranking_Table5 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/guild_register"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild mark registration'} subtitle={''} />
+                            <SubMenu_Aika menu={'mark'} />
+                            <Board4 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/slots"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Guild Slots'} subtitle={''} />
+                            <SubMenu_Aika menu={'slots'} />
+                            <Ranking_Table6 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/ticket_history"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Ticket History'} subtitle={''} />
+                            <Board />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/ticket_submit"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Submit A Ticket'} subtitle={''} />
+                            <Board2 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/aika_po/my_ticket"
                 element={
                     <div className="App">
                         <div class="sub-desktop">
