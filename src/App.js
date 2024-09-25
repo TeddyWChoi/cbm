@@ -64,6 +64,8 @@ import Ranking_Filter from './components/Ranking_Filter/Ranking_Filter.js';
 import Ranking_Table from './components/Ranking_Table/Ranking_Table.js';
 import Ranking_Table2 from './components/Ranking_Table/Ranking_Table2.js';
 import Ranking_Table3 from './components/Ranking_Table/Ranking_Table3.js';
+/* 9/25 추가*/
+import Ranking_Table3_po from './components/Ranking_Table/Ranking_Table3_po.js';
 import Ranking_Table4 from './components/Ranking_Table/Ranking_Table4.js';
 import Ranking_Table4_po from './components/Ranking_Table/Ranking_Table4_po.js';
 import Ranking_Table5 from './components/Ranking_Table/Ranking_Table5.js';
@@ -1611,7 +1613,7 @@ function App() {
                             <SubTop bg={'bottom_aika'} heading={'Dungeon Ranking'} subtitle={''} />
                             <SubMenu_Aika menu={'durgeon'} />
                             <Ranking_Filter filter={'all'} />
-                            <Ranking_Table3 />
+                            <Ranking_Table3_po />
                             <SubFooterAika />
                         </div>
                     </div>
