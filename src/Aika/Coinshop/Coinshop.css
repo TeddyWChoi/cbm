@@ -1,0 +1,214 @@
+.Coinshop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: var(--black-08);
+    gap: 0;
+    width: 100%;
+}
+
+/* coin shop */
+.coinshop_wrapper .Balance {
+    margin-top: 30px;
+}
+
+.Coinshop .frame-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 0px;
+    box-sizing: border-box;
+}
+.Coinshop .icon {
+    width: 144px;
+    position: relative;
+    height: 144px;
+    object-fit: cover;
+}
+.Coinshop .buy-wrapper {
+    align-self: stretch;
+    background: linear-gradient(180deg, #f0b919, #fefa6b);
+    border: 1px solid #fffdc8;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    color: #333;
+}
+.Coinshop .buy-wrapper .text {
+    color: #333;
+}
+.Coinshop .coin-box {
+    max-width: 382px;
+    min-width: 320px;
+    width: 100%;
+    border-radius: 5px;
+    background: radial-gradient(50% 50% at 50% 50%, #4c5569, #1d2333);
+    border: 1px solid #8bacff;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Coinshop .coin-box:hover {
+    margin-top: -15px;
+    transition: all 0.3s;
+}
+
+.Coinshop .coin-box.coin15 {
+    background: radial-gradient(50% 50% at 50% 50%, #2ba08b, #1d3033);
+}
+.Coinshop .coin-box.coin20 {
+    background: radial-gradient(50% 50% at 50% 50%, #b05300, #33241d);
+}
+
+.Coinshop .coin-box.coin25 {
+    background: radial-gradient(50% 50% at 50% 50%, #7d00c7, #291d33);
+}
+
+.Coinshop .coin-box.coin30 {
+    background: radial-gradient(50% 50% at 50% 50%, #a38e6a, #221b0e);
+}
+
+.Coinshop .bonus-330030 {
+    position: relative;
+    line-height: 140%;
+}
+.Coinshop .bonus-330030-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: right;
+    font-size: 14px;
+    color: #787878;
+}
+.Coinshop .frame-parent2 {
+    width: 382px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 0px;
+    box-sizing: border-box;
+    z-index: 0;
+}
+.Coinshop .icon3 {
+    width: 144px;
+    position: relative;
+    height: 144px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.Coinshop .p {
+    margin: 0;
+}
+.Coinshop .bonus1 {
+    margin: 0;
+    font-size: 10.7px;
+}
+.Coinshop .bonus {
+    position: relative;
+    line-height: 11.14px;
+    text-shadow: 0px 0px 3.71px rgba(0, 0, 0, 0.25);
+}
+.Coinshop .bonus-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Coinshop .tag {
+    width: 70px;
+    margin: 0 !important;
+    position: absolute;
+    top: 93px;
+    right: 10px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    /* background-image: url('../../assets/images/tag5.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 3;
+    font-size: 15px;
+    font-family: '210 Ssanai';
+}
+
+.Coinshop .inputallcheck {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 2.5px;
+    background-color: #fff;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+}
+.Coinshop .check-box {
+    width: 13px;
+    position: relative;
+    height: 13px;
+}
+.Coinshop .check-box input {
+    margin: 0;
+}
+
+.Coinshop .pregister2-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 5px;
+}
+.Coinshop .pregister2-check-wrapper {
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #787878;
+}
+.Coinshop .coinshop_wrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 26px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .Coinshop {
+        margin: 30px 0 50px 0;
+    }
+    .Coinshop .coinshop_wrapper {
+        padding: 0 20px;
+    }
+}

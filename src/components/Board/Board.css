@@ -1,0 +1,1220 @@
+.Board,
+.Board2 {
+    margin: 30px 0 70px 0;
+    width: 100%;
+    max-width: 1200px;
+}
+/* Board */
+.Board .div {
+    position: relative;
+    line-height: 140%;
+}
+.Board .ticket_category {
+    position: relative;
+    line-height: 140%;
+    color: #2a3eef;
+}
+.Board .wrapper {
+    width: 80px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.Board .board_list {
+    flex: 1;
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+    color: #333;
+    text-align: left;
+    width: 720px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Board .frame-group {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* min-width: 320px; */
+}
+.Board .container {
+    width: 80px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Board .frame {
+    width: 90px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.Board .frame-container {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: #787878;
+}
+.Board .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px 0px;
+}
+.Board .my-board-list {
+    width: 1200px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 20px;
+    /* min-width: 360px; */
+    max-width: 1200px;
+}
+.Board .my-board-listview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.Board .my-board-listview:hover .my-board-list {
+    background-color: #eee;
+}
+.Board .board_btn .button-2,
+.Board3 .board_btn .button-2 {
+    border-radius: 0;
+}
+.Board .board_btn,
+.Board3 .board_btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    width: 100%;
+}
+.Board .my-board-listview-parent {
+    width: 100%;
+    position: relative;
+    border-top: 5px solid #2a3eef;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* min-width: 360px; */
+    max-width: 1200px;
+    text-align: center;
+    font-size: 14px;
+    color: #2a3eef;
+    font-family: Manrope;
+    margin-top: 15px;
+}
+
+/* Board2 */
+.Board2 .span {
+    color: #ff3300;
+}
+.Board2 .th_text {
+    display: flex;
+}
+.Board2 .th_text .span {
+    margin-left: 3px;
+}
+.Board2 .th {
+    align-self: stretch;
+    flex: 0.1905;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 186px 0px 14px;
+    min-width: 100px;
+    max-width: 240px;
+}
+.Board2 .teddyemailcom {
+    position: relative;
+    line-height: 148%;
+}
+.Board2 .inputsubject {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.Board2 .td {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 17.5px 15px;
+    min-width: 220px;
+    color: #333;
+    font-family: Manrope;
+}
+.Board2 .th-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Board2 .th1 {
+    align-self: stretch;
+    flex: 1;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 14px;
+    min-width: 100px;
+    max-width: 240px;
+}
+.Board2 .div {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 20px 1px 0px;
+}
+.Board2 .dropdown-icon {
+    width: 10px;
+    position: relative;
+    height: 5px;
+}
+.Board2 .div-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.Board2 .category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+.Board2 .category-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Board2 .td1 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 17.5px 15px;
+    min-width: 220px;
+    color: #333;
+}
+.Board2 .textareacont1 {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 158px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.Board2 .td5 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8.5px 15px;
+    min-width: 220px;
+    color: #333;
+    font-family: Manrope;
+}
+.Board2 .inputfile-upload-button {
+    border-radius: 2.5px;
+    background-color: #efefef;
+    border: 1px solid #767676;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3px 8.4px 3px 7px;
+}
+.Board2 .no-file-chosen {
+    position: relative;
+    line-height: 148%;
+    text-align: left;
+}
+.Board2 .inputbfile {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1px 3px;
+    gap: 4px;
+}
+.Board2 .td6 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 17.5px 15px;
+    min-width: 220px;
+    text-align: center;
+    color: #333;
+    font-family: Manrope;
+}
+.Board2 .th6 {
+    align-self: stretch;
+    flex: 0.2333;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 159px 0px 25px;
+    min-width: 100px;
+    max-width: 240px;
+}
+.Board2 .div4 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+}
+.Board2 .inputfile-upload-button1 {
+    border-radius: 2.5px;
+    background-color: #f8f8f8;
+    border: 1px solid #787878;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3px 8.4px 3px 7px;
+}
+.Board2 .div5 {
+    position: relative;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 148%;
+    text-align: left;
+}
+.Board2 .inputbfile1 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1px 3px;
+    gap: 7px;
+}
+.Board2 .m-3 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 148%;
+    color: #787878;
+    text-align: left;
+}
+.Board2 .divtd-cont {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 15px;
+}
+.Board2 .td7 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.5px 0px;
+    min-width: 220px;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+}
+.Board2 .th-parent3 {
+    width: 1200px;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Board2 .myboard-form {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-top: 5px solid #2a3eef;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0px;
+    min-width: 320px;
+    max-width: 1200px;
+    text-align: left;
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Noto Sans KR';
+}
+.Board2 .myboard-form textarea {
+    width: 100%;
+    height: 136px;
+    border: 1px solid #dddddd;
+}
+
+/* board3 */
+.Board3 .general {
+    align-self: stretch;
+    position: relative;
+    line-height: 148%;
+}
+.Board3 .general-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #2a3eef;
+}
+.Board3 .i-have-an {
+    align-self: stretch;
+    position: relative;
+    line-height: 130%;
+}
+.Board3 .text-wrappper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px 0px 0px;
+    font-size: 20px;
+}
+.Board3 .name {
+    position: relative;
+    line-height: 148%;
+    font-weight: 700;
+}
+.Board3 .time {
+    margin-right: 3px;
+}
+.Board3 .name-wrapper {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Board3 .frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 0px 0px;
+}
+.Board3 .edit-icon {
+    width: 9.7px;
+    position: relative;
+    height: 9.9px;
+    object-fit: cover;
+}
+.Board3 .i1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 5px 0px 0px;
+}
+.Board3 .i {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 1.5px 0px 0px;
+}
+.Board3 .icoutline-remove-red-eye-icon {
+    width: 12px;
+    position: relative;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.Board3 .completed {
+    position: relative;
+    line-height: 140%;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    font-family: Manrope;
+    color: #787878;
+    text-align: left;
+}
+.Board3 .icoutline-remove-red-eye-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    text-align: center;
+}
+.Board3 .div-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Board3 .div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 0px 0px;
+    font-size: 14px;
+    color: #787878;
+}
+.Board3 .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.Board3 .div1 {
+    align-self: stretch;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    height: 100%;
+}
+.Board3 .it-is-a {
+    margin: 0;
+}
+.Board3 .text-wrappper2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 30px;
+}
+.Board3 .div {
+    align-self: stretch;
+    background-color: #fff;
+    border-top: 5px solid #2a3eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Board3 .btn2 {
+    background-color: #fff;
+    border: 1px solid #244f80;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 23px;
+}
+.Board3 .btn2-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.Board3 .btn2-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+}
+.Board3 .image-icon {
+    width: 121px;
+    position: relative;
+    height: 29px;
+    object-fit: cover;
+}
+.Board3 .p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 0px;
+}
+.Board3 .p1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0px;
+}
+.Board3 .p-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Board3 .divvar-box-inner-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #787878;
+}
+.Board3 .it-is-a-container1 {
+    flex: 1;
+    position: relative;
+    line-height: 148%;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.Board3 .text-wrappper3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.Board3 .spanico-re-icon {
+    width: 10px;
+    position: relative;
+    height: 10px;
+    object-fit: cover;
+}
+.Board3 .spanico-re-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.Board3 .p2 {
+    align-self: stretch;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.Board3 .divvar-box-inner {
+    align-self: stretch;
+    background-color: #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    gap: 4px;
+}
+.Board3 .component-1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Board3 .span {
+    color: #ff3300;
+}
+.Board3 .preply-num1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 925.9px 0px 0px;
+}
+.Board3 .textareacont1 {
+    align-self: stretch;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.Board3 .span1 {
+    color: #333;
+}
+.Board3 .preply-num2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: #ff3300;
+}
+.Board3 .preply-num1-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.Board3 div11 {
+    flex: 1;
+    position: relative;
+    line-height: 150%;
+}
+.Board3 .btn {
+    background-color: #1c6dc9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 11px 40px;
+    box-sizing: border-box;
+    min-width: 130px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.Board3 .frame-group {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.Board3 .tdreply-td {
+    align-self: stretch;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.Board3 .frame-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Board3 .p3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0px;
+    font-size: 14px;
+    color: #787878;
+}
+.Board3 .divvar-box-inner-child {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Board3 .it-is-a-long-established-fact-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0px;
+}
+.Board3 .divvar-box-inner1 {
+    align-self: stretch;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    gap: 4px;
+}
+.Board3 .component-2 {
+    align-self: stretch;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #333;
+}
+.Board3 .component-1-parent {
+    margin-top: 15px;
+    align-self: stretch;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+.Board3 .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 0px 70px;
+    box-sizing: border-box;
+
+    min-width: 360px;
+    max-width: 1200px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    font-family: Manrope;
+}
+.Board3 .button-2.reply {
+    border-radius: 0;
+    padding: 21px 24px;
+}
+.Board3 .logo {
+    margin-left: 0;
+}
+.Board3 .logo img {
+    width: 100px;
+}
+
+.Board4 {
+    display: flex;
+    /* gap: 25px; */
+    margin: 0px 0 70px 0;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+}
+.Board4 .myboard-form-parent {
+    width: 100%;
+}
+.Board4 .email {
+    flex: 1;
+    position: relative;
+    line-height: 148%;
+}
+.Board4 .th {
+    align-self: stretch;
+    flex: 1;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 25px;
+    min-width: 100px;
+    max-width: 220px;
+}
+.Board4 .jasonjmhangmailcom {
+    position: relative;
+    line-height: 148%;
+}
+.Board4 .divtd-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 17px;
+}
+.Board4 .phcheck-bold-icon {
+    width: 9px;
+    position: relative;
+    height: 9px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.Board4 .divtd-cont1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 15px;
+    gap: 5px;
+}
+.Board4 .td {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 0px;
+    min-width: 220px;
+    color: #333;
+}
+.Board4 .th-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Board4 .divtd-cont2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Board4 .divtd-cont-in {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.Board4 .divtd-cont-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Board4 .divtd-cont3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.Board4 .td1 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 17px;
+    min-width: 220px;
+    color: #333;
+}
+.Board4 .latest-change-may-19-2024-11-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Board4 .frame-parent {
+    flex: 1;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Board4 .divtd-cont4 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 17px;
+    min-width: 220px;
+    color: #333;
+}
+.Board4 .th-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.Board4 .myboard-form {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-top: 5px solid #2a3eef;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1px 0px;
+    min-width: 320px;
+    max-width: 1200px;
+    text-align: left;
+    font-size: 16px;
+    color: #787878;
+    font-family: Manrope;
+}
+.Board4 .heading {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    line-height: 130%;
+    display: inline-block;
+    font-family: Manrope;
+    color: #ddd;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.Board4 #World {
+    margin-right: 10px;
+}
+.Board4 #World,
+.Board4 #Nation {
+    width: 120px;
+    height: 36px;
+}
+.Board4 .divtd-cont4 input[type='text'] {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #dddddd;
+}
+.Board4 .divtd-cont5 textarea {
+    width: 100%;
+    height: 136px;
+    border: 1px solid #dddddd;
+}
+.Board4 .divtd-cont5 {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 17px;
+    min-width: 220px;
+    color: #333;
+}
+.Board4 .divtd-cont select {
+    border: 1px solid #dddddd;
+}
+
+.button-parent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px 0px 70px; */
+    padding-top: 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+}
+@media screen and (max-width: calc(1200px)) {
+    .Board4 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Board4 .td,
+    .Board4 .td1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Board4 .frame-parent {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: calc(1200px)) {
+    .Board,
+    .Board2,
+    .Board3,
+    .Board4 {
+        padding: 0 20px;
+    }
+    .Board .my-board-list {
+        width: 100%;
+    }
+    .Board .board_list {
+        width: 100%;
+        overflow: visible;
+        text-overflow: clip;
+        white-space: normal;
+    }
+}
+@media screen and (max-width: calc(500px)) {
+    .Board .wrapper {
+        position: absolute;
+        bottom: 16px;
+        flex-direction: inherit;
+        justify-content: flex-start;
+    }
+    .Board {
+        padding: 0 20px;
+    }
+    .Board3 .frame-group {
+        flex-direction: column;
+    }
+    .Board3 .preply-num1-parent {
+        width: 100%;
+    }
+    .Board3 .button-2.reply {
+        margin-top: -23px;
+    }
+    .Board2 .th,
+    .Board4 .th {
+        padding-right: 0;
+        width: 150px;
+    }
+    .input_file {
+        width: 100px;
+    }
+}
+
+/* 0925 추가 */
+
+.Board3 .frame-1171276321,
+.Board3 .frame-1171276321 * {
+    box-sizing: border-box;
+}
+
+.Board3 .frame-1171276321 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: var(--is-light, #f8f8f8);
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.Board3 .frame-1171276322 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.Board3 .file {
+    color: var(--is-dark, #333333);
+    text-align: left;
+    font-family: var(--pc-h4-font-family, 'Manrope-Bold', sans-serif);
+    font-size: var(--pc-h4-font-size, 16px);
+    line-height: var(--pc-h4-line-height, 148%);
+    font-weight: var(--pc-h4-font-weight, 700);
+    position: relative;
+}
+.Board3 .file:hover {
+    text-decoration: underline;
+}
+
+.Board3 .size {
+    color: var(--is-grey, #787878);
+    text-align: left;
+    font-family: var(--pc-paragraph2-font-family, 'Manrope-Regular', sans-serif);
+    font-size: var(--pc-paragraph2-font-size, 14px);
+    line-height: var(--pc-paragraph2-line-height, 140%);
+    font-weight: var(--pc-paragraph2-font-weight, 400);
+    position: relative;
+}
+
+.Board3 .ic-baseline-download {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    overflow: visible;
+}

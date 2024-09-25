@@ -1,0 +1,392 @@
+.View {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: var(--black-08);
+    gap: 0;
+    width: 100%;
+}
+/* board */
+
+.div1 {
+    align-self: stretch;
+    position: relative;
+    border-bottom: 10px solid #2a3eef;
+    box-sizing: border-box;
+    height: 10px;
+}
+.updates {
+    position: relative;
+    line-height: 140%;
+}
+.title {
+    width: 100%;
+    position: relative;
+    font-size: 30px;
+    line-height: 148%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 32px;
+    flex-shrink: 0;
+}
+.edit-icon {
+    width: 9.7px;
+    position: relative;
+    height: 9.9px;
+    object-fit: cover;
+}
+.i1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 5px 0px 0px;
+}
+.i {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 1.5px 0px 0px;
+}
+.date {
+    position: relative;
+    line-height: 140%;
+    font-weight: 300;
+}
+.div3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.i2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 3.5px 0px 0px;
+}
+.div-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+.updates-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+    width: 100%;
+}
+
+.board_txt {
+    width: 100%;
+    max-width: 880px;
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+    color: #eee;
+    display: flex;
+    align-items: center;
+}
+.div2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 60px 50px 60px;
+    gap: 30px;
+}
+.div0 {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px;
+}
+.div0 img {
+    width: 100%;
+    height: auto;
+}
+.component-2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #f5a623;
+    font-family: Manrope;
+}
+.board_wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 0 50px 0px;
+}
+.page-1-icon {
+    width: 22px;
+    position: relative;
+    height: 21.2px;
+    object-fit: cover;
+}
+.ico-boardsvg {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.related-news {
+    position: relative;
+    line-height: 35px;
+}
+.related-news-wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 3px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 148%;
+    font-family: Manrope;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.related-news2 {
+    margin: 0 0 70px 0;
+}
+
+.sub-desktop .div-3 {
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 27px 27px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .news {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    max-width: 382px;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.sub-desktop .grand-launch-events-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .grand-launch-events {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.sub-desktop .div-4 {
+    flex-direction: column;
+    height: 120px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 20px 20px 20px;
+    background-color: #1a1a1a;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .div-5 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.99px;
+    font-family: var(--PC-h4-font-family);
+    font-weight: var(--PC-h4-font-weight);
+    color: #f5a623;
+    font-size: var(--PC-h4-font-size);
+    letter-spacing: var(--PC-h4-letter-spacing);
+    line-height: var(--PC-h4-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-h4-font-style);
+}
+
+.sub-desktop .facebook-login-reply-wrapper {
+    height: 56px;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .facebook-login-reply {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -0.99px;
+    font-family: var(--PC-subtitle2-font-family);
+    font-weight: var(--PC-subtitle2-font-weight);
+    color: #dddddd;
+    font-size: var(--PC-subtitle2-font-size);
+    letter-spacing: var(--PC-subtitle2-letter-spacing);
+    line-height: var(--PC-subtitle2-line-height);
+    font-style: var(--PC-subtitle2-font-style);
+}
+
+.sub-desktop .div-6 {
+    align-items: center;
+    padding: 2px 246.21px 0px 0px;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sub-desktop .i {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 0px 4.97px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sub-desktop .overlap-group {
+    position: relative;
+    width: 3px;
+    height: 5px;
+    top: 2px;
+    left: 5px;
+}
+
+.sub-desktop .rectangle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 1px;
+    left: 0;
+}
+
+.sub-desktop .rectangle-2 {
+    height: 5px;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    left: 0;
+}
+
+.sub-desktop .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.99px;
+    margin-right: -57.92px;
+    font-family: var(--PC-paragraph3-font-family);
+    font-weight: var(--PC-paragraph3-font-weight);
+    color: #787878;
+    font-size: var(--PC-paragraph3-font-size);
+    letter-spacing: var(--PC-paragraph3-letter-spacing);
+    line-height: var(--PC-paragraph3-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-paragraph3-font-style);
+    padding-left: 15px;
+    background-image: url(../../assets/images/time.svg);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+}
+
+.sub-desktop .overlap-group-wrapper {
+    /* background-image: url(../../assets/images/shape-8.svg); */
+    position: relative;
+    width: 9.73px;
+    height: 9.95px;
+    background-size: 100% 100%;
+}
+
+.sub-desktop .rectangle-3 {
+    height: 4px;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    left: 0;
+}
+
+.sub-desktop .frame-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .title {
+        font-size: 22px;
+    }
+    .board_txt {
+        font-size: 14px;
+    }
+    .related-news2 {
+        width: 100%;
+    }
+    .div2 {
+        padding: 30px 20px 50px 20px;
+    }
+}

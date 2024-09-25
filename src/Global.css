@@ -1,0 +1,285 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('https://fonts.googleapis.com/css?family=Manrope:var(--PC-paragraph0-font-weight),var(--PC-h4-font-weight),var(--PC-paragraph1-font-weight),var(--PC-subtitle2-font-weight),var(--PC-paragraph2-font-weight),var(--PC-h2-font-weight),var(--PC-h1-font-weight),var(--PC-paragraph3-font-weight)');
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: 'Manrope', Helvetica !important;
+}
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: #141414;
+    scroll-padding-top: 80px;
+}
+
+/* Paging number */
+.item-link {
+    width: 48.4px;
+    background-color: #2a3eef;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.item-link1 {
+    width: 48.4px;
+    background-color: #333;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+    box-sizing: border-box;
+}
+.item-link1:hover {
+    width: 48.4px;
+    background-color: #2a3eef;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.table-number {
+    margin: 30px 0 0px 0;
+    display: flex;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    text-align: center;
+    font-size: 16px;
+    color: #ddd;
+    font-family: Manrope;
+}
+.item-link-prxima {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+}
+.item-link-prxima:hover {
+    background-color: #2a3eef;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+a:hover {
+    color: #ffffff;
+}
+input::placeholder {
+    color: #ddd;
+}
+
+/* button */
+.abtn {
+    background-color: #fff;
+    border: 1px solid #2a3eef;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 6px 25px;
+    text-align: center;
+    color: #2a3eef;
+}
+.abtn:hover {
+    background-color: #2a3eef;
+    color: #fff;
+}
+.button-3 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 600px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 22.5px 73.52px 22.5px 73.5px;
+    position: relative;
+    margin-left: -9px;
+    margin-right: -9px;
+    background-color: #293def;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-3:hover {
+    background-color: #4a57cb;
+}
+.button-3 b {
+    text-align: center;
+}
+.button-1 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 18px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #333;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    min-width: 120px;
+    justify-content: center;
+}
+.button-1:hover {
+    background-color: #4b4b4b;
+}
+.button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 18px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #293def;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    min-width: 120px;
+    justify-content: center;
+}
+.button-2:hover {
+    background-color: #4a57cb;
+}
+.button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 18px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+.button:hover {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 18px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #ffffff;
+    background-color: #fff;
+}
+.button:hover .text {
+    color: #333;
+}
+
+.btn-black {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 70px;
+    font-size: 20px;
+    color: #fff;
+    /* width: 100%;
+    max-width: 380px; */
+}
+.btn-black:hover {
+    background-color: #474747;
+}
+
+button {
+    border: 0;
+    background: transparent;
+    color: #ddd;
+}
+button:hover {
+    color: #fff;
+}
+/* 반응형 */
+@media screen and (max-width: calc(768px)) {
+    .button-3 {
+        padding: 0 40px;
+    }
+    .btn-black b {
+        font-size: 17px;
+    }
+}
+.information_wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px 0 50px 0;
+    display: flex;
+    gap: 26px;
+}
+.information_div {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    gap: 26px;
+    flex-direction: column;
+}
+
+.open {
+    background: url(assets/images/ico_menu.svg);
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.close {
+    background: url(assets/images/ico_close.svg);
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media screen and (max-width: calc(1200px)) {
+    .information_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}

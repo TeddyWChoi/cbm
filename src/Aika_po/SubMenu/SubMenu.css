@@ -1,0 +1,47 @@
+.sub-desktop .filters {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sub-desktop .button-text-dark.active,
+.sub-desktop .button-text-dark:hover {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 0px 4px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #293def;
+    opacity: 1;
+}
+
+.sub-desktop .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-bottom: -23px;
+    font-family: 'Manrope', Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 23.7px;
+}
+
+.sub-desktop .button-text-dark {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 0px 4px;
+    position: relative;
+    flex: 0 0 auto;
+    border: 0px none;
+    opacity: 0.5;
+}

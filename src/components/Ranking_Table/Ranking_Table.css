@@ -1,0 +1,598 @@
+.Ranking_Table {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 0 70px 0;
+    flex-direction: column;
+}
+
+.Ranking_Table .rank {
+    width: 48.2px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .cell {
+    align-self: stretch;
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 25px;
+}
+.Ranking_Table .nickname {
+    width: 96.5px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .cell1 {
+    align-self: stretch;
+    flex: 1;
+    border: 1px solid #1b1b1b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 18px 93px; */
+}
+.Ranking_Table .nevel {
+    position: relative;
+    line-height: 148%;
+}
+.Ranking_Table .cell2 {
+    align-self: stretch;
+    flex: 1;
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 22px 28px; */
+}
+.Ranking_Table .class {
+    width: 64.6px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .cell3 {
+    align-self: stretch;
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 27px;
+}
+.Ranking_Table .cell4 {
+    align-self: stretch;
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 31px;
+}
+.Ranking_Table .cell5 {
+    flex: 1;
+    align-self: stretch;
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 21px 30px; */
+}
+.Ranking_Table .defeats {
+    width: 82px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .cell6 {
+    align-self: stretch;
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 29px;
+}
+.Ranking_Table .guild {
+    width: 61.1px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .cell7 {
+    align-self: stretch;
+    flex: 0.616;
+    border: 1px solid #1b1b1b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 95px;
+}
+.Ranking_Table .cell-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Ranking_Table .header-row {
+    align-self: stretch;
+    background-color: #000;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Ranking_Table .data {
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 38px;
+    height: 70px;
+}
+.Ranking_Table .deus {
+    width: 48.5px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .data1 {
+    flex: 1;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 95px; */
+    flex: 1;
+}
+.Ranking_Table .div {
+    width: 24.4px;
+    position: relative;
+    line-height: 31.86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .data2 {
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 37px; */
+    flex: 1;
+}
+.Ranking_Table .image-icon {
+    width: 33.4px;
+    position: relative;
+    height: 33.4px;
+    object-fit: cover;
+}
+.Ranking_Table .data3 {
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 43px;
+}
+.Ranking_Table .image-icon1 {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 33.4px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.Ranking_Table .data4 {
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 35px;
+}
+.Ranking_Table .div1 {
+    width: 36.3px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    flex-shrink: 0;
+    border: 0;
+}
+.Ranking_Table .data5 {
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 47px; */
+    flex: 1;
+}
+.Ranking_Table .div2 {
+    width: 24.4px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+    padding: 0;
+    gap: 0;
+}
+.Ranking_Table .data6 {
+    width: 110px;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.Ranking_Table .w01n01g329bmp-icon {
+    width: 28.8px;
+    position: relative;
+    height: 28.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.Ranking_Table .wanted {
+    width: 91.6px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.9px;
+    flex-shrink: 0;
+}
+.Ranking_Table .w01n01g329bmp-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Ranking_Table .data7 {
+    flex: 1;
+    border: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px 65px;
+}
+.Ranking_Table .row1,
+.Ranking_Table .row2,
+.Ranking_Table .row3,
+.Ranking_Table .row4,
+.Ranking_Table .row5,
+.Ranking_Table .row6 {
+    align-self: stretch;
+    background-color: #0b0b0b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Ranking_Table .row11,
+.Ranking_Table .row21,
+.Ranking_Table .row31,
+.Ranking_Table .row41,
+.Ranking_Table .row51 {
+    align-self: stretch;
+    background-color: #141414;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Ranking_Table .body {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #ddd;
+}
+.Ranking_Table .table {
+    width: 100%;
+    position: relative;
+    background-color: #080808;
+    border: 1.5px solid #222;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 1px;
+    text-align: center;
+    font-size: 16px;
+    color: #c2c2c2;
+    font-family: Manrope;
+}
+.Ranking_Table .table .row2,
+.Ranking_Table .table .row21,
+.Ranking_Table .table .row3,
+.Ranking_Table .table .row31 {
+    align-self: stretch;
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Ranking_Table .table_num_div {
+    position: relative;
+    line-height: 148%;
+}
+
+.Ranking_Table .table_num_div1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 148%;
+}
+.Ranking_Table .the-ranking-is {
+    width: 100%;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.Ranking_Table .table_border {
+    margin: 30px 0 0px 0;
+    width: 100%;
+    position: relative;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 16px;
+    color: #ddd;
+    font-family: Manrope;
+}
+.Ranking_Table .table_border2 {
+    margin: 0px 0 30px 0;
+    width: 100%;
+    position: relative;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 16px;
+    color: #ddd;
+    font-family: Manrope;
+}
+.Ranking_Table .if-you-have {
+    margin-bottom: 0px;
+}
+.Ranking_Table .if-you-have-established-a-guil {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 21px;
+}
+.Ranking_Table .if-you-have-container {
+    width: 100%;
+    padding: 0 30px;
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+    font-family: Manrope;
+    color: #ddd;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.Ranking_Table .button-parent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 00px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+}
+.Ranking_Table .heading {
+    margin-bottom: 20px;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    line-height: 130%;
+    display: inline-block;
+    font-family: Manrope;
+    color: #ddd;
+    text-align: left;
+}
+.relics_form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+.relics_form a {
+    cursor: pointer;
+    opacity: 0.3;
+    display: block;
+    transition: 0.2s;
+}
+.relics_form a.active {
+    opacity: 1;
+}
+.relics_form a:hover {
+    margin-top: -10px;
+    opacity: 1;
+}
+.relics_form img {
+    width: 100%;
+    max-width: 770px;
+}
+.filter-character-diary {
+    position: relative;
+    line-height: 130%;
+}
+.filter-bar {
+    width: 100%;
+    position: relative;
+    background-color: #333;
+    border: 1.5px solid #222;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 26px;
+    text-align: left;
+    font-size: 20px;
+    color: #ddd;
+    font-family: Manrope;
+}
+.Ranking_Table .table6 {
+    margin-bottom: 30px;
+}
+.Ranking_Table .table6 .red {
+    color: #ff3300;
+}
+.Ranking_Table .table6 .green {
+    color: #3fc91c;
+}
+
+@media screen and (max-width: calc(1200px)) {
+    .Ranking_Table {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Ranking_Table .table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .Ranking_Table .table .header-row,
+    .Ranking_Table .table .body {
+        width: 100%;
+        min-width: 1000px;
+    }
+    .Ranking_Table .table2 .header-row,
+    .Ranking_Table .table2 .body {
+        width: 100%;
+        min-width: 900px;
+    }
+    .Ranking_Table .table3 .header-row,
+    .Ranking_Table .table3 .body {
+        width: 100%;
+        min-width: 700px;
+    }
+    .Ranking_Table .table4 .header-row,
+    .Ranking_Table .table4 .body {
+        width: 100%;
+        min-width: 700px;
+    }
+    .Ranking_Table .table5 .header-row,
+    .Ranking_Table .table5 .body {
+        width: 100%;
+        min-width: 800px;
+    }
+    .Ranking_Table .table6 .header-row,
+    .Ranking_Table .table6 .body {
+        width: 100%;
+        min-width: 300px;
+    }
+    .Ranking_Table .heading {
+        margin-top: 30px;
+    }
+}

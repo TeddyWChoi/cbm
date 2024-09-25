@@ -1,0 +1,216 @@
+.Landing {
+    margin-top: -80px;
+    background-color: black;
+    height: 100%;
+    left: 0;
+    max-width: 100%;
+    /* opacity: 0; */
+    overflow: hidden;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+}
+
+.logo-ts2-icon {
+    width: 154px;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.Landing .vector-icon {
+    position: absolute;
+    height: 43.9%;
+    width: 13.33%;
+    top: 24.39%;
+    right: 75.83%;
+    bottom: 31.71%;
+    left: 10.83%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.homepage {
+    position: absolute;
+    top: 24.39%;
+    left: 29.17%;
+    line-height: 140%;
+}
+.btn-home {
+    width: 130px;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #787878;
+    box-sizing: border-box;
+    height: 43px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.btn-home .homepage {
+    color: #ddd;
+}
+.landing_header_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    position: relative;
+}
+.landing_header {
+    width: 95%;
+    position: absolute;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 14px;
+    color: #ddd;
+    font-family: Manrope;
+}
+
+.landing_video {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    width: 100%;
+}
+.cbm-interactive-inc {
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    font-family: Manrope;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    height: 42px;
+}
+.lading_txt {
+    position: absolute;
+    left: 250px;
+    top: 220px;
+}
+.btn_landing {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.landing_logos {
+    margin-bottom: 20px;
+}
+.landing_logos .bega {
+    width: 83px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .landing_video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .landing_video {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .landing_video {
+        height: 1366px;
+        margin-left: -80%;
+        opacity: 0.9;
+    }
+    .landing_txt_img {
+        /* width: 300px; */
+    }
+    .lading_txt {
+        top: 300px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .landing_video {
+        height: 1180px;
+        margin-left: -100%;
+    }
+    .landing_txt_img {
+        width: 400px;
+    }
+    .lading_txt {
+        top: 300px;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .landing_video {
+        height: 1024px;
+        margin-left: -80%;
+        opacity: 0.7;
+    }
+    .landing_txt_img {
+        width: 500px;
+    }
+    .lading_txt {
+        top: 250px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 582px) {
+    .landing_video {
+        height: 896px;
+        margin-left: -222%;
+        margin-top: 0%;
+    }
+    .landing_txt_img {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .lading_txt {
+        top: 30%;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .btn_landing {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .cbm-interactive-inc {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 376px) {
+    .landing_video {
+        height: 667px;
+        margin-top: 0;
+        margin-left: -175%;
+        /* margin-left: -305%;
+        margin-top: -30%; */
+    }
+    .landing_txt_img {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .lading_txt {
+        top: 25%;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .btn_landing {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .cbm-interactive-inc {
+        text-align: center;
+    }
+}

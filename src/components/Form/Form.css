@@ -1,0 +1,299 @@
+.Form {
+    width: 100%;
+}
+.Form .logo-ts2-icon {
+    width: 259px;
+    position: relative;
+    height: 84px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.Form .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 20px;
+    height: 100px;
+}
+.Form .form_title {
+    position: absolute;
+    line-height: 140%;
+    font-weight: 300;
+    text-align: left;
+    top: 8px;
+    left: 17px;
+}
+.form_input {
+    width: 100%;
+    position: relative;
+}
+.Form .johndoeexamplecom {
+    /* width: 330px; */
+    flex: 1;
+    position: relative;
+    font-size: 16px;
+    line-height: 148%;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.Form .frame1 {
+    align-self: stretch;
+    /* height: 480px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Form .input {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    height: 66px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px 16px 7px 16px;
+    font-size: 16px;
+}
+.Form .only-lowercase-letters-are-all {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 19px;
+}
+.Form .johndoeexamplecom1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+}
+.Form .johndoeexamplecom2 {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    color: #ff3300;
+}
+.Form .johndoeexamplecom-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: #333;
+}
+.Form .frame3 {
+    height: 47Form 0.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.Form .frame2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Form .inputname-copy-4 {
+    width: 361px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 66px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 9px 17px;
+}
+.Form .johndoeexamplecom3 {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333;
+}
+.Form .include-8-16-capital {
+    margin-bottom: 0px;
+}
+.Form .johndoeexamplecom5 {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ff3300;
+}
+.Form .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+}
+.Form .inputallcheck {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 2Form 0.5px;
+    background-color: #fff;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+}
+.Form .check-box {
+    width: 13px;
+    position: relative;
+    height: 13px;
+}
+.Form .i-agree-to {
+    position: relative;
+    line-height: 140%;
+    text-align: left;
+}
+.Form .raphaelnewwindow-icon {
+    width: 18px;
+    position: relative;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.Form .pregister2-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.Form .pregister2-check1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+.Form .pregister2-check-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Form .frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+}
+.Form .image-30-icon {
+    width: 303px;
+    position: relative;
+    height: 77px;
+    object-fit: cover;
+}
+.Form .proceed {
+    position: relative;
+    line-height: 130%;
+}
+
+.Form .frame-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+    max-width: 360px;
+}
+.Form .logo-parent {
+    width: 100%;
+    max-width: 587px;
+    box-shadow: 0px 82px 40px -14px rgba(100, 100, 100, 0Form 0.08);
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 20px;
+}
+.Form .instance-parent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #787878;
+    font-family: Manrope;
+}
+
+.Form .terms {
+    position: relative;
+    line-height: 140%;
+    font-weight: 300;
+}
+.Form .terms-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: #616161;
+    font-family: Manrope;
+    margin-top: 20px;
+}
+.Form .terms a:hover {
+    color: #333;
+}
+
+.Form .vaildtxt {
+    align-self: center;
+    line-height: 148%;
+    position: relative;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+@media screen and (max-width: calc(768px)) {
+    .form_input {
+        width: 100%;
+        margin: 0 20px;
+    }
+    .Form .logo {
+        margin-left: 0px;
+    }
+}
