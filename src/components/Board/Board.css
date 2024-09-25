@@ -1150,3 +1150,71 @@
         width: 100px;
     }
 }
+
+/* 0925 추가 */
+
+.Board3 .frame-1171276321,
+.Board3 .frame-1171276321 * {
+    box-sizing: border-box;
+}
+
+.Board3 .frame-1171276321 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: var(--is-light, #f8f8f8);
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.Board3 .frame-1171276322 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.Board3 .file {
+    color: var(--is-dark, #333333);
+    text-align: left;
+    font-family: var(--pc-h4-font-family, 'Manrope-Bold', sans-serif);
+    font-size: var(--pc-h4-font-size, 16px);
+    line-height: var(--pc-h4-line-height, 148%);
+    font-weight: var(--pc-h4-font-weight, 700);
+    position: relative;
+}
+.Board3 .file:hover {
+    text-decoration: underline;
+}
+
+.Board3 .size {
+    color: var(--is-grey, #787878);
+    text-align: left;
+    font-family: var(--pc-paragraph2-font-family, 'Manrope-Regular', sans-serif);
+    font-size: var(--pc-paragraph2-font-size, 14px);
+    line-height: var(--pc-paragraph2-line-height, 140%);
+    font-weight: var(--pc-paragraph2-font-weight, 400);
+    position: relative;
+}
+
+.Board3 .ic-baseline-download {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    overflow: visible;
+}

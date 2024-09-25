@@ -44,6 +44,17 @@ export default function Board3(props) {
                                 over the years, sometimes by accident, sometimes on purpose (injected humour and the
                                 like).
                             </p>
+                            <div class="frame-1171276321">
+                                <div class="frame-1171276322">
+                                    <a href="#" class="file">
+                                        file.pdf
+                                    </a>
+                                    <div class="size"> 51KB </div>
+                                </div>
+                                <a href="#">
+                                    <img class="time" alt="" src={require('../../assets/images/ico_download.png')} />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

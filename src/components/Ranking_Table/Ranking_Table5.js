@@ -65,7 +65,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -93,7 +93,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -121,7 +121,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -149,7 +149,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -177,7 +177,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -205,7 +205,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -233,7 +233,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -261,7 +261,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -289,7 +289,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -317,7 +317,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>
@@ -345,7 +345,7 @@ export default function Ranking_Table() {
                             <div class="deus">Deus</div>
                         </div>
                         <div class="data3">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/ico_nation.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/nation_sm1.png')} />
                         </div>
                         <div class="data4">
                             <div class="div1">99</div>

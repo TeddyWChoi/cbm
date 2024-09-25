@@ -64,7 +64,7 @@ export default function Ranking_Table() {
                 <div class="body">
                     <div class="row4">
                         <div class="data">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/unlock.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/lock.png')} />
                         </div>
                         <div class="data1">
                             <div class="player">Sacred Robe: Kairos Lv.1 </div>
@@ -98,7 +98,7 @@ export default function Ranking_Table() {
                     </div>
                     <div class="row4">
                         <div class="data">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/unlock.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/relic1.png')} />
                         </div>
                         <div class="data1">
                             <div class="player">Sacred Robe: Kairos Lv.1 </div>
@@ -115,7 +115,7 @@ export default function Ranking_Table() {
                     </div>
                     <div class="row41">
                         <div class="data">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/unlock.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/relic2.png')} />
                         </div>
                         <div class="data1">
                             <div class="player">Sacred Robe: Kairos Lv.1 </div>
@@ -132,7 +132,7 @@ export default function Ranking_Table() {
                     </div>
                     <div class="row4">
                         <div class="data">
-                            <img class="image-icon1" alt="" src={require('../../assets/images/unlock.png')} />
+                            <img class="image-icon1" alt="" src={require('../../assets/images/relic3.png')} />
                         </div>
                         <div class="data1">
                             <div class="player">Sacred Robe: Kairos Lv.1 </div>
