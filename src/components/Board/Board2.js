@@ -87,6 +87,7 @@ export default function Board2(props) {
                     <div class="td6">
                         <div class="inputbfile">
                             <input type="file" />
+                            <div>Ticket size should be less than 5MB. Allow Image file only</div>
                         </div>
                     </div>
                 </div>

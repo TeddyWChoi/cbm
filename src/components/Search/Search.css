@@ -76,10 +76,11 @@
     position: relative;
     line-height: 150%;
 }
-.Search .button-2 {
+/* 1003 삭제 */
+/* .Search .button-2 {
     height: 34px;
     border-radius: 0;
-}
+} */
 .Search .filter-form {
     width: 100%;
     position: relative;
@@ -99,4 +100,31 @@
     position: relative;
     top: 0;
     height: 34px;
+}
+
+/* 1003 셀렉트 박스 수정 */
+
+select {
+    width: 150px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    padding: 7px 10px;
+    font-weight: 400;
+    background-color: #333;
+    color: #c4c4c4;
+}
+
+.select:focus {
+    border: 1px solid #293def;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: 3px solid #f8e4ff;
+    border-radius: 10px;
+}
+.search.button-2 {
+    height: auto;
+    text-align: center;
+    border-radius: 0;
+    line-height: normal;
+    padding: 8.5px;
 }

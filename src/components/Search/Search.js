@@ -6,34 +6,16 @@ export default function Search(props) {
             return (
                 <div className="Search">
                     <div class="filter-form">
-                        <div class="filter-wrapper">
-                            <div class="frame-3">
-                                <div class="div-2">
-                                    <div class="text-wrapper-9">Guild</div>
-                                </div>
-                                <img
-                                    alt=""
-                                    class="dropdown"
-                                    src={require('../../assets/images/dropdown.svg').default}
-                                />
-                            </div>
-                            <ul class="filter_box">
-                                <li>
-                                    <a href="#!">Guild</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Master</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Nation</a>
-                                </li>
-                            </ul>
-                        </div>
-
+                        <form action="#">
+                            <select name="search" id="search">
+                                <option value="All">All</option>
+                                <option value="Guild">Guild</option>
+                                <option value="Master">Master</option>
+                                <option value="Nation">Nation</option>
+                            </select>
+                        </form>
                         <input type="text" class="input" placeholder="Search" />
-                        <div class="button-2">
-                            <div class="search">Search</div>
-                        </div>
+                        <input class="search button-2 " type="submit" value="Search" />
                     </div>
                 </div>
             );
@@ -41,40 +23,17 @@ export default function Search(props) {
             return (
                 <div className="Search">
                     <div class="filter-form">
-                        <div class="filter-wrapper">
-                            <div class="frame-3">
-                                <div class="div-2">
-                                    <div class="text-wrapper-9">All</div>
-                                </div>
-                                <img
-                                    alt=""
-                                    class="dropdown"
-                                    src={require('../../assets/images/dropdown.svg').default}
-                                />
-                            </div>
-                            <ul class="filter_box">
-                                <li>
-                                    <a href="#!">All</a>
-                                </li>
-                                <li>
-                                    <a href="#!">General</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Technical</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Billing</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Account</a>
-                                </li>
-                            </ul>
-                        </div>
-
+                        <form action="#">
+                            <select name="search" id="search">
+                                <option value="All">All</option>
+                                <option value="General">General</option>
+                                <option value="Technical">Technical</option>
+                                <option value="Billing">Billing</option>
+                                <option value="Account">Account</option>
+                            </select>
+                        </form>
                         <input type="text" class="input" placeholder="Search" />
-                        <div class="button-2">
-                            <div class="search">Search</div>
-                        </div>
+                        <input class="search button-2 " type="submit" value="Search" />
                     </div>
                 </div>
             );

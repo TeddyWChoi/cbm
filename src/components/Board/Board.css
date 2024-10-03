@@ -293,15 +293,19 @@
     line-height: 148%;
     text-align: left;
 }
+/*241003 파일 아래 글자 수정*/
 .Board2 .inputbfile {
     overflow: hidden;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
     padding: 1px 3px;
-    gap: 4px;
+    gap: 10px;
+    font-size: 14px;
+    color: #767676;
 }
+
 .Board2 .td6 {
     flex: 1;
     border-bottom: 1px solid #ddd;
@@ -1121,6 +1125,24 @@
         text-overflow: clip;
         white-space: normal;
     }
+    /*241003 추가*/
+    .Board .container,
+    .Board2 .container,
+    .Board3 .container,
+    .Board4 .container {
+        width: 100%;
+        min-width: 768px;
+    }
+}
+@media screen and (max-width: calc(768px)) {
+    /*241003 추가*/
+    .Board .container,
+    .Board2 .container,
+    .Board3 .container,
+    .Board4 .container {
+        width: 100%;
+        min-width: 360px;
+    }
 }
 @media screen and (max-width: calc(500px)) {
     .Board .wrapper {
@@ -1217,4 +1239,12 @@
     height: auto;
     position: relative;
     overflow: visible;
+}
+
+/*241003 추가*/
+.Board .container,
+.Board2 .container,
+.Board3 .container,
+.Board4 .container {
+    width: 1200px;
 }
