@@ -283,3 +283,7 @@ button:hover {
         align-items: center;
     }
 }
+/* 241016 수정 */
+.Footer {
+    width: 100%;
+}

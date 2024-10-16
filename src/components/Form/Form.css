@@ -2,7 +2,8 @@
     width: 100%;
 }
 .Form .logo-ts2-icon {
-    width: 259px;
+    /* 241016 수정 */
+    width: 300px;
     position: relative;
     height: 84px;
     overflow: hidden;

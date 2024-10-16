@@ -10,6 +10,7 @@ import About from './components/About/About.js';
 import PrivatePolicy from './components/Policy/PrivatePolicy.js';
 import TOS from './components/Policy/TOS.js';
 import UGC from './components/Policy/UGC.js';
+import GamePolicy from './components/Policy/GamePolicy.js';
 import Footer from './components/Footer/Footer.js';
 import Balance from './components/Balance/Balance.js';
 import SubTop from './components/SubTop/SubTop.js';
@@ -99,6 +100,19 @@ function App() {
                         <div class="main-desktop">
                             <Navi />
                             <About />
+                            <Footer />
+                        </div>
+                    </div>
+                }
+            />
+            <Route
+                path="/game_policy"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <Navi />
+                            <SubTop bg={'bottom'} heading={'Game Operations Policy'} />
+                            <GamePolicy />
                             <Footer />
                         </div>
                     </div>

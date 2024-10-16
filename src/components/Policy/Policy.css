@@ -27,3 +27,60 @@
     line-height: 130%;
     color: #ddd;
 }
+
+/* 241016 테이블 추가 */
+
+.Policy table {
+    border-collapse: collapse;
+    border: 0;
+}
+.Policy th,
+.Policy td {
+    border: 1px solid #aaa;
+    background-clip: padding-box;
+    scroll-snap-align: start;
+}
+
+.Policy thead {
+    z-index: 1000;
+    position: relative;
+}
+.Policy th,
+.Policy td {
+    padding: 0.6rem;
+    min-width: 300px;
+    text-align: left;
+    margin: 0;
+    vertical-align: middle;
+    background-color: #fff;
+}
+.Policy thead th {
+    position: sticky;
+    top: 0;
+    border-top: 0;
+    background-clip: padding-box;
+    border-bottom: 0;
+}
+
+.Policy tbody th {
+    background-clip: padding-box;
+    border-left: 0;
+}
+.Policy tbody {
+    z-index: 10;
+    position: relative;
+}
+.Policy tbody th {
+    position: sticky;
+    left: 0;
+}
+.Policy thead th,
+.Policy tbody th {
+    background-color: #d8d8d8;
+}
+@media screen and (max-width: calc(1200px)) {
+    .Policy th,
+    .Policy td {
+        min-width: 100%;
+    }
+}

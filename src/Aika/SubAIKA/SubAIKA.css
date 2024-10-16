@@ -315,6 +315,10 @@
     }
 }
 @media screen and (max-width: calc(768px)) {
+    /* 241016 수정 */
+    .sub-desktop .button-wrapper {
+        display: none;
+    }
     .sub-desktop .image-shadow {
         width: 200px;
         height: auto;

@@ -561,35 +561,35 @@
         width: 100%;
         overflow-x: auto;
     }
-
+    /* 241016 수정 */
     .Ranking_Table .table .header-row,
     .Ranking_Table .table .body {
-        width: 100%;
+        width: 1200px;
         min-width: 1000px;
     }
     .Ranking_Table .table2 .header-row,
     .Ranking_Table .table2 .body {
-        width: 100%;
+        width: 1200px;
         min-width: 900px;
     }
     .Ranking_Table .table3 .header-row,
     .Ranking_Table .table3 .body {
-        width: 100%;
+        width: 1200px;
         min-width: 700px;
     }
     .Ranking_Table .table4 .header-row,
     .Ranking_Table .table4 .body {
-        width: 100%;
+        width: 1200px;
         min-width: 700px;
     }
     .Ranking_Table .table5 .header-row,
     .Ranking_Table .table5 .body {
-        width: 100%;
+        width: 1200px;
         min-width: 800px;
     }
     .Ranking_Table .table6 .header-row,
     .Ranking_Table .table6 .body {
-        width: 100%;
+        width: 1200px;
         min-width: 300px;
     }
     .Ranking_Table .heading {
