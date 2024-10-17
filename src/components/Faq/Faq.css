@@ -146,8 +146,8 @@
     align-self: stretch;
     position: relative;
     max-width: 100%;
-    overflow: hidden;
-    height: 446px;
+
+    height: auto;
     flex-shrink: 0;
     object-fit: cover;
 }
@@ -206,4 +206,11 @@
     font-size: 16px;
     color: #787878;
     font-family: Manrope;
+}
+@media screen and (max-width: calc(500px)) {
+    .Faq .text-wrapper .div {
+        overflow: hidden;
+        width: 230px;
+        text-overflow: ellipsis;
+    }
 }
