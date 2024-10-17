@@ -78,3 +78,90 @@
         padding-top: 0;
     }
 }
+
+/* 241017 추가 */
+
+.Balance p {
+    margin: 0;
+}
+.Balance .points_border {
+    flex: 1;
+    position: relative;
+    line-height: 148%;
+}
+.Balance .points_border_wrap {
+    width: 100%;
+    position: relative;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #ddd;
+    font-family: Manrope;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.Balance .web-coupon {
+    position: relative;
+    line-height: 148%;
+}
+.Balance .web-coupon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Balance .enter-the-coupon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 148%;
+}
+.Balance .container {
+    align-self: stretch;
+    position: relative;
+    height: 24.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.Balance .input {
+    width: 380px;
+    background-color: #fff;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 17px;
+    box-sizing: border-box;
+    color: #757575;
+    border: 0;
+}
+.Balance .frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.Balance .frame-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 16px;
+    color: #f8f8f8;
+}
+@media screen and (max-width: calc(768px)) {
+    .Balance .input {
+        width: 100%;
+    }
+}

@@ -298,3 +298,8 @@
         margin-left: 0px;
     }
 }
+
+/* 241017 추가 */
+.Form .button-parent {
+    padding-top: 0;
+}

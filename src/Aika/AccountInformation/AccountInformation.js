@@ -104,8 +104,14 @@ export default function AccountInformation(props) {
                         </div>
                         <div class="frame-parent7">
                             <div class="jasonjmhangmailcom-parent">
-                                <div class="account-information">Current Balance</div>
-                                <b class="b">3,000</b>
+                                <div class="left">
+                                    <div class="account-information">Current Balance</div>
+                                    <b class="b">3,000</b>
+                                </div>
+                                <div class="right">
+                                    <div class="account-information">Points</div>
+                                    <b class="b">1,500</b>
+                                </div>
                             </div>
                             <a href="./coinshop" class="button-3">
                                 <b class="text">Buy Coin</b>

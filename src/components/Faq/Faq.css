@@ -1,0 +1,209 @@
+.Faq {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.Faq .Search {
+    margin-bottom: 30px;
+}
+.Faq .faq_menu {
+    flex: 1;
+    position: relative;
+    line-height: 148%;
+}
+.Faq .li.active {
+    flex: 1;
+    background-color: #2a3eef;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    color: #fff;
+}
+.Faq .li.active a {
+    color: #fff;
+}
+.Faq .li:hover {
+    background-color: #2a3eef;
+}
+.Faq .li {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+}
+.Faq .faq-tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0px;
+    min-width: 360px;
+    max-width: 1200px;
+}
+.Faq .div5 {
+    width: 25px;
+    position: relative;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    flex-shrink: 0;
+}
+.Faq .wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #1c6dc9;
+}
+.Faq .text-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #333;
+}
+
+.Faq .a-inner {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 20px 0px 0px;
+}
+.Faq .triangle-icon {
+    width: 10px;
+    position: relative;
+    height: 5px;
+}
+.Faq .div6 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 300;
+}
+.Faq .faq_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 0px 0px 5px;
+}
+.Faq .strongarrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 12px;
+}
+.Faq .a {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+.Faq .li5 {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1200px;
+}
+.Faq .select-the-radio {
+    margin: 0;
+}
+.Faq .select-the-radio-faq_container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+}
+.Faq .image-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 446px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.Faq .image-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+.Faq .divvar-box-inner {
+    align-self: stretch;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    gap: 4px;
+    font-size: 14px;
+    color: #787878;
+    font-family: 'Noto Sans KR';
+}
+.Faq .ul {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Faq .divlist-faq {
+    align-self: stretch;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    color: #333;
+}
+.Faq .faq-box {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 21px;
+    min-width: 360px;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 16px;
+    color: #787878;
+    font-family: Manrope;
+}

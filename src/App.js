@@ -10,9 +10,13 @@ import About from './components/About/About.js';
 import PrivatePolicy from './components/Policy/PrivatePolicy.js';
 import TOS from './components/Policy/TOS.js';
 import UGC from './components/Policy/UGC.js';
+/* 241017 추가*/
 import GamePolicy from './components/Policy/GamePolicy.js';
 import Footer from './components/Footer/Footer.js';
 import Balance from './components/Balance/Balance.js';
+/* 241017 추가*/
+import Balance2 from './components/Balance/Balance2.js';
+import Balance3 from './components/Balance/Balance3.js';
 import SubTop from './components/SubTop/SubTop.js';
 import Purchase from './components/Purchase/Purchase.js';
 import Coinshop from './components/Coinshop/Coinshop.js';
@@ -52,6 +56,11 @@ import AccountLnb from './components/AccountLnb/AccountLnb.js';
 import Table1 from './components/Table/Table1.js';
 import Table2 from './components/Table/Table2.js';
 import Table3 from './components/Table/Table3.js';
+/* 241017 추가*/
+import Table4 from './components/Table/Table4.js';
+import Table5 from './components/Table/Table5.js';
+import FormAgreements from './components/Form/FormAgreements.js';
+
 import FormSignup from './components/Form/FormSignup.js';
 import FormSignin from './components/Form/FormSignin.js';
 import FormFind from './components/Form/FormFind.js';
@@ -75,6 +84,8 @@ import Board from './components/Board/Board.js';
 import Board2 from './components/Board/Board2.js';
 import Board3 from './components/Board/Board3.js';
 import Board4 from './components/Board/Board4.js';
+/* 241017 추가*/
+import Faq from './components/Faq/Faq.js';
 
 function App() {
     const is_login = true; //로그인 로그아웃 변경
@@ -844,6 +855,22 @@ function App() {
                     </div>
                 }
             />
+            {/* 241017 추가 */}
+            <Route
+                path="/aika/requiredagreements"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'Required Agreements'} subtitle={''} />
+
+                            <FormAgreements logo={'aika'} />
+
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
             <Route
                 path="/aika/signin"
                 element={
@@ -990,6 +1017,48 @@ function App() {
                                     <Balance url={'./coinshop'} button={'Buy Coin'} />
                                     <HistoryFilter />
                                     <Table3 />
+                                </div>
+                            </div>
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            {/* 241017 추가 */}
+            <Route
+                path="/aika/PointsHistory"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account6'} />
+                                <div class="information_div">
+                                    <Balance2 url={'#'} button={'Convert All to Coin'} />
+                                    <HistoryFilter />
+                                    <Table4 />
+                                </div>
+                            </div>
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+            {/* 241017 추가 */}
+            <Route
+                path="/aika/CouponHistory"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'My page'} subtitle={''} />
+                            <div class="information_wrapper">
+                                <AccountLnb account={'account7'} />
+                                <div class="information_div">
+                                    <Balance3 url={'#'} button={'Confirm'} />
+                                    <HistoryFilter />
+                                    <Table5 />
                                 </div>
                             </div>
                             <SubFooterAika />
@@ -1158,6 +1227,22 @@ function App() {
                             <SubNavi_Aika is_login={is_login} />
                             <SubTop bg={'bottom_aika'} heading={'My Ticket'} subtitle={''} />
                             <Board3 />
+                            <SubFooterAika />
+                        </div>
+                    </div>
+                }
+            />
+
+            {/* 241017 추가 */}
+            <Route
+                path="/aika/faq"
+                element={
+                    <div className="App">
+                        <div class="sub-desktop">
+                            <SubNavi_Aika is_login={is_login} />
+                            <SubTop bg={'bottom_aika'} heading={'FAQ'} subtitle={''} />
+
+                            <Faq />
                             <SubFooterAika />
                         </div>
                     </div>

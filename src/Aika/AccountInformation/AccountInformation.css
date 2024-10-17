@@ -407,3 +407,17 @@
         width: 320px;
     }
 }
+
+/* 241017 추가 */
+
+.AccountInformation .frame-parent7 .jasonjmhangmailcom-parent {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.AccountInformation .frame-parent7 .jasonjmhangmailcom-parent .b {
+    width: auto;
+}
+.AccountInformation .frame-parent7 .jasonjmhangmailcom-parent .right {
+    text-align: right;
+}
