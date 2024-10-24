@@ -42,11 +42,7 @@ export default function Faq(props) {
                                 </div>
                                 <div class="a-inner">
                                     <div class="text-wrapper">
-                                        <div class="div">
-                                            I have a suggestion, how do I let the staff knoI have a suggestion, how do I
-                                            let the staff knoI have a suggestion, how do I let the staff knoI have a
-                                            suggestion, how do I let the staff kno
-                                        </div>
+                                        <div class="div">I have a suggestion, how do I let the staff kno</div>
                                     </div>
                                 </div>
                                 <div class="strongarrow">

@@ -219,10 +219,11 @@
     }
 }
 
-@media screen and (max-width: calc(500px)) {
+/* 241024 삭제 */
+/* @media screen and (max-width: calc(500px)) {
     .Faq .text-wrapper .div {
-        /* overflow: hidden; */
-        /* width: 230px; */
-        /* text-overflow: ellipsis; */
+        overflow: hidden;
+        width: 230px;
+        text-overflow: ellipsis;
     }
-}
+} */
