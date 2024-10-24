@@ -79,6 +79,9 @@
     align-items: flex-start;
     justify-content: flex-start;
     color: #333;
+    /* 241024 추가 */
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .Faq .a-inner {
@@ -218,8 +221,8 @@
 
 @media screen and (max-width: calc(500px)) {
     .Faq .text-wrapper .div {
-        overflow: hidden;
-        width: 230px;
-        text-overflow: ellipsis;
+        /* overflow: hidden; */
+        /* width: 230px; */
+        /* text-overflow: ellipsis; */
     }
 }
